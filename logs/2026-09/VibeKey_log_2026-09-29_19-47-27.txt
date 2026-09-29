@@ -1,0 +1,1297 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.914 (5274) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: pt-BR
+system: en-US
+enabled: en-US,es,pt-BR
+redaction: v5
+report: 1cc8bfbc
+generated: 2026-09-29T19:47:22.317763Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.914 (5274) ===
+09-29 15:45:32.549  5808  5808 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+09-29 15:45:32.702  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1954 epoch=91
+09-29 15:45:32.707  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1950 epoch=91
+09-29 15:45:32.708  5808  5808 I VkLocaleAssets: preload predictors en-US
+09-29 15:45:32.795  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=98 gen=16
+09-29 15:45:33.080  5808  5808 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+09-29 15:45:33.080  5808  5808 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=534ms
+09-29 15:45:33.081  5808  5808 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+09-29 15:45:33.082  5808  5883 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+09-29 15:45:33.702  5808  5808 I VkKeyPress: strip pick key=[REDACTED]
+09-29 15:45:33.715  5808  5808 I VkPanels: ▶ open assist
+09-29 15:45:33.859  5808  5808 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+09-29 15:45:33.873  5808  5808 I VkPanels: ▶ open popui_assist
+09-29 15:45:33.927  5851  5872 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=98 chars 0ms
+09-29 15:45:33.939  5808  5883 I OnDeviceAssist: ✓ local grammar (en) in=65 out=66 — skipping llama
+09-29 15:45:33.940  5808  5883 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+09-29 15:45:34.703  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2045 epoch=91
+09-29 15:45:35.849  5808  5883 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:35.884  5851  5872 I OnDeviceAssist: dispatch task=grammar in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:35.884  5851  5872 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=65 chars locale=en-US
+09-29 15:45:35.892  5851  5872 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+09-29 15:45:38.519  5851  5872 I OnDeviceAssist: ✓ llm task=grammar 2628ms out=65 chars
+09-29 15:45:38.520  5851  5872 I OnDeviceAssist: done task=grammar 2636ms out=65 chars
+09-29 15:45:38.521  5808  6072 I OnDeviceAssist: ✓ assist (ime) task=grammar 2672ms in=65 out=65
+09-29 15:45:40.103  5808  5883 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:40.127  5851  5872 I OnDeviceAssist: dispatch task=rewrite_sentence in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:40.127  5851  5872 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=65 chars locale=en-US
+09-29 15:45:40.131  5851  5872 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+09-29 15:45:42.840  5851  5872 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+09-29 15:45:45.694  5851  5872 I OnDeviceAssist: ✓ llm task=rewrite_sentence 5563ms out=63 chars retry=yes
+09-29 15:45:45.694  5851  5872 I OnDeviceAssist: done task=rewrite_sentence 5568ms out=63 chars
+09-29 15:45:45.694  5808  6287 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 5592ms in=65 out=63
+09-29 15:45:47.263  5808  5883 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:47.286  5851  5872 I OnDeviceAssist: dispatch task=tone_pro in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:45:47.287  5851  5872 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=65 chars locale=en-US
+09-29 15:45:47.290  5851  5872 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:45:49.836  5851  5872 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+09-29 15:45:52.554  5851  5872 I OnDeviceAssist: ✓ llm task=tone_pro 5264ms out=60 chars retry=yes
+09-29 15:45:52.554  5851  5872 I OnDeviceAssist: done task=tone_pro 5269ms out=60 chars
+09-29 15:45:52.556  5808  6287 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 5292ms in=65 out=60
+09-29 15:45:55.366  5808  5808 I VkPanels: ○ close assist
+09-29 15:45:55.397  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=22740 epoch=91
+09-29 15:45:56.044  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=92
+09-29 15:45:56.046  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=92
+09-29 15:45:56.107  5808  5808 I VkStripPipeline: langSwitch main=en-US token=104 gen=17
+09-29 15:45:56.110  5808  5808 I VkLanguageSettings: select pt-BR
+09-29 15:45:56.150  5808  5808 I VkLanguageSettings: cycle dir=-1 → pt-BR
+09-29 15:45:56.156  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1967 epoch=94
+09-29 15:45:56.161  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1962 epoch=94
+09-29 15:45:56.162  5808  5808 I VkLocaleAssets: preload predictors pt-BR
+09-29 15:45:56.162  5808  5883 I VkMultilingual: reset main=pt-BR locales=[pt] count=1
+09-29 15:45:56.165  5808  5883 I VkDictionaries: ▶ async reload main dicts locales=1
+09-29 15:45:56.176  5808  5883 I VkDictionaries: ✓ open emoji pt-BR
+09-29 15:45:56.189  5808  5883 I VkDictionaries: ✓ open main pt-BR
+09-29 15:45:56.190  5808  5883 I VkDictionaries: collection pt-BR dicts=2 emoji=true
+09-29 15:45:58.129  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2006 epoch=94
+09-29 15:45:58.146  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2023 epoch=94
+09-29 15:45:58.357  5808  5808 I VkKeyPress: strip pick key=[REDACTED]
+09-29 15:45:58.368  5808  5808 I VkPanels: ▶ open menu
+09-29 15:45:58.373  5808  5808 I VkPanels: ▶ open popui_menu
+09-29 15:45:58.374  5808  5842 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+09-29 15:45:58.379  5808  5842 I VkLocaleAssets: preload predictors pt-BR
+09-29 15:45:58.382  5808  5842 I VkLocaleAssets: ○ ready pt-BR (cached)
+09-29 15:45:58.383  5808  5842 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+09-29 15:45:58.384  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1994 epoch=95
+09-29 15:45:58.475  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+09-29 15:45:58.477  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:45:58.477  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=109 gen=17
+09-29 15:45:59.955  5808  5808 I VkKeyPress: keys pressed=74
+09-29 15:45:59.955  5808  5808 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+09-29 15:45:59.956  5808  5808 I VkPanels: ○ close menu
+09-29 15:45:59.957  5808  5808 I VkPanels: ○ close menu
+09-29 15:46:00.023  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=355 epoch=95
+09-29 15:46:00.052  5808  5808 I VkSettings: ▶ activity open spellchecker=false
+09-29 15:46:00.236  5808  5808 I VkTyping: ○ hidden
+09-29 15:46:00.242  5808  5808 I VkSettings: → screen settings
+09-29 15:46:00.321  5808  5843 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+09-29 15:46:00.321  5808  5843 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+09-29 15:46:00.386  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=95
+09-29 15:46:00.400  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2022 epoch=95
+09-29 15:46:02.264  5808  5808 I VkSettings: → screen ai_settings
+09-29 15:46:04.501  5808  5808 I VkSettings: → screen settings
+09-29 15:46:04.966  5808  5808 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+09-29 15:46:04.975  5808  5877 I VkDictionaries: ✓ open emoji pt-BR
+09-29 15:46:05.129  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1953 epoch=97
+09-29 15:46:05.134  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1948 epoch=97
+09-29 15:46:05.144  5808  5808 I VkLocaleAssets: preload predictors pt-BR
+09-29 15:46:05.223  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=115 gen=17
+09-29 15:46:05.488  5808  5808 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+09-29 15:46:05.488  5808  5808 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=523ms
+09-29 15:46:07.094  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=98
+09-29 15:46:07.114  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1977 epoch=98
+09-29 15:46:07.507  5808  5808 I VkKeyPress: keys pressed=75
+09-29 15:46:07.909  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:07.912  5808  5808 I VkStripPipeline: staleDrop typedWord token=116 seq=107
+09-29 15:46:08.179  5808  5850 W VkSuggestions: slow frame 21.4ms locales=1 typedLen=2 candidates=14
+09-29 15:46:08.181  5808  5850 I VkTextCorrection: rerank composing head len=2→len=2
+09-29 15:46:08.182  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:08.191  5808  5808 I VkStripPipeline: staleDrop typedWord token=116 seq=108
+09-29 15:46:08.345  5808  5850 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:08.347  5808  5808 I VkStripPipeline: staleDrop typedWord token=116 seq=109
+09-29 15:46:08.650  5808  5850 W VkSuggestions: slow frame 16.5ms locales=1 typedLen=5 candidates=14
+09-29 15:46:08.652  5808  5850 I VkSuggestions: strip composing typedLen=5 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:08.961  5808  5808 I VkFastTyping: async fetch style=[REDACTED] seq=-1
+09-29 15:46:08.988  5808  5850 W VkSuggestions: slow frame 24.8ms locales=1 typedLen=1 candidates=14
+09-29 15:46:08.990  5808  5850 I VkTextCorrection: rerank composing head len=1→len=2
+09-29 15:46:08.991  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.123  5808  5850 W VkSuggestions: slow frame 41.6ms locales=1 typedLen=3 candidates=14
+09-29 15:46:09.131  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.141  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2050 epoch=98
+09-29 15:46:09.146  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2055 epoch=98
+09-29 15:46:09.160  5808  5850 W VkSuggestions: slow frame 28.0ms locales=1 typedLen=3 candidates=14
+09-29 15:46:09.312  5808  5850 I VkTextCorrection: rerank composing head len=1→len=2
+09-29 15:46:09.313  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.322  5808  5850 I VkTextCorrection: rerank composing head len=1→len=2
+09-29 15:46:09.476  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.486  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.643  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.890  5808  5850 I VkTextCorrection: rerank composing head len=1→len=2
+09-29 15:46:09.891  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:09.903  5808  5850 I VkTextCorrection: rerank composing head len=1→len=2
+09-29 15:46:09.986  5808  5850 I VkTextCorrection: rerank composing head len=4→len=4
+09-29 15:46:09.987  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.001  5808  5850 I VkTextCorrection: rerank composing head len=4→len=4
+09-29 15:46:10.235  5808  5850 W VkSuggestions: slow frame 16.2ms locales=1 typedLen=3 candidates=14
+09-29 15:46:10.236  5808  5850 I VkTextCorrection: rerank composing head len=3→len=7
+09-29 15:46:10.237  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.246  5808  5850 I VkTextCorrection: rerank composing head len=3→len=7
+09-29 15:46:10.247  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.252  5808  5808 I VkStripPipeline: staleDrop typedWord token=116 seq=116
+09-29 15:46:10.464  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.474  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.477  5808  5808 I VkStripPipeline: staleDrop typedWord token=116 seq=117
+09-29 15:46:10.528  5808  5808 I VkKeyPress: keys pressed=127
+09-29 15:46:10.831  5808  5850 I VkSuggestions: strip composing typedLen=0 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.840  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:10.956  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+09-29 15:46:10.956  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:10.957  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+09-29 15:46:12.404  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:12.404  5808  5808 I VkKeyPreview: show burst=7 last=key=[REDACTED] instant=true pool showing=1 free=6
+09-29 15:46:12.405  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=99
+09-29 15:46:12.407  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=99
+09-29 15:46:12.488  5808  5808 I VkKeyPreview: dismiss burst=7 last=key=[REDACTED] reason=release pool showing=0 free=7
+09-29 15:46:12.557  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:12.560  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=100
+09-29 15:46:12.568  5808  5850 I VkTextCorrection: rerank composing head len=4→len=2
+09-29 15:46:12.568  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=118 gen=17
+09-29 15:46:12.578  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1978 epoch=100
+09-29 15:46:12.630  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:12.636  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=101
+09-29 15:46:12.708  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=119 gen=17
+09-29 15:46:12.714  5808  5808 I VkStripPipeline: staleDrop token token=118 stripGen=17
+09-29 15:46:12.717  5808  5808 I VkStripPipeline: staleDrop typedWord token=119 seq=121
+09-29 15:46:12.793  5808  5850 W VkSuggestions: slow frame 18.1ms locales=1 typedLen=3 candidates=14
+09-29 15:46:12.796  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=119 gen=17
+09-29 15:46:12.811  5808  5808 I VkStripPipeline: publishLatency seq=122 latencyMs=37
+09-29 15:46:12.814  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1815 epoch=101
+09-29 15:46:12.862  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:12.866  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=102
+09-29 15:46:13.029  5808  5850 I VkSuggestions: strip composing typedLen=4 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=120 gen=17
+09-29 15:46:13.043  5808  5808 I VkStripPipeline: publishLatency seq=123 latencyMs=33
+09-29 15:46:13.047  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1815 epoch=102
+09-29 15:46:13.651  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:13.654  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:13.717  5808  5850 I VkNgram : contextual locale=pt prev=[REDACTED] → len=1, len=3, len=3
+09-29 15:46:13.717  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+09-29 15:46:13.718  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:13.718  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=120 gen=18
+09-29 15:46:14.873  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=102
+09-29 15:46:14.901  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2039 epoch=102
+09-29 15:46:16.924  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:16.924  5808  5808 I VkKeyPreview: show burst=4 last=key=[REDACTED] instant=true pool showing=1 free=6
+09-29 15:46:16.925  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=103
+09-29 15:46:16.928  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=103
+09-29 15:46:16.993  5808  5808 I VkKeyPreview: dismiss burst=4 last=key=[REDACTED] reason=release pool showing=0 free=7
+09-29 15:46:16.994  5808  5808 I VkKeyPress: keys pressed=140
+09-29 15:46:17.104  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:17.110  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=104
+09-29 15:46:17.113  5808  5850 I VkTextCorrection: rerank composing head len=3→len=2
+09-29 15:46:17.114  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=122 gen=18
+09-29 15:46:17.123  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1980 epoch=104
+09-29 15:46:17.216  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=122 gen=18
+09-29 15:46:17.385  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:17.389  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=105
+09-29 15:46:17.526  5808  5850 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=123 gen=18
+09-29 15:46:17.541  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1844 epoch=105
+09-29 15:46:17.600  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:17.603  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=106
+09-29 15:46:17.689  5808  5850 I VkTextCorrection: rerank composing head len=4→len=2
+09-29 15:46:17.690  5808  5850 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=124 gen=18
+09-29 15:46:17.707  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1892 epoch=106
+09-29 15:46:18.703  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:18.706  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:18.778  5808  5850 I VkNgram : contextual locale=pt prev=[REDACTED] → len=3, len=5, len=3
+09-29 15:46:18.780  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:18.780  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=124 gen=19
+09-29 15:46:19.599  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2000 epoch=106
+09-29 15:46:19.628  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2029 epoch=106
+09-29 15:46:19.689  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:19.691  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:19.760  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+09-29 15:46:19.761  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:19.761  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=124 gen=20
+09-29 15:46:20.510  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:20.510  5808  5808 I VkKeyPreview: show burst=4 last=key=[REDACTED] instant=true pool showing=1 free=6
+09-29 15:46:20.511  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=107
+09-29 15:46:20.514  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=107
+09-29 15:46:20.571  5808  5808 I VkKeyPreview: dismiss burst=4 last=key=[REDACTED] reason=release pool showing=0 free=7
+09-29 15:46:20.571  5808  5808 I VkKeyPress: keys pressed=144
+09-29 15:46:20.660  5808  5850 I VkTextCorrection: rerank composing head len=3→len=2
+09-29 15:46:20.662  5808  5850 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=125 gen=20
+09-29 15:46:20.703  5808  5808 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+09-29 15:46:20.705  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=108
+09-29 15:46:20.708  5808  5808 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=108
+09-29 15:46:20.841  5808  5850 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=126 gen=20
+09-29 15:46:21.326  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:21.330  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:21.391  5808  5850 I VkNgram : contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+09-29 15:46:21.391  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+09-29 15:46:21.392  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:21.393  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=21
+09-29 15:46:22.245  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:22.247  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:22.318  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+09-29 15:46:22.319  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:22.320  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=22
+09-29 15:46:22.711  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=108
+09-29 15:46:22.738  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2035 epoch=108
+09-29 15:46:23.011  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:23.013  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:23.093  5808  5850 I VkNgram : contextual locale=pt prev=[REDACTED] → len=8, len=3, len=3
+09-29 15:46:23.094  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+09-29 15:46:23.096  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:23.096  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=23
+09-29 15:46:23.866  5808  5808 I VkAutocorrect: picked: [REDACTED]
+09-29 15:46:23.870  5808  5808 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+09-29 15:46:23.937  5808  5850 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+09-29 15:46:23.938  5808  5850 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+09-29 15:46:23.939  5808  5850 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=24
+09-29 15:46:23.978  5808  5808 I VkStripPipeline: publishLatency seq=136 latencyMs=42
+09-29 15:46:24.202  5808  5808 I VkKeyPress: strip pick key=[REDACTED]
+09-29 15:46:24.213  5808  5808 I VkPanels: ▶ open assist
+09-29 15:46:24.443  5808  5808 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+09-29 15:46:24.460  5808  5808 I VkPanels: ▶ open popui_assist
+09-29 15:46:24.531  5808  5843 I OnDeviceAssist: ✓ local grammar (pt) in=31 out=32 — skipping llama
+09-29 15:46:24.532  5808  5843 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+09-29 15:46:26.304  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=grammar in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:26.825  5851  5939 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=0 chars 511ms
+09-29 15:46:26.826  5851  5873 I OnDeviceAssist: dispatch task=grammar in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:26.829  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=31 chars locale=pt-BR
+09-29 15:46:26.859  5851  5873 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+09-29 15:46:29.035  5851  5873 I OnDeviceAssist: ✓ llm task=grammar 2192ms out=32 chars
+09-29 15:46:29.036  5851  5873 I OnDeviceAssist: done task=grammar 2724ms out=32 chars
+09-29 15:46:29.036  5808  7595 I OnDeviceAssist: ✓ assist (ime) task=grammar 2731ms in=31 out=32
+09-29 15:46:30.861  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:30.870  5851  5872 I OnDeviceAssist: dispatch task=rewrite_sentence in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:30.871  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=31 chars locale=pt-BR
+09-29 15:46:30.874  5851  5873 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+09-29 15:46:32.896  5851  5873 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+09-29 15:46:35.186  5851  5873 I OnDeviceAssist: ○ llm task=rewrite_sentence 4312ms: exact echo mapped to no changes
+09-29 15:46:35.186  5851  5873 I OnDeviceAssist: ✓ llm task=rewrite_sentence 4312ms out=0 chars retry=yes
+09-29 15:46:35.186  5851  5873 I OnDeviceAssist: done task=rewrite_sentence 4317ms out=0 chars
+09-29 15:46:35.187  5808  7595 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 4326ms in=31 out=0
+09-29 15:46:37.413  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:37.433  5851  5939 I OnDeviceAssist: dispatch task=tone_pro in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:37.433  5851  5939 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=31 chars locale=pt-BR
+09-29 15:46:37.435  5851  5939 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:46:39.711  5851  5939 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+09-29 15:46:41.898  5851  5939 I OnDeviceAssist: ✓ llm task=tone_pro 4463ms out=27 chars retry=yes
+09-29 15:46:41.898  5851  5939 I OnDeviceAssist: done task=tone_pro 4465ms out=27 chars
+09-29 15:46:41.899  5808  7594 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 4485ms in=31 out=27
+09-29 15:46:44.199  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=27 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:44.206  5851  5872 I OnDeviceAssist: dispatch task=tone_pro in=27 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:44.206  5851  5872 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=27 chars locale=pt-BR
+09-29 15:46:44.208  5851  5872 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:46:45.978  5851  5872 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+09-29 15:46:48.075  5851  5872 I OnDeviceAssist: ○ llm task=tone_pro 3867ms: exact echo mapped to no changes
+09-29 15:46:48.075  5851  5872 I OnDeviceAssist: ✓ llm task=tone_pro 3867ms out=0 chars retry=yes
+09-29 15:46:48.076  5851  5872 I OnDeviceAssist: done task=tone_pro 3870ms out=0 chars
+09-29 15:46:48.076  5808  7594 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 3877ms in=27 out=0
+09-29 15:46:49.879  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:49.895  5851  5873 I OnDeviceAssist: dispatch task=tone_casual in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:49.897  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=tone_casual in=31 chars locale=pt-BR
+09-29 15:46:49.899  5851  5873 I OnDeviceAssist: → llm task=tone_casual model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:46:51.795  5851  5873 W OnDeviceAssist: ↻ llm retry task=tone_casual: exact echo
+09-29 15:46:53.918  5851  5873 I OnDeviceAssist: ✓ llm task=tone_casual 4020ms out=23 chars retry=yes
+09-29 15:46:53.918  5851  5873 I OnDeviceAssist: done task=tone_casual 4023ms out=23 chars
+09-29 15:46:53.919  5808  7594 I OnDeviceAssist: ✓ assist (ime) task=tone_casual 4040ms in=31 out=23
+09-29 15:46:54.842  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=23 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:54.847  5851  5873 I OnDeviceAssist: dispatch task=tone_casual in=23 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:46:54.848  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=tone_casual in=23 chars locale=pt-BR
+09-29 15:46:54.850  5851  5873 I OnDeviceAssist: → llm task=tone_casual model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:46:56.542  5851  5873 W OnDeviceAssist: ↻ llm retry task=tone_casual: exact echo
+09-29 15:46:58.574  5851  5873 I OnDeviceAssist: ✓ llm task=tone_casual 3724ms out=15 chars retry=yes
+09-29 15:46:58.575  5851  5873 I OnDeviceAssist: done task=tone_casual 3728ms out=15 chars
+09-29 15:46:58.576  5808  6104 I OnDeviceAssist: ✓ assist (ime) task=tone_casual 3733ms in=23 out=15
+09-29 15:47:02.393  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=concise in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:47:02.410  5851  5873 I OnDeviceAssist: dispatch task=concise in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:47:02.411  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=concise in=31 chars locale=pt-BR
+09-29 15:47:02.414  5851  5873 I OnDeviceAssist: → llm task=concise model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+09-29 15:47:04.417  5851  5873 I OnDeviceAssist: ✓ llm task=concise 2003ms out=27 chars
+09-29 15:47:04.417  5851  5873 I OnDeviceAssist: done task=concise 2007ms out=27 chars
+09-29 15:47:04.418  5808  7180 I OnDeviceAssist: ✓ assist (ime) task=concise 2025ms in=31 out=27
+09-29 15:47:07.574  5808  5843 I OnDeviceAssist: ✓ instant task=emojify tier=LEXICON lang=pt
+09-29 15:47:09.853  5808  5843 I OnDeviceAssist: ▶ assist_ipc task=voice_clean in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:47:09.863  5851  5873 I OnDeviceAssist: dispatch task=voice_clean in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+09-29 15:47:09.863  5851  5873 I OnDeviceAssist: ▶ runSyncAtPath task=voice_clean in=31 chars locale=pt-BR
+09-29 15:47:09.867  5851  5873 I OnDeviceAssist: → llm task=voice_clean model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+09-29 15:47:11.795  5851  5873 I OnDeviceAssist: ✓ llm task=voice_clean 1929ms out=32 chars
+09-29 15:47:11.795  5851  5873 I OnDeviceAssist: done task=voice_clean 1934ms out=32 chars
+09-29 15:47:11.796  5808  7594 I OnDeviceAssist: ✓ assist (ime) task=voice_clean 1944ms in=31 out=32
+09-29 15:47:13.230  5808  5808 I VkPanels: ○ close assist
+09-29 15:47:13.996  5808  5808 I VkKeyPress: strip pick key=[REDACTED]
+09-29 15:47:14.007  5808  5808 I VkPanels: ▶ open menu
+09-29 15:47:14.012  5808  5808 I VkPanels: ▶ open popui_menu
+09-29 15:47:14.012  5808  5883 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+09-29 15:47:14.020  5808  5883 I VkLocaleAssets: preload predictors pt-BR
+09-29 15:47:14.024  5808  5883 I VkLocaleAssets: ○ ready pt-BR (cached)
+09-29 15:47:14.024  5808  5883 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+09-29 15:47:14.028  5808  5808 I VkEffects: idleArm surface=strip type=shimmer inMs=1991 epoch=109
+09-29 15:47:14.073  5808  5850 I VkTextCorrection: rerank composing head len=4→len=2
+09-29 15:47:14.074  5808  5850 I VkSuggestions: strip composing typedLen=4 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=132 gen=24
+09-29 15:47:16.052  5808  5808 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2032 epoch=109
+09-29 15:47:16.918  5808  5808 I VkKeyPress: keys pressed=146
+09-29 15:47:16.919  5808  5808 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+09-29 15:47:16.922  5808  5808 I VkPanels: ○ close menu
+09-29 15:47:16.922  5808  5808 I VkPanels: ○ close menu
+09-29 15:47:16.983  5808  5808 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2964 epoch=109
+09-29 15:47:17.011  5808  5808 I VkSettings: ▶ activity open spellchecker=false
+09-29 15:47:17.169  5808  5808 I VkTyping: ○ hidden
+09-29 15:47:19.823  5808  5808 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-09-29 15:42:05.634042 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-09-29 15:42:05.636458 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-09-29 15:42:05.636814 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-09-29 15:42:05.648542 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-09-29 15:42:05.648994 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh bgGrad=radial press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-09-29 15:42:05.649577 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=22 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-09-29 15:42:06.496198 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-09-29 15:42:06.499922 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-09-29 15:43:17.689156 W VkSuggestions: slow frame 20.2ms locales=1 typedLen=0 candidates=0
+2026-09-29 15:43:18.801006 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 687ms
+2026-09-29 15:43:20.180113 W VkSuggestions: slow frame 30.9ms locales=1 typedLen=1 candidates=14
+2026-09-29 15:43:24.080169 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 0ms
+2026-09-29 15:43:30.250988 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=65 chars 0ms
+2026-09-29 15:43:30.909035 W VkSuggestions: slow frame 16.3ms locales=1 typedLen=2 candidates=14
+2026-09-29 15:43:34.364637 W VkSuggestions: slow frame 18.2ms locales=1 typedLen=2 candidates=14
+2026-09-29 15:43:34.827221 W VkSuggestions: slow frame 21.5ms locales=1 typedLen=4 candidates=14
+2026-09-29 15:43:35.815555 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=85 chars 0ms
+2026-09-29 15:43:39.394151 W VkSuggestions: slow frame 16.1ms locales=1 typedLen=2 candidates=14
+2026-09-29 15:43:45.218386 W VkSuggestions: slow frame 16.0ms locales=1 typedLen=1 candidates=14
+2026-09-29 15:43:46.619335 I OnDeviceAssist: loaded pack=en cards=13 fillers=6 source=bundled v=1
+2026-09-29 15:43:46.808139 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:43:47.066226 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=92 chars 0ms
+2026-09-29 15:43:47.098414 I OnDeviceAssist: instant grammar lang=en in=65 out=66
+2026-09-29 15:43:47.100122 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:44:00.617598 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:00.641919 I OnDeviceAssist: dispatch task=grammar in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:00.644681 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=65 chars locale=en-US
+2026-09-29 15:44:00.745089 I OnDeviceAssist: loaded pack=en cards=13 fillers=6 source=bundled v=1
+2026-09-29 15:44:00.756034 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:44:03.400250 I OnDeviceAssist: ✓ llm task=grammar 2747ms out=65 chars
+2026-09-29 15:44:03.400631 I OnDeviceAssist: done task=grammar 2760ms out=65 chars
+2026-09-29 15:44:06.440368 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:06.447109 I OnDeviceAssist: dispatch task=grammar in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:06.447592 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=65 chars locale=en-US
+2026-09-29 15:44:06.449565 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:44:09.058082 I OnDeviceAssist: ✓ llm task=grammar 2609ms out=65 chars
+2026-09-29 15:44:09.058487 I OnDeviceAssist: done task=grammar 2611ms out=65 chars
+2026-09-29 15:44:22.993236 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:44:23.085967 I OnDeviceAssist: instant grammar lang=en in=65 out=66
+2026-09-29 15:44:23.086353 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:44:24.803404 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:25.331465 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=0 chars 514ms
+2026-09-29 15:44:25.332086 I OnDeviceAssist: dispatch task=grammar in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:25.332439 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=65 chars locale=en-US
+2026-09-29 15:44:25.335210 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:44:27.998220 I OnDeviceAssist: ✓ llm task=grammar 2663ms out=65 chars
+2026-09-29 15:44:27.998737 I OnDeviceAssist: done task=grammar 3183ms out=65 chars
+2026-09-29 15:44:30.825956 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:30.841403 I OnDeviceAssist: dispatch task=rewrite_sentence in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:30.842099 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=65 chars locale=en-US
+2026-09-29 15:44:30.844877 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:44:33.666637 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+2026-09-29 15:44:36.473596 I OnDeviceAssist: ✓ llm task=rewrite_sentence 5629ms out=63 chars retry=yes
+2026-09-29 15:44:36.474042 I OnDeviceAssist: done task=rewrite_sentence 5633ms out=63 chars
+2026-09-29 15:44:46.640746 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=63 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:46.646463 I OnDeviceAssist: dispatch task=rewrite_sentence in=63 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:46.646894 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=63 chars locale=en-US
+2026-09-29 15:44:46.648491 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:44:49.339228 I OnDeviceAssist: ✓ llm task=rewrite_sentence 2691ms out=65 chars
+2026-09-29 15:44:49.339729 I OnDeviceAssist: done task=rewrite_sentence 2693ms out=65 chars
+2026-09-29 15:44:50.783597 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:50.810821 I OnDeviceAssist: dispatch task=rewrite_sentence in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:50.811492 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=65 chars locale=en-US
+2026-09-29 15:44:50.813911 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:44:53.375160 I OnDeviceAssist: ✓ llm task=rewrite_sentence 2562ms out=60 chars
+2026-09-29 15:44:53.375586 I OnDeviceAssist: done task=rewrite_sentence 2565ms out=60 chars
+2026-09-29 15:44:55.001952 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=60 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:55.011824 I OnDeviceAssist: dispatch task=rewrite_sentence in=60 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:55.012354 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=60 chars locale=en-US
+2026-09-29 15:44:55.014223 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:44:57.617423 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+2026-09-29 15:45:00.458292 I OnDeviceAssist: ✓ llm task=rewrite_sentence 5445ms out=57 chars retry=yes
+2026-09-29 15:45:00.458878 I OnDeviceAssist: done task=rewrite_sentence 5447ms out=57 chars
+2026-09-29 15:45:02.453604 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:02.472977 I OnDeviceAssist: dispatch task=tone_pro in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:02.473717 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=65 chars locale=en-US
+2026-09-29 15:45:02.477665 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:45:05.019615 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+2026-09-29 15:45:07.793138 I OnDeviceAssist: ✓ llm task=tone_pro 5316ms out=63 chars retry=yes
+2026-09-29 15:45:07.793548 I OnDeviceAssist: done task=tone_pro 5321ms out=63 chars
+2026-09-29 15:45:12.827664 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:12.855420 I OnDeviceAssist: dispatch task=tone_casual in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:12.856793 I OnDeviceAssist: ▶ runSyncAtPath task=tone_casual in=65 chars locale=en-US
+2026-09-29 15:45:12.861114 I OnDeviceAssist: → llm task=tone_casual model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:45:15.459772 W OnDeviceAssist: ↻ llm retry task=tone_casual: exact echo
+2026-09-29 15:45:18.169748 I OnDeviceAssist: ✓ llm task=tone_casual 5309ms out=63 chars retry=yes
+2026-09-29 15:45:18.170163 I OnDeviceAssist: done task=tone_casual 5315ms out=63 chars
+2026-09-29 15:45:19.919165 I OnDeviceAssist: ▶ assist_ipc task=concise in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:19.935937 I OnDeviceAssist: dispatch task=concise in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:19.936766 I OnDeviceAssist: ▶ runSyncAtPath task=concise in=65 chars locale=en-US
+2026-09-29 15:45:19.941174 I OnDeviceAssist: → llm task=concise model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:45:22.702383 W OnDeviceAssist: ↻ llm retry task=concise: exact echo
+2026-09-29 15:45:25.514825 I OnDeviceAssist: ✓ llm task=concise 5574ms out=60 chars retry=yes
+2026-09-29 15:45:25.515237 I OnDeviceAssist: done task=concise 5580ms out=60 chars
+2026-09-29 15:45:33.859184 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:45:33.927290 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=98 chars 0ms
+2026-09-29 15:45:33.940042 I OnDeviceAssist: instant grammar lang=en in=65 out=66
+2026-09-29 15:45:33.940951 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:45:35.849641 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:35.884224 I OnDeviceAssist: dispatch task=grammar in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:35.885078 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=65 chars locale=en-US
+2026-09-29 15:45:35.892324 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:45:38.519950 I OnDeviceAssist: ✓ llm task=grammar 2628ms out=65 chars
+2026-09-29 15:45:38.520368 I OnDeviceAssist: done task=grammar 2636ms out=65 chars
+2026-09-29 15:45:40.103664 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:40.127147 I OnDeviceAssist: dispatch task=rewrite_sentence in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:40.128011 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=65 chars locale=en-US
+2026-09-29 15:45:40.131501 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:45:42.840639 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+2026-09-29 15:45:45.694043 I OnDeviceAssist: ✓ llm task=rewrite_sentence 5563ms out=63 chars retry=yes
+2026-09-29 15:45:45.694402 I OnDeviceAssist: done task=rewrite_sentence 5568ms out=63 chars
+2026-09-29 15:45:47.263922 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:47.286363 I OnDeviceAssist: dispatch task=tone_pro in=65 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:47.287057 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=65 chars locale=en-US
+2026-09-29 15:45:47.290617 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:45:49.837017 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+2026-09-29 15:45:52.554599 I OnDeviceAssist: ✓ llm task=tone_pro 5264ms out=60 chars retry=yes
+2026-09-29 15:45:52.555022 I OnDeviceAssist: done task=tone_pro 5269ms out=60 chars
+2026-09-29 15:46:08.179090 W VkSuggestions: slow frame 21.4ms locales=1 typedLen=2 candidates=14
+2026-09-29 15:46:08.650608 W VkSuggestions: slow frame 16.5ms locales=1 typedLen=5 candidates=14
+2026-09-29 15:46:08.988130 W VkSuggestions: slow frame 24.8ms locales=1 typedLen=1 candidates=14
+2026-09-29 15:46:09.123953 W VkSuggestions: slow frame 41.6ms locales=1 typedLen=3 candidates=14
+2026-09-29 15:46:09.160278 W VkSuggestions: slow frame 28.0ms locales=1 typedLen=3 candidates=14
+2026-09-29 15:46:10.235389 W VkSuggestions: slow frame 16.2ms locales=1 typedLen=3 candidates=14
+2026-09-29 15:46:12.794006 W VkSuggestions: slow frame 18.1ms locales=1 typedLen=3 candidates=14
+2026-09-29 15:46:24.222416 I OnDeviceAssist: loaded pack=pt-BR cards=13 fillers=6 source=bundled v=1
+2026-09-29 15:46:24.443814 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+2026-09-29 15:46:24.531765 I OnDeviceAssist: instant grammar lang=pt in=31 out=32
+2026-09-29 15:46:24.532611 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+2026-09-29 15:46:26.305018 I OnDeviceAssist: ▶ assist_ipc task=grammar in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:26.825550 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=0 chars 511ms
+2026-09-29 15:46:26.827060 I OnDeviceAssist: dispatch task=grammar in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:26.829771 I OnDeviceAssist: ▶ runSyncAtPath task=grammar in=31 chars locale=pt-BR
+2026-09-29 15:46:26.857286 I OnDeviceAssist: loaded pack=pt-BR cards=13 fillers=6 source=bundled v=1
+2026-09-29 15:46:26.859160 I OnDeviceAssist: → llm task=grammar model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:46:29.035939 I OnDeviceAssist: ✓ llm task=grammar 2192ms out=32 chars
+2026-09-29 15:46:29.036370 I OnDeviceAssist: done task=grammar 2724ms out=32 chars
+2026-09-29 15:46:30.861156 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:30.870171 I OnDeviceAssist: dispatch task=rewrite_sentence in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:30.871542 I OnDeviceAssist: ▶ runSyncAtPath task=rewrite_sentence in=31 chars locale=pt-BR
+2026-09-29 15:46:30.874548 I OnDeviceAssist: → llm task=rewrite_sentence model=qwen3-0.6b-instruct-q4_0.gguf temp=0.3 maxTok=48
+2026-09-29 15:46:32.896539 W OnDeviceAssist: ↻ llm retry task=rewrite_sentence: exact echo
+2026-09-29 15:46:35.186352 I OnDeviceAssist: ○ llm task=rewrite_sentence 4312ms: exact echo mapped to no changes
+2026-09-29 15:46:35.186600 I OnDeviceAssist: ✓ llm task=rewrite_sentence 4312ms out=0 chars retry=yes
+2026-09-29 15:46:35.186840 I OnDeviceAssist: done task=rewrite_sentence 4317ms out=0 chars
+2026-09-29 15:46:37.413662 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:37.433251 I OnDeviceAssist: dispatch task=tone_pro in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:37.433749 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=31 chars locale=pt-BR
+2026-09-29 15:46:37.435997 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:46:39.711262 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+2026-09-29 15:46:41.898028 I OnDeviceAssist: ✓ llm task=tone_pro 4463ms out=27 chars retry=yes
+2026-09-29 15:46:41.898501 I OnDeviceAssist: done task=tone_pro 4465ms out=27 chars
+2026-09-29 15:46:44.199595 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=27 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:44.206091 I OnDeviceAssist: dispatch task=tone_pro in=27 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:44.206574 I OnDeviceAssist: ▶ runSyncAtPath task=tone_pro in=27 chars locale=pt-BR
+2026-09-29 15:46:44.208552 I OnDeviceAssist: → llm task=tone_pro model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:46:45.978760 W OnDeviceAssist: ↻ llm retry task=tone_pro: exact echo
+2026-09-29 15:46:48.075518 I OnDeviceAssist: ○ llm task=tone_pro 3867ms: exact echo mapped to no changes
+2026-09-29 15:46:48.075781 I OnDeviceAssist: ✓ llm task=tone_pro 3867ms out=0 chars retry=yes
+2026-09-29 15:46:48.076023 I OnDeviceAssist: done task=tone_pro 3870ms out=0 chars
+2026-09-29 15:46:49.879680 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:49.895963 I OnDeviceAssist: dispatch task=tone_casual in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:49.897073 I OnDeviceAssist: ▶ runSyncAtPath task=tone_casual in=31 chars locale=pt-BR
+2026-09-29 15:46:49.899233 I OnDeviceAssist: → llm task=tone_casual model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:46:51.795736 W OnDeviceAssist: ↻ llm retry task=tone_casual: exact echo
+2026-09-29 15:46:53.918170 I OnDeviceAssist: ✓ llm task=tone_casual 4020ms out=23 chars retry=yes
+2026-09-29 15:46:53.918666 I OnDeviceAssist: done task=tone_casual 4023ms out=23 chars
+2026-09-29 15:46:54.842153 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=23 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:54.848012 I OnDeviceAssist: dispatch task=tone_casual in=23 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:54.848425 I OnDeviceAssist: ▶ runSyncAtPath task=tone_casual in=23 chars locale=pt-BR
+2026-09-29 15:46:54.850185 I OnDeviceAssist: → llm task=tone_casual model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:46:56.542456 W OnDeviceAssist: ↻ llm retry task=tone_casual: exact echo
+2026-09-29 15:46:58.574869 I OnDeviceAssist: ✓ llm task=tone_casual 3724ms out=15 chars retry=yes
+2026-09-29 15:46:58.575366 I OnDeviceAssist: done task=tone_casual 3728ms out=15 chars
+2026-09-29 15:47:02.393624 I OnDeviceAssist: ▶ assist_ipc task=concise in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:02.411011 I OnDeviceAssist: dispatch task=concise in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:02.411863 I OnDeviceAssist: ▶ runSyncAtPath task=concise in=31 chars locale=pt-BR
+2026-09-29 15:47:02.414598 I OnDeviceAssist: → llm task=concise model=qwen3-0.6b-instruct-q4_0.gguf temp=0.35 maxTok=48
+2026-09-29 15:47:04.417428 I OnDeviceAssist: ✓ llm task=concise 2003ms out=27 chars
+2026-09-29 15:47:04.417802 I OnDeviceAssist: done task=concise 2007ms out=27 chars
+2026-09-29 15:47:07.574409 I OnDeviceAssist: ✓ instant task=emojify tier=LEXICON lang=pt
+2026-09-29 15:47:09.853091 I OnDeviceAssist: ▶ assist_ipc task=voice_clean in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:09.863131 I OnDeviceAssist: dispatch task=voice_clean in=31 chars engine=Ready model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:09.863792 I OnDeviceAssist: ▶ runSyncAtPath task=voice_clean in=31 chars locale=pt-BR
+2026-09-29 15:47:09.867192 I OnDeviceAssist: → llm task=voice_clean model=qwen3-0.6b-instruct-q4_0.gguf temp=0.15 maxTok=64
+2026-09-29 15:47:11.795552 I OnDeviceAssist: ✓ llm task=voice_clean 1929ms out=32 chars
+2026-09-29 15:47:11.795966 I OnDeviceAssist: done task=voice_clean 1934ms out=32 chars
+=== In-memory (current process) ===
+2026-09-29 15:43:16.363395 I startup: Starting com.vibekey.keyboard version 4.5.914 (5274) on Android 12 (SDK 31)
+2026-09-29 15:43:16.549195 I VkNgram: registered lang=vi,th source=bundled
+2026-09-29 15:43:16.618084 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=mesh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 sound=true(chime) vibrate=true(light)
+2026-09-29 15:43:16.624009 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-09-29 15:43:16.631492 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-09-29 15:43:16.641397 I VkDictionaries: ✓ open emoji en-US
+2026-09-29 15:43:16.642393 I VkDictionaries: ✓ open main en-US
+2026-09-29 15:43:16.642565 I VkDictionaries: collection en-US dicts=2 emoji=true
+2026-09-29 15:43:16.659714 I VkStartupLoad: ▶ cold start — stagger heavy background work
+2026-09-29 15:43:16.662891 I VkLocaleAssets: ▶ startup download begin
+2026-09-29 15:43:16.670602 I VkStartupLoad: ▶ dictionary batch begin recentInstall=true
+2026-09-29 15:43:16.671579 I VkLocaleAssets: ▶ batch source=startup count=3 [en-US,es,pt-BR]
+2026-09-29 15:43:16.702034 I VkStartupLoad: ○ predictor preload deferred en-US
+2026-09-29 15:43:16.710074 I VkLocaleAssets: ○ ready en-US (cached)
+2026-09-29 15:43:16.728173 I VkStartupLoad: ○ predictor preload deferred es
+2026-09-29 15:43:16.734598 I VkLocaleAssets: ○ ready es (cached)
+2026-09-29 15:43:16.752019 I VkStartupLoad: ○ predictor preload deferred pt-BR
+2026-09-29 15:43:16.758462 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-09-29 15:43:16.759084 I VkLocaleAssets: ✓ batch source=startup locales=3 fetched=0
+2026-09-29 15:43:16.767508 I VkStartupLoad: ▶ predictor preload flush count=3
+2026-09-29 15:43:16.767925 I VkStartupLoad: ✓ dictionary batch done
+2026-09-29 15:43:16.769360 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:43:16.775055 I VkLocaleAssets: ✓ startup done locales=3 retries=0
+2026-09-29 15:43:17.008844 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-09-29 15:43:17.009048 I VkNgram: model ready locale=en-US gen=1 235ms
+2026-09-29 15:43:17.138377 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-09-29 15:43:17.150765 I VkDictionaries: ✓ open emoji en-US
+2026-09-29 15:43:17.298745 I VkEffects: idleArm surface=strip type=shimmer inMs=1909 epoch=7
+2026-09-29 15:43:17.306120 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1901 epoch=7
+2026-09-29 15:43:17.639875 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3317 epoch=11
+2026-09-29 15:43:17.657754 I VkEffects: idleArm surface=strip type=shimmer inMs=1854 epoch=11
+2026-09-29 15:43:17.663579 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1848 epoch=11
+2026-09-29 15:43:17.669911 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-09-29 15:43:17.670110 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=533ms
+2026-09-29 15:43:17.671740 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-09-29 15:43:17.672449 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-09-29 15:43:17.693799 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:17.694616 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:17.694845 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=4 gen=0
+2026-09-29 15:43:17.729207 I VkStripPipeline: publishLatency seq=3 latencyMs=62
+2026-09-29 15:43:17.754420 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:43:18.809997 I VkLocaleAssets: preload predictors es
+2026-09-29 15:43:18.917799 I KenLmBridge: Loaded VkLM for es from [REDACTED]
+2026-09-29 15:43:18.917916 I VkNgram: model ready locale=es gen=1 106ms
+2026-09-29 15:43:19.532233 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2021 epoch=11
+2026-09-29 15:43:19.970610 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:19.970719 I VkKeyPreview: show burst=1 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:19.973714 I VkEffects: idleArm surface=strip type=shimmer inMs=1993 epoch=12
+2026-09-29 15:43:19.976581 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1990 epoch=12
+2026-09-29 15:43:20.033767 I VkKeyPreview: dismiss burst=1 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:20.034235 I VkKeyPress: keys pressed=1
+2026-09-29 15:43:20.189246 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:43:20.200515 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=5 gen=0
+2026-09-29 15:43:20.263160 I VkStripPipeline: publishLatency seq=5 latencyMs=116
+2026-09-29 15:43:20.539433 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:20.552119 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1985 epoch=13
+2026-09-29 15:43:20.672476 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:43:20.674415 I VkSuggestions: strip composing typedLen=2 candidates=13 autocorrect=false top=[REDACTED] locale=en token=6 gen=0
+2026-09-29 15:43:20.715524 I VkStripPipeline: publishLatency seq=6 latencyMs=54
+2026-09-29 15:43:20.727048 I VkEffects: idleArm surface=strip type=shimmer inMs=1810 epoch=13
+2026-09-29 15:43:21.188855 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=14
+2026-09-29 15:43:21.312744 I VkLocaleAssets: preload predictors pt-BR
+2026-09-29 15:43:21.313238 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:21.314516 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:21.314659 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=7 gen=1
+2026-09-29 15:43:21.325497 I VkEffects: idleArm surface=strip type=shimmer inMs=1860 epoch=14
+2026-09-29 15:43:21.399513 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:21.407773 I KenLmBridge: Loaded VkLM for pt from [REDACTED]
+2026-09-29 15:43:21.407918 I VkNgram: model ready locale=pt-BR gen=1 94ms
+2026-09-29 15:43:21.411499 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1987 epoch=15
+2026-09-29 15:43:21.572250 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:43:21.575297 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=8 gen=1
+2026-09-29 15:43:21.592844 I VkEffects: idleArm surface=strip type=shimmer inMs=1806 epoch=15
+2026-09-29 15:43:21.697800 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:21.703416 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=16
+2026-09-29 15:43:21.867773 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=9 gen=1
+2026-09-29 15:43:21.879040 I VkEffects: idleArm surface=strip type=shimmer inMs=1818 epoch=16
+2026-09-29 15:43:21.990792 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:21.991761 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=17
+2026-09-29 15:43:21.994611 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=17
+2026-09-29 15:43:22.171628 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=10 gen=1
+2026-09-29 15:43:22.609940 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:22.613389 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=18
+2026-09-29 15:43:22.763469 I VkSuggestions: strip composing typedLen=4 candidates=12 autocorrect=false top=[REDACTED] locale=en token=11 gen=1
+2026-09-29 15:43:22.773451 I VkStripPipeline: publishLatency seq=11 latencyMs=32
+2026-09-29 15:43:22.776111 I VkEffects: idleArm surface=strip type=shimmer inMs=1833 epoch=18
+2026-09-29 15:43:22.889351 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=19
+2026-09-29 15:43:23.004809 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:23.006271 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:23.006411 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=12 gen=2
+2026-09-29 15:43:23.022613 I VkEffects: idleArm surface=strip type=shimmer inMs=1864 epoch=19
+2026-09-29 15:43:23.745492 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-09-29 15:43:23.746569 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-09-29 15:43:24.324975 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:24.325077 I VkKeyPreview: show burst=6 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:24.328472 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=20
+2026-09-29 15:43:24.377513 I VkKeyPreview: dismiss burst=6 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:24.377611 I VkKeyPress: keys pressed=9
+2026-09-29 15:43:24.449598 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=13 gen=2
+2026-09-29 15:43:24.458809 I VkEffects: idleArm surface=strip type=shimmer inMs=1866 epoch=20
+2026-09-29 15:43:24.536220 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:24.540257 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=21
+2026-09-29 15:43:24.641025 I VkEffects: idleArm surface=strip type=shimmer inMs=1894 epoch=21
+2026-09-29 15:43:24.674518 I VkSuggestions: strip composing typedLen=2 candidates=13 autocorrect=false top=[REDACTED] locale=en token=14 gen=2
+2026-09-29 15:43:24.694250 I VkStripPipeline: publishLatency seq=14 latencyMs=32
+2026-09-29 15:43:24.717993 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:24.720423 I VkEffects: idleArm surface=strip type=shimmer inMs=1997 epoch=22
+2026-09-29 15:43:24.723091 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=22
+2026-09-29 15:43:24.845034 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:24.848985 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=23
+2026-09-29 15:43:24.869999 I VkTextCorrection: rerank composing head len=3→len=4
+2026-09-29 15:43:24.871036 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=16 gen=2
+2026-09-29 15:43:24.875668 I VkEffects: idleArm surface=strip type=shimmer inMs=1969 epoch=23
+2026-09-29 15:43:24.995578 I VkTextCorrection: rerank composing head len=5→len=2
+2026-09-29 15:43:24.997332 I VkSuggestions: strip composing typedLen=4 candidates=13 autocorrect=false top=[REDACTED] locale=en token=16 gen=2
+2026-09-29 15:43:25.051586 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=24
+2026-09-29 15:43:25.211743 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:25.212042 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=17 gen=3
+2026-09-29 15:43:25.234033 I VkEffects: idleArm surface=strip type=shimmer inMs=1814 epoch=24
+2026-09-29 15:43:25.336992 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:25.341477 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=25
+2026-09-29 15:43:25.503161 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:25.506853 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=26
+2026-09-29 15:43:25.511400 I VkTextCorrection: rerank composing head len=2→len=3
+2026-09-29 15:43:25.512340 I VkSuggestions: strip composing typedLen=1 candidates=13 autocorrect=false top=[REDACTED] locale=en token=19 gen=3
+2026-09-29 15:43:25.526782 I VkEffects: idleArm surface=strip type=shimmer inMs=1976 epoch=26
+2026-09-29 15:43:25.643361 I VkTextCorrection: rerank composing head len=5→len=4
+2026-09-29 15:43:25.644395 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=19 gen=3
+2026-09-29 15:43:25.677325 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:25.681855 I VkEffects: idleArm surface=strip type=shimmer inMs=1995 epoch=27
+2026-09-29 15:43:25.684019 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1992 epoch=27
+2026-09-29 15:43:25.799387 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=20 gen=3
+2026-09-29 15:43:25.928714 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=28
+2026-09-29 15:43:26.068797 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:26.070844 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:26.071055 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=21 gen=4
+2026-09-29 15:43:26.084957 I VkEffects: idleArm surface=strip type=shimmer inMs=1840 epoch=28
+2026-09-29 15:43:26.478886 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:26.482624 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=29
+2026-09-29 15:43:26.561661 I VkEffects: idleArm surface=strip type=shimmer inMs=1917 epoch=29
+2026-09-29 15:43:26.599111 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:26.602621 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=30
+2026-09-29 15:43:26.625742 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:43:26.626606 I VkSuggestions: strip composing typedLen=1 candidates=13 autocorrect=false top=[REDACTED] locale=en token=23 gen=4
+2026-09-29 15:43:26.629255 I VkEffects: idleArm surface=strip type=shimmer inMs=1969 epoch=30
+2026-09-29 15:43:26.751634 I VkEffects: idleArm surface=strip type=shimmer inMs=2000 epoch=31
+2026-09-29 15:43:26.754036 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=31
+2026-09-29 15:43:26.768550 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=24 gen=4
+2026-09-29 15:43:26.870502 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:26.878453 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1991 epoch=32
+2026-09-29 15:43:26.879997 I VkEffects: idleArm surface=strip type=shimmer inMs=1989 epoch=32
+2026-09-29 15:43:26.936061 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:26.938213 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:26.938398 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=25 gen=5
+2026-09-29 15:43:26.950378 I VkStripPipeline: staleDrop generation token=24 stripGen=4
+2026-09-29 15:43:27.027803 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=25 gen=5
+2026-09-29 15:43:27.053602 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:27.056167 I VkEffects: idleArm surface=strip type=shimmer inMs=1996 epoch=33
+2026-09-29 15:43:27.059367 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=33
+2026-09-29 15:43:27.172442 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:27.175819 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=34
+2026-09-29 15:43:27.187145 I VkSuggestions: strip composing typedLen=2 candidates=12 autocorrect=false top=[REDACTED] locale=en token=27 gen=5
+2026-09-29 15:43:27.197013 I VkEffects: idleArm surface=strip type=shimmer inMs=1975 epoch=34
+2026-09-29 15:43:27.326963 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=27 gen=5
+2026-09-29 15:43:27.360426 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:27.360515 I VkKeyPreview: show burst=12 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:27.362586 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=35
+2026-09-29 15:43:27.365090 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=35
+2026-09-29 15:43:27.416709 I VkKeyPreview: dismiss burst=12 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:27.416809 I VkKeyPress: keys pressed=24
+2026-09-29 15:43:27.486954 I VkTextCorrection: rerank composing head len=5→len=2
+2026-09-29 15:43:27.489166 I VkSuggestions: strip composing typedLen=4 candidates=12 autocorrect=false top=[REDACTED] locale=en token=28 gen=5
+2026-09-29 15:43:27.590921 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=36
+2026-09-29 15:43:27.714128 I VkEffects: idleArm surface=strip type=shimmer inMs=1873 epoch=36
+2026-09-29 15:43:27.722954 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:27.726219 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:27.726563 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=29 gen=6
+2026-09-29 15:43:28.106426 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:28.110023 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=37
+2026-09-29 15:43:28.269869 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=30 gen=6
+2026-09-29 15:43:28.284439 I VkEffects: idleArm surface=strip type=shimmer inMs=1821 epoch=37
+2026-09-29 15:43:28.329140 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:28.332284 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=38
+2026-09-29 15:43:28.484701 I VkTextCorrection: rerank composing head len=2→len=4
+2026-09-29 15:43:28.485878 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=32 gen=6
+2026-09-29 15:43:28.496389 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:28.496699 I VkStripPipeline: staleDrop publishSession token=31 seq=31
+2026-09-29 15:43:28.499573 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=39
+2026-09-29 15:43:28.500489 I VkEffects: idleArm surface=strip type=shimmer inMs=1996 epoch=39
+2026-09-29 15:43:28.660588 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:43:28.663531 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=33 gen=6
+2026-09-29 15:43:28.679546 I VkStripPipeline: staleDrop publishSession token=32 seq=32
+2026-09-29 15:43:28.682519 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=40
+2026-09-29 15:43:28.783042 I VkEffects: idleArm surface=strip type=shimmer inMs=1896 epoch=40
+2026-09-29 15:43:28.804106 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:28.805392 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:28.805553 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=33 gen=7
+2026-09-29 15:43:28.964910 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:28.969108 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=41
+2026-09-29 15:43:29.083601 I VkEffects: idleArm surface=strip type=shimmer inMs=1881 epoch=41
+2026-09-29 15:43:29.093615 I VkTextCorrection: rerank composing head len=2→len=3
+2026-09-29 15:43:29.094871 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=34 gen=7
+2026-09-29 15:43:29.193671 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:29.197988 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=42
+2026-09-29 15:43:29.200479 I VkEffects: idleArm surface=strip type=shimmer inMs=1992 epoch=42
+2026-09-29 15:43:29.251571 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:29.257472 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=43
+2026-09-29 15:43:29.323423 I VkSuggestions: strip composing typedLen=2 candidates=13 autocorrect=false top=[REDACTED] locale=en token=35 gen=7
+2026-09-29 15:43:29.335778 I VkEffects: idleArm surface=strip type=shimmer inMs=1916 epoch=43
+2026-09-29 15:43:29.356368 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:29.359096 I VkEffects: idleArm surface=strip type=shimmer inMs=1996 epoch=44
+2026-09-29 15:43:29.361691 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=44
+2026-09-29 15:43:29.504322 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=36 gen=7
+2026-09-29 15:43:29.519458 I VkStripPipeline: publishLatency seq=36 latencyMs=32
+2026-09-29 15:43:29.932209 I SessionContext: updateAmbientCapture sensitive=false ambientChars=65
+2026-09-29 15:43:29.933291 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=65
+2026-09-29 15:43:30.356284 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:43:30.361488 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:43:30.420708 I VkNgram: contextual locale=en prev=[REDACTED] → len=3, len=3, len=4
+2026-09-29 15:43:30.420878 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-09-29 15:43:30.422221 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:30.422421 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=36 gen=8
+2026-09-29 15:43:30.635907 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:30.635995 I VkKeyPreview: show burst=8 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:30.639031 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=45
+2026-09-29 15:43:30.703787 I VkEffects: idleArm surface=strip type=shimmer inMs=1932 epoch=45
+2026-09-29 15:43:30.707859 I VkKeyPreview: dismiss burst=8 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:30.707968 I VkKeyPress: keys pressed=33
+2026-09-29 15:43:30.758971 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:30.762399 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=46
+2026-09-29 15:43:30.791473 I VkSuggestions: strip composing typedLen=1 candidates=13 autocorrect=false top=[REDACTED] locale=en token=38 gen=8
+2026-09-29 15:43:30.804501 I VkEffects: idleArm surface=strip type=shimmer inMs=1954 epoch=46
+2026-09-29 15:43:30.911201 I VkTextCorrection: rerank composing head len=4→len=4
+2026-09-29 15:43:30.912823 I VkSuggestions: strip composing typedLen=2 candidates=12 autocorrect=false top=[REDACTED] locale=en token=38 gen=8
+2026-09-29 15:43:30.924562 I VkStripPipeline: publishLatency seq=39 latencyMs=32
+2026-09-29 15:43:30.942552 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:30.945110 I VkEffects: idleArm surface=strip type=shimmer inMs=1997 epoch=47
+2026-09-29 15:43:30.947948 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=47
+2026-09-29 15:43:31.080858 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=39 gen=8
+2026-09-29 15:43:31.145390 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:31.149784 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=48
+2026-09-29 15:43:31.221707 I VkEffects: idleArm surface=strip type=shimmer inMs=1923 epoch=48
+2026-09-29 15:43:31.269930 I VkTextCorrection: rerank composing head len=5→len=2
+2026-09-29 15:43:31.270850 I VkSuggestions: strip composing typedLen=4 candidates=11 autocorrect=false top=[REDACTED] locale=en token=40 gen=8
+2026-09-29 15:43:31.348372 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=49
+2026-09-29 15:43:31.371751 I VkEffects: idleArm surface=strip type=shimmer inMs=1973 epoch=49
+2026-09-29 15:43:31.462 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:31.463173 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:31.463331 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=41 gen=9
+2026-09-29 15:43:31.974907 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:31.978783 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=50
+2026-09-29 15:43:32.119375 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:43:32.120955 I VkSuggestions: strip composing typedLen=1 candidates=12 autocorrect=false top=[REDACTED] locale=en token=42 gen=9
+2026-09-29 15:43:32.137796 I VkEffects: idleArm surface=strip type=shimmer inMs=1837 epoch=50
+2026-09-29 15:43:32.200214 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:32.203780 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=51
+2026-09-29 15:43:32.319958 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=43 gen=9
+2026-09-29 15:43:32.345786 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=52
+2026-09-29 15:43:32.348771 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=52
+2026-09-29 15:43:32.479801 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:32.481370 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:32.481589 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=44 gen=10
+2026-09-29 15:43:32.567139 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:32.571288 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=53
+2026-09-29 15:43:32.674566 I VkEffects: idleArm surface=strip type=shimmer inMs=1892 epoch=53
+2026-09-29 15:43:32.685201 I VkTextCorrection: rerank composing head len=4→len=2
+2026-09-29 15:43:32.686327 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=45 gen=10
+2026-09-29 15:43:32.732595 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:32.736830 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=54
+2026-09-29 15:43:32.775276 I VkEffects: idleArm surface=strip type=shimmer inMs=1956 epoch=54
+2026-09-29 15:43:32.886948 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:32.892115 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=55
+2026-09-29 15:43:32.903585 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=47 gen=10
+2026-09-29 15:43:32.909280 I VkEffects: idleArm surface=strip type=shimmer inMs=1977 epoch=55
+2026-09-29 15:43:32.999036 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:33.003558 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=56
+2026-09-29 15:43:33.013276 I VkSuggestions: strip composing typedLen=3 candidates=12 autocorrect=false top=[REDACTED] locale=en token=48 gen=10
+2026-09-29 15:43:33.026354 I VkEffects: idleArm surface=strip type=shimmer inMs=1972 epoch=56
+2026-09-29 15:43:33.106934 I VkSuggestions: strip composing typedLen=4 candidates=15 autocorrect=false top=[REDACTED] locale=en token=48 gen=10
+2026-09-29 15:43:33.164153 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:33.167804 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=57
+2026-09-29 15:43:33.175532 I VkEffects: idleArm surface=strip type=shimmer inMs=1988 epoch=57
+2026-09-29 15:43:33.311443 I VkSuggestions: strip composing typedLen=5 candidates=14 autocorrect=false top=[REDACTED] locale=en token=49 gen=10
+2026-09-29 15:43:33.428396 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=58
+2026-09-29 15:43:33.561405 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:33.562988 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:33.563178 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=50 gen=11
+2026-09-29 15:43:33.581790 I VkEffects: idleArm surface=strip type=shimmer inMs=1844 epoch=58
+2026-09-29 15:43:34.059217 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:34.059317 I VkKeyPreview: show burst=11 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:34.062753 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=59
+2026-09-29 15:43:34.137011 I VkKeyPreview: dismiss burst=11 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:34.137194 I VkKeyPress: keys pressed=47
+2026-09-29 15:43:34.189231 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:34.192718 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=60
+2026-09-29 15:43:34.209316 I VkTextCorrection: rerank composing head len=3→len=3
+2026-09-29 15:43:34.210098 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=52 gen=11
+2026-09-29 15:43:34.212745 I VkEffects: idleArm surface=strip type=shimmer inMs=1976 epoch=60
+2026-09-29 15:43:34.367935 I VkSuggestions: strip composing typedLen=2 candidates=13 autocorrect=false top=[REDACTED] locale=en token=52 gen=11
+2026-09-29 15:43:34.404976 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:34.405854 I VkStripPipeline: staleDrop publishSession token=52 seq=53
+2026-09-29 15:43:34.409065 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=61
+2026-09-29 15:43:34.546254 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=en token=53 gen=11
+2026-09-29 15:43:34.563476 I VkEffects: idleArm surface=strip type=shimmer inMs=1841 epoch=61
+2026-09-29 15:43:34.661092 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:34.664904 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=62
+2026-09-29 15:43:34.762312 I VkEffects: idleArm surface=strip type=shimmer inMs=1898 epoch=62
+2026-09-29 15:43:34.830749 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=en token=54 gen=11
+2026-09-29 15:43:34.844414 I VkStripPipeline: publishLatency seq=55 latencyMs=39
+2026-09-29 15:43:34.861553 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:34.863412 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=63
+2026-09-29 15:43:34.865253 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=63
+2026-09-29 15:43:35.012960 I VkTextCorrection: rerank composing head len=7→len=3
+2026-09-29 15:43:35.014348 I VkSuggestions: strip composing typedLen=5 candidates=13 autocorrect=false top=[REDACTED] locale=en token=55 gen=11
+2026-09-29 15:43:35.500011 I SessionContext: updateAmbientCapture sensitive=false ambientChars=85
+2026-09-29 15:43:35.503928 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=85
+2026-09-29 15:43:35.656329 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:43:35.659136 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:43:35.730812 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:35.730951 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=55 gen=12
+2026-09-29 15:43:36.056552 I SessionContext: updateAmbientCapture sensitive=false ambientChars=85
+2026-09-29 15:43:36.057451 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-09-29 15:43:36.873602 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2012 epoch=63
+2026-09-29 15:43:36.884940 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2023 epoch=63
+2026-09-29 15:43:39.057516 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:39.057621 I VkKeyPreview: show burst=5 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:39.058520 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=64
+2026-09-29 15:43:39.061227 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=64
+2026-09-29 15:43:39.109242 I VkKeyPreview: dismiss burst=5 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:39.109393 I VkKeyPress: keys pressed=52
+2026-09-29 15:43:39.194136 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:43:39.195091 I VkSuggestions: strip composing typedLen=1 candidates=11 autocorrect=false top=[REDACTED] locale=en token=56 gen=12
+2026-09-29 15:43:39.245174 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:39.249241 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=65
+2026-09-29 15:43:39.396661 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=57 gen=12
+2026-09-29 15:43:39.409910 I VkEffects: idleArm surface=strip type=shimmer inMs=1835 epoch=65
+2026-09-29 15:43:39.468356 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=66
+2026-09-29 15:43:39.591139 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-09-29 15:43:39.592587 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:39.592804 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=58 gen=13
+2026-09-29 15:43:39.608187 I VkEffects: idleArm surface=strip type=shimmer inMs=1856 epoch=66
+2026-09-29 15:43:39.682428 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:39.686450 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=67
+2026-09-29 15:43:39.846266 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:43:39.847664 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=59 gen=13
+2026-09-29 15:43:39.868186 I VkEffects: idleArm surface=strip type=shimmer inMs=1813 epoch=67
+2026-09-29 15:43:39.913292 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:39.917009 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=68
+2026-09-29 15:43:40.058929 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=60 gen=13
+2026-09-29 15:43:40.075451 I VkEffects: idleArm surface=strip type=shimmer inMs=1837 epoch=68
+2026-09-29 15:43:40.106084 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:40.107975 I VkEffects: idleArm surface=strip type=shimmer inMs=1997 epoch=69
+2026-09-29 15:43:40.110623 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=69
+2026-09-29 15:43:40.237014 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=61 gen=13
+2026-09-29 15:43:40.355408 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=70
+2026-09-29 15:43:40.482359 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:40.483380 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:40.483520 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=62 gen=14
+2026-09-29 15:43:40.493385 I VkEffects: idleArm surface=strip type=shimmer inMs=1859 epoch=70
+2026-09-29 15:43:40.821867 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:40.825155 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=71
+2026-09-29 15:43:40.956911 I VkTextCorrection: rerank composing head len=2→len=3
+2026-09-29 15:43:40.958391 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=63 gen=14
+2026-09-29 15:43:40.968439 I VkEffects: idleArm surface=strip type=shimmer inMs=1853 epoch=71
+2026-09-29 15:43:41.556402 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=72
+2026-09-29 15:43:41.675611 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=64 gen=14
+2026-09-29 15:43:41.690427 I VkEffects: idleArm surface=strip type=shimmer inMs=1862 epoch=72
+2026-09-29 15:43:42.008481 I SessionContext: updateAmbientCapture sensitive=false ambientChars=92
+2026-09-29 15:43:42.009354 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=7
+2026-09-29 15:43:42.510404 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=73
+2026-09-29 15:43:42.565859 I VkKeyPress: keys pressed=61
+2026-09-29 15:43:42.597235 I VkEffects: idleArm surface=strip type=shimmer inMs=1910 epoch=73
+2026-09-29 15:43:42.641924 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=74
+2026-09-29 15:43:42.791749 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=66 gen=14
+2026-09-29 15:43:42.803348 I VkEffects: idleArm surface=strip type=shimmer inMs=1836 epoch=74
+2026-09-29 15:43:43.753915 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=75
+2026-09-29 15:43:43.863659 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:43:43.864555 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=67 gen=14
+2026-09-29 15:43:43.874790 I VkEffects: idleArm surface=strip type=shimmer inMs=1876 epoch=75
+2026-09-29 15:43:44.042450 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:44.042566 I VkKeyPreview: show burst=6 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:43:44.046346 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=76
+2026-09-29 15:43:44.120369 I VkKeyPreview: dismiss burst=6 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:43:44.204945 I VkTextCorrection: rerank composing head len=3→len=4
+2026-09-29 15:43:44.206168 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=en token=69 gen=14
+2026-09-29 15:43:44.221858 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:44.222264 I VkStripPipeline: staleDrop publishSession token=68 seq=69
+2026-09-29 15:43:44.225666 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=77
+2026-09-29 15:43:44.372655 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:43:44.374504 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=69 gen=14
+2026-09-29 15:43:44.391487 I VkEffects: idleArm surface=strip type=shimmer inMs=1830 epoch=77
+2026-09-29 15:43:44.727714 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=78
+2026-09-29 15:43:44.843650 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:43:44.843842 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=70 gen=15
+2026-09-29 15:43:44.853489 I VkEffects: idleArm surface=strip type=shimmer inMs=1871 epoch=78
+2026-09-29 15:43:45.045222 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:45.049348 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=79
+2026-09-29 15:43:45.222429 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=en token=71 gen=15
+2026-09-29 15:43:45.239161 I VkStripPipeline: publishLatency seq=72 latencyMs=38
+2026-09-29 15:43:45.255228 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:45.257240 I VkEffects: idleArm surface=strip type=shimmer inMs=1997 epoch=80
+2026-09-29 15:43:45.259893 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=80
+2026-09-29 15:43:45.397412 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:45.400862 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=81
+2026-09-29 15:43:45.414539 I VkSuggestions: strip composing typedLen=2 candidates=11 autocorrect=false top=[REDACTED] locale=en token=73 gen=15
+2026-09-29 15:43:45.420375 I VkEffects: idleArm surface=strip type=shimmer inMs=1977 epoch=81
+2026-09-29 15:43:45.540894 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:45.543573 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=82
+2026-09-29 15:43:45.558892 I VkSuggestions: strip composing typedLen=3 candidates=12 autocorrect=false top=[REDACTED] locale=en token=74 gen=15
+2026-09-29 15:43:45.570699 I VkEffects: idleArm surface=strip type=shimmer inMs=1970 epoch=82
+2026-09-29 15:43:45.613452 I VkKeyPress: keys pressed=70
+2026-09-29 15:43:45.655449 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:43:45.659176 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=83
+2026-09-29 15:43:45.685364 I VkSuggestions: strip composing typedLen=4 candidates=12 autocorrect=false top=[REDACTED] locale=en token=75 gen=15
+2026-09-29 15:43:45.687566 I VkEffects: idleArm surface=strip type=shimmer inMs=1968 epoch=83
+2026-09-29 15:43:45.781496 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=84
+2026-09-29 15:43:45.783423 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=84
+2026-09-29 15:43:45.788212 I VkSuggestions: strip composing typedLen=5 candidates=10 autocorrect=false top=[REDACTED] locale=en token=76 gen=15
+2026-09-29 15:43:45.844067 I VkStripPipeline: staleDrop generation token=76 stripGen=15
+2026-09-29 15:43:45.906404 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:43:45.907392 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-09-29 15:43:45.907523 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=76 gen=16
+2026-09-29 15:43:46.598884 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:43:46.609300 I VkPanels: ▶ open assist
+2026-09-29 15:43:46.807980 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:43:46.830780 I VkPanels: ▶ open popui_assist
+2026-09-29 15:43:47.061327 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:43:47.062369 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=13
+2026-09-29 15:43:47.098049 I OnDeviceAssist: ✓ local grammar (en) in=65 out=66 — skipping llama
+2026-09-29 15:43:47.099963 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:43:47.814491 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2033 epoch=84
+2026-09-29 15:44:00.617525 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:03.401247 I OnDeviceAssist: ✓ assist (ime) task=grammar 2784ms in=65 out=65
+2026-09-29 15:44:06.440307 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:09.059392 I OnDeviceAssist: ✓ assist (ime) task=grammar 2619ms in=65 out=65
+2026-09-29 15:44:11.485601 I VkPanels: ○ close assist
+2026-09-29 15:44:11.515607 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=25735 epoch=84
+2026-09-29 15:44:12.500893 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:44:12.511958 I VkPanels: ▶ open menu
+2026-09-29 15:44:12.519402 I VkPanels: ▶ open popui_menu
+2026-09-29 15:44:12.519621 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-09-29 15:44:12.525751 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:44:12.529017 I VkLocaleAssets: ○ ready en-US (cached)
+2026-09-29 15:44:12.529147 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-09-29 15:44:12.535964 I VkEffects: idleArm surface=strip type=shimmer inMs=1988 epoch=85
+2026-09-29 15:44:12.625435 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=82 gen=16
+2026-09-29 15:44:14.545733 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2021 epoch=85
+2026-09-29 15:44:15.547910 I VkKeyPress: keys pressed=73
+2026-09-29 15:44:15.548334 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-09-29 15:44:15.549177 I VkPanels: ○ close menu
+2026-09-29 15:44:15.549624 I VkPanels: ○ close menu
+2026-09-29 15:44:15.627860 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3103 epoch=85
+2026-09-29 15:44:15.669345 I VkSettings: ▶ activity open spellchecker=false
+2026-09-29 15:44:15.884019 I VkTyping: ○ hidden
+2026-09-29 15:44:15.890662 I VkSettings: → screen settings
+2026-09-29 15:44:15.969707 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-09-29 15:44:15.969911 I LlmEngineClient: release on IME hidden: defer 19999ms (short-hide grace)
+2026-09-29 15:44:16.988431 I VkSettings: → screen ai_settings
+2026-09-29 15:44:19.566773 I VkSettings: → screen settings
+2026-09-29 15:44:19.957110 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-09-29 15:44:20.212704 I VkEffects: idleArm surface=strip type=shimmer inMs=1871 epoch=87
+2026-09-29 15:44:20.223831 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1860 epoch=87
+2026-09-29 15:44:20.227889 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:44:20.346357 I VkTyping: ○ hidden
+2026-09-29 15:44:20.512073 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:44:20.512315 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=557ms
+2026-09-29 15:44:21.762217 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-09-29 15:44:21.923294 I VkEffects: idleArm surface=strip type=shimmer inMs=1950 epoch=89
+2026-09-29 15:44:21.928107 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1945 epoch=89
+2026-09-29 15:44:21.930343 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:44:22.015314 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=92 gen=16
+2026-09-29 15:44:22.281324 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:44:22.281466 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=522ms
+2026-09-29 15:44:22.870785 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:44:22.881384 I VkPanels: ▶ open assist
+2026-09-29 15:44:22.993120 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:44:23.008011 I VkPanels: ▶ open popui_assist
+2026-09-29 15:44:23.085870 I OnDeviceAssist: ✓ local grammar (en) in=65 out=66 — skipping llama
+2026-09-29 15:44:23.086305 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:44:23.900802 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2027 epoch=89
+2026-09-29 15:44:24.803347 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:27.999326 I OnDeviceAssist: ✓ assist (ime) task=grammar 3196ms in=65 out=65
+2026-09-29 15:44:30.825864 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:36.474631 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 5649ms in=65 out=63
+2026-09-29 15:44:46.640697 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=63 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:47.266112 I VkStore: catalog not-modified version=180
+2026-09-29 15:44:47.329474 I VkStore: sync imported=0 catalog=180
+2026-09-29 15:44:49.340337 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 2700ms in=63 out=65
+2026-09-29 15:44:50.783541 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:44:53.376119 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 2593ms in=65 out=60
+2026-09-29 15:44:55.001889 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=60 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:00.459301 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 5458ms in=60 out=57
+2026-09-29 15:45:02.453448 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:07.794648 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 5341ms in=65 out=63
+2026-09-29 15:45:12.827542 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:18.170902 I OnDeviceAssist: ✓ assist (ime) task=tone_casual 5343ms in=65 out=63
+2026-09-29 15:45:19.919067 I OnDeviceAssist: ▶ assist_ipc task=concise in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:25.515657 I OnDeviceAssist: ✓ assist (ime) task=concise 5596ms in=65 out=60
+2026-09-29 15:45:28.016955 I VkSettings: ▶ activity open spellchecker=false
+2026-09-29 15:45:28.120483 I VkSettings: → screen ai_settings
+2026-09-29 15:45:28.163845 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=66290 epoch=89
+2026-09-29 15:45:28.174716 I VkPanels: ○ close assist
+2026-09-29 15:45:28.174958 I VkTyping: ○ hidden
+2026-09-29 15:45:32.549360 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-09-29 15:45:32.702946 I VkEffects: idleArm surface=strip type=shimmer inMs=1954 epoch=91
+2026-09-29 15:45:32.707112 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1950 epoch=91
+2026-09-29 15:45:32.707996 I VkLocaleAssets: preload predictors en-US
+2026-09-29 15:45:32.795517 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=98 gen=16
+2026-09-29 15:45:33.080683 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:45:33.080819 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=534ms
+2026-09-29 15:45:33.081863 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:45:33.082248 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-09-29 15:45:33.702812 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:45:33.714976 I VkPanels: ▶ open assist
+2026-09-29 15:45:33.859056 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-09-29 15:45:33.873344 I VkPanels: ▶ open popui_assist
+2026-09-29 15:45:33.939839 I OnDeviceAssist: ✓ local grammar (en) in=65 out=66 — skipping llama
+2026-09-29 15:45:33.940862 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=en
+2026-09-29 15:45:34.702947 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2045 epoch=91
+2026-09-29 15:45:35.849575 I OnDeviceAssist: ▶ assist_ipc task=grammar in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:38.521707 I OnDeviceAssist: ✓ assist (ime) task=grammar 2672ms in=65 out=65
+2026-09-29 15:45:40.103539 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:45.694921 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 5592ms in=65 out=63
+2026-09-29 15:45:47.263814 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=65 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:45:52.555972 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 5292ms in=65 out=60
+2026-09-29 15:45:55.366470 I VkPanels: ○ close assist
+2026-09-29 15:45:55.397258 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=22740 epoch=91
+2026-09-29 15:45:56.044006 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=92
+2026-09-29 15:45:56.046542 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=92
+2026-09-29 15:45:56.106996 I VkStripPipeline: langSwitch main=en-US token=104 gen=17
+2026-09-29 15:45:56.110244 I VkLanguageSettings: select pt-BR
+2026-09-29 15:45:56.150069 I VkLanguageSettings: cycle dir=-1 → pt-BR
+2026-09-29 15:45:56.156352 I VkEffects: idleArm surface=strip type=shimmer inMs=1967 epoch=94
+2026-09-29 15:45:56.161897 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1962 epoch=94
+2026-09-29 15:45:56.162871 I VkLocaleAssets: preload predictors pt-BR
+2026-09-29 15:45:56.162894 I VkMultilingual: reset main=pt-BR locales=[pt] count=1
+2026-09-29 15:45:56.165121 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-09-29 15:45:56.176115 I VkDictionaries: ✓ open emoji pt-BR
+2026-09-29 15:45:56.189975 I VkDictionaries: ✓ open main pt-BR
+2026-09-29 15:45:56.190036 I VkDictionaries: collection pt-BR dicts=2 emoji=true
+2026-09-29 15:45:58.129624 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2006 epoch=94
+2026-09-29 15:45:58.146200 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2023 epoch=94
+2026-09-29 15:45:58.357782 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:45:58.368739 I VkPanels: ▶ open menu
+2026-09-29 15:45:58.373834 I VkPanels: ▶ open popui_menu
+2026-09-29 15:45:58.374069 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-09-29 15:45:58.379770 I VkLocaleAssets: preload predictors pt-BR
+2026-09-29 15:45:58.382867 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-09-29 15:45:58.383138 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-09-29 15:45:58.384128 I VkEffects: idleArm surface=strip type=shimmer inMs=1994 epoch=95
+2026-09-29 15:45:58.475221 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:45:58.477402 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:45:58.477649 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=109 gen=17
+2026-09-29 15:45:59.955223 I VkKeyPress: keys pressed=74
+2026-09-29 15:45:59.955738 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-09-29 15:45:59.956733 I VkPanels: ○ close menu
+2026-09-29 15:45:59.957219 I VkPanels: ○ close menu
+2026-09-29 15:46:00.023691 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=355 epoch=95
+2026-09-29 15:46:00.052094 I VkSettings: ▶ activity open spellchecker=false
+2026-09-29 15:46:00.236318 I VkTyping: ○ hidden
+2026-09-29 15:46:00.242913 I VkSettings: → screen settings
+2026-09-29 15:46:00.321278 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-09-29 15:46:00.321371 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-09-29 15:46:00.386559 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=95
+2026-09-29 15:46:00.400369 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2022 epoch=95
+2026-09-29 15:46:02.264886 I VkSettings: → screen ai_settings
+2026-09-29 15:46:04.500989 I VkSettings: → screen settings
+2026-09-29 15:46:04.966133 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-09-29 15:46:04.975543 I VkDictionaries: ✓ open emoji pt-BR
+2026-09-29 15:46:05.129858 I VkEffects: idleArm surface=strip type=shimmer inMs=1953 epoch=97
+2026-09-29 15:46:05.134089 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1948 epoch=97
+2026-09-29 15:46:05.144518 I VkLocaleAssets: preload predictors pt-BR
+2026-09-29 15:46:05.223390 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=115 gen=17
+2026-09-29 15:46:05.488306 I SessionContext: updateAmbientCapture sensitive=false ambientChars=98
+2026-09-29 15:46:05.488436 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=98 sensitive=false attempt=0 elapsed=523ms
+2026-09-29 15:46:07.094521 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=98
+2026-09-29 15:46:07.114931 I VkEffects: idleArm surface=strip type=shimmer inMs=1977 epoch=98
+2026-09-29 15:46:07.507538 I VkKeyPress: keys pressed=75
+2026-09-29 15:46:07.909334 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:07.912400 I VkStripPipeline: staleDrop typedWord token=116 seq=107
+2026-09-29 15:46:08.181062 I VkTextCorrection: rerank composing head len=2→len=2
+2026-09-29 15:46:08.182110 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:08.191010 I VkStripPipeline: staleDrop typedWord token=116 seq=108
+2026-09-29 15:46:08.345068 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:08.347965 I VkStripPipeline: staleDrop typedWord token=116 seq=109
+2026-09-29 15:46:08.652590 I VkSuggestions: strip composing typedLen=5 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:08.961337 I VkFastTyping: async fetch style=[REDACTED] seq=-1
+2026-09-29 15:46:08.989967 I VkTextCorrection: rerank composing head len=1→len=2
+2026-09-29 15:46:08.991711 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.131454 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.141064 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2050 epoch=98
+2026-09-29 15:46:09.146663 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2055 epoch=98
+2026-09-29 15:46:09.312879 I VkTextCorrection: rerank composing head len=1→len=2
+2026-09-29 15:46:09.313823 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.322487 I VkTextCorrection: rerank composing head len=1→len=2
+2026-09-29 15:46:09.475987 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.486727 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.643202 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.890021 I VkTextCorrection: rerank composing head len=1→len=2
+2026-09-29 15:46:09.891414 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:09.903365 I VkTextCorrection: rerank composing head len=1→len=2
+2026-09-29 15:46:09.986935 I VkTextCorrection: rerank composing head len=4→len=4
+2026-09-29 15:46:09.987722 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.001428 I VkTextCorrection: rerank composing head len=4→len=4
+2026-09-29 15:46:10.236563 I VkTextCorrection: rerank composing head len=3→len=7
+2026-09-29 15:46:10.237324 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.246599 I VkTextCorrection: rerank composing head len=3→len=7
+2026-09-29 15:46:10.247407 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.252827 I VkStripPipeline: staleDrop typedWord token=116 seq=116
+2026-09-29 15:46:10.464381 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.474536 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.477953 I VkStripPipeline: staleDrop typedWord token=116 seq=117
+2026-09-29 15:46:10.528300 I VkKeyPress: keys pressed=127
+2026-09-29 15:46:10.831732 I VkSuggestions: strip composing typedLen=0 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.840319 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:10.956577 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:46:10.956973 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:10.957080 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=116 gen=17
+2026-09-29 15:46:12.404214 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:12.404287 I VkKeyPreview: show burst=7 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:46:12.405430 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=99
+2026-09-29 15:46:12.407895 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=99
+2026-09-29 15:46:12.487994 I VkKeyPreview: dismiss burst=7 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:46:12.557190 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:12.560402 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=100
+2026-09-29 15:46:12.568343 I VkTextCorrection: rerank composing head len=4→len=2
+2026-09-29 15:46:12.568905 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=118 gen=17
+2026-09-29 15:46:12.578886 I VkEffects: idleArm surface=strip type=shimmer inMs=1978 epoch=100
+2026-09-29 15:46:12.630126 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:12.636217 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=101
+2026-09-29 15:46:12.708542 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=119 gen=17
+2026-09-29 15:46:12.714017 I VkStripPipeline: staleDrop token token=118 stripGen=17
+2026-09-29 15:46:12.717580 I VkStripPipeline: staleDrop typedWord token=119 seq=121
+2026-09-29 15:46:12.796710 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=119 gen=17
+2026-09-29 15:46:12.811700 I VkStripPipeline: publishLatency seq=122 latencyMs=37
+2026-09-29 15:46:12.814028 I VkEffects: idleArm surface=strip type=shimmer inMs=1815 epoch=101
+2026-09-29 15:46:12.862766 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:12.866373 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=102
+2026-09-29 15:46:13.029430 I VkSuggestions: strip composing typedLen=4 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=120 gen=17
+2026-09-29 15:46:13.043717 I VkStripPipeline: publishLatency seq=123 latencyMs=33
+2026-09-29 15:46:13.047541 I VkEffects: idleArm surface=strip type=shimmer inMs=1815 epoch=102
+2026-09-29 15:46:13.651276 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:13.654403 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:13.717306 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=3, len=3
+2026-09-29 15:46:13.717404 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-09-29 15:46:13.718279 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:13.718370 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=120 gen=18
+2026-09-29 15:46:14.873067 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=102
+2026-09-29 15:46:14.901160 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2039 epoch=102
+2026-09-29 15:46:16.924191 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:16.924296 I VkKeyPreview: show burst=4 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:46:16.925583 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=103
+2026-09-29 15:46:16.928051 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=103
+2026-09-29 15:46:16.993863 I VkKeyPreview: dismiss burst=4 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:46:16.993996 I VkKeyPress: keys pressed=140
+2026-09-29 15:46:17.104476 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:17.110389 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=104
+2026-09-29 15:46:17.113874 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:46:17.114895 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=122 gen=18
+2026-09-29 15:46:17.123050 I VkEffects: idleArm surface=strip type=shimmer inMs=1980 epoch=104
+2026-09-29 15:46:17.216624 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=122 gen=18
+2026-09-29 15:46:17.385660 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:17.389149 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=105
+2026-09-29 15:46:17.526426 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=123 gen=18
+2026-09-29 15:46:17.541864 I VkEffects: idleArm surface=strip type=shimmer inMs=1844 epoch=105
+2026-09-29 15:46:17.600341 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:17.603809 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=106
+2026-09-29 15:46:17.689218 I VkTextCorrection: rerank composing head len=4→len=2
+2026-09-29 15:46:17.690149 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=124 gen=18
+2026-09-29 15:46:17.707842 I VkEffects: idleArm surface=strip type=shimmer inMs=1892 epoch=106
+2026-09-29 15:46:18.703902 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:18.706713 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:18.778907 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=5, len=3
+2026-09-29 15:46:18.780645 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:18.780796 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=124 gen=19
+2026-09-29 15:46:19.599619 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2000 epoch=106
+2026-09-29 15:46:19.628268 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2029 epoch=106
+2026-09-29 15:46:19.689609 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:19.691940 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:19.760097 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:46:19.761145 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:19.761259 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=124 gen=20
+2026-09-29 15:46:20.510692 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:20.510746 I VkKeyPreview: show burst=4 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-09-29 15:46:20.511763 I VkEffects: idleArm surface=strip type=shimmer inMs=1999 epoch=107
+2026-09-29 15:46:20.513980 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=107
+2026-09-29 15:46:20.571390 I VkKeyPreview: dismiss burst=4 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-09-29 15:46:20.571464 I VkKeyPress: keys pressed=144
+2026-09-29 15:46:20.660598 I VkTextCorrection: rerank composing head len=3→len=2
+2026-09-29 15:46:20.662039 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=125 gen=20
+2026-09-29 15:46:20.703737 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-09-29 15:46:20.705631 I VkEffects: idleArm surface=strip type=shimmer inMs=1998 epoch=108
+2026-09-29 15:46:20.707990 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=108
+2026-09-29 15:46:20.841086 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=126 gen=20
+2026-09-29 15:46:21.326937 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:21.330035 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:21.391474 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+2026-09-29 15:46:21.391656 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-09-29 15:46:21.392875 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:21.393017 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=21
+2026-09-29 15:46:22.245033 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:22.247840 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:22.318349 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:46:22.319818 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:22.320007 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=22
+2026-09-29 15:46:22.711879 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=108
+2026-09-29 15:46:22.738047 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2035 epoch=108
+2026-09-29 15:46:23.011724 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:23.013914 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:23.093917 I VkNgram: contextual locale=pt prev=[REDACTED] → len=8, len=3, len=3
+2026-09-29 15:46:23.094093 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-09-29 15:46:23.096018 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:23.096193 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=23
+2026-09-29 15:46:23.866915 I VkAutocorrect: picked: [REDACTED]
+2026-09-29 15:46:23.870162 I VkVibeCards: tap word=[REDACTED] card=[REDACTED] shown=false
+2026-09-29 15:46:23.937599 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-09-29 15:46:23.938953 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-09-29 15:46:23.939180 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=126 gen=24
+2026-09-29 15:46:23.978252 I VkStripPipeline: publishLatency seq=136 latencyMs=42
+2026-09-29 15:46:24.202897 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:46:24.213596 I VkPanels: ▶ open assist
+2026-09-29 15:46:24.443719 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+2026-09-29 15:46:24.460880 I VkPanels: ▶ open popui_assist
+2026-09-29 15:46:24.531566 I OnDeviceAssist: ✓ local grammar (pt) in=31 out=32 — skipping llama
+2026-09-29 15:46:24.532530 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+2026-09-29 15:46:26.304961 I OnDeviceAssist: ▶ assist_ipc task=grammar in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:29.036902 I OnDeviceAssist: ✓ assist (ime) task=grammar 2731ms in=31 out=32
+2026-09-29 15:46:30.861029 I OnDeviceAssist: ▶ assist_ipc task=rewrite_sentence in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:35.187244 I OnDeviceAssist: ✓ assist (ime) task=rewrite_sentence 4326ms in=31 out=0
+2026-09-29 15:46:37.413603 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:41.898961 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 4485ms in=31 out=27
+2026-09-29 15:46:44.199526 I OnDeviceAssist: ▶ assist_ipc task=tone_pro in=27 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:48.076431 I OnDeviceAssist: ✓ assist (ime) task=tone_pro 3877ms in=27 out=0
+2026-09-29 15:46:49.879520 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:53.919406 I OnDeviceAssist: ✓ assist (ime) task=tone_casual 4040ms in=31 out=23
+2026-09-29 15:46:54.842106 I OnDeviceAssist: ▶ assist_ipc task=tone_casual in=23 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:46:58.575952 I OnDeviceAssist: ✓ assist (ime) task=tone_casual 3733ms in=23 out=15
+2026-09-29 15:47:02.393486 I OnDeviceAssist: ▶ assist_ipc task=concise in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:04.418392 I OnDeviceAssist: ✓ assist (ime) task=concise 2025ms in=31 out=27
+2026-09-29 15:47:07.574201 I OnDeviceAssist: ✓ instant task=emojify tier=LEXICON lang=pt
+2026-09-29 15:47:09.852943 I OnDeviceAssist: ▶ assist_ipc task=voice_clean in=31 chars model=qwen3-0.6b-instruct-q4_0.gguf
+2026-09-29 15:47:11.796503 I OnDeviceAssist: ✓ assist (ime) task=voice_clean 1944ms in=31 out=32
+2026-09-29 15:47:13.230487 I VkPanels: ○ close assist
+2026-09-29 15:47:13.996813 I VkKeyPress: strip pick key=[REDACTED]
+2026-09-29 15:47:14.007342 I VkPanels: ▶ open menu
+2026-09-29 15:47:14.012747 I VkPanels: ▶ open popui_menu
+2026-09-29 15:47:14.012941 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-09-29 15:47:14.020387 I VkLocaleAssets: preload predictors pt-BR
+2026-09-29 15:47:14.024141 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-09-29 15:47:14.024290 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-09-29 15:47:14.028210 I VkEffects: idleArm surface=strip type=shimmer inMs=1991 epoch=109
+2026-09-29 15:47:14.073002 I VkTextCorrection: rerank composing head len=4→len=2
+2026-09-29 15:47:14.074209 I VkSuggestions: strip composing typedLen=4 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=132 gen=24
+2026-09-29 15:47:16.051709 I VkEffects: idleDraw surface=strip type=shimmer afterMs=2032 epoch=109
+2026-09-29 15:47:16.918761 I VkKeyPress: keys pressed=146
+2026-09-29 15:47:16.919306 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-09-29 15:47:16.921986 I VkPanels: ○ close menu
+2026-09-29 15:47:16.922395 I VkPanels: ○ close menu
+2026-09-29 15:47:16.983577 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2964 epoch=109
+2026-09-29 15:47:17.011385 I VkSettings: ▶ activity open spellchecker=false
+2026-09-29 15:47:17.169189 I VkTyping: ○ hidden
+2026-09-29 15:47:19.823367 I VkSettings: → screen about
