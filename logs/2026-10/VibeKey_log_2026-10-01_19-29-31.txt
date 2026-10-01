@@ -1,0 +1,305 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.923 (5283) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: pt-BR
+system: pt-BR
+enabled: en-US,es,pt-BR
+redaction: v5
+report: 649777f7
+generated: 2026-10-01T19:29:27.124258Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.923 (5283) ===
+10-01 15:28:50.007  7002  7002 I VkNgram : registered lang=vi,th source=bundled
+10-01 15:28:50.038  7002  7002 I VkEffects: reload keyPress=neon_pulse popup=scale popupFx=true blurPx=0 glow=true stickers=true fontScale=0.92 font=orbitron bgFx=mesh bgFxInt=0.65 overlay=none/0.25 bgGrad=radial visible=true idle=breathe spacebarIdle=glow_breathe frameGlow=standard/0.72 sound=true(sci_fi) vibrate=true(sharp)
+10-01 15:28:50.038  7002  7111 I VkMultilingual: reset main=pt-BR locales=[pt] count=1
+10-01 15:28:50.042  7002  7111 I VkDictionaries: ▶ async reload main dicts locales=1
+10-01 15:28:50.061  7002  7111 I VkDictionaries: ✓ open emoji pt-BR
+10-01 15:28:50.064  7002  7111 I VkDictionaries: ✓ open main pt-BR
+10-01 15:28:50.064  7002  7111 I VkDictionaries: collection pt-BR dicts=2 emoji=true
+10-01 15:28:50.069  7002  7155 I VkLocaleAssets: ▶ startup download begin
+10-01 15:28:50.077  7002  7155 I VkStartupLoad: ▶ dictionary batch begin recentInstall=false
+10-01 15:28:50.079  7002  7155 I VkLocaleAssets: ▶ batch source=startup count=3 [pt-BR,en-US,es]
+10-01 15:28:50.119  7002  7155 I VkStartupLoad: ○ predictor preload deferred pt-BR
+10-01 15:28:50.134  7002  7155 I VkLocaleAssets: ○ ready pt-BR (cached)
+10-01 15:28:50.159  7002  7155 I VkStartupLoad: ○ predictor preload deferred en-US
+10-01 15:28:50.175  7002  7155 I VkLocaleAssets: ○ ready en-US (cached)
+10-01 15:28:50.194  7002  7155 I VkStartupLoad: ○ predictor preload deferred es
+10-01 15:28:50.196  7002  7155 I VkLocaleAssets: ○ ready es (cached)
+10-01 15:28:50.197  7002  7155 I VkLocaleAssets: ✓ batch source=startup locales=3 fetched=0
+10-01 15:28:50.199  7002  7155 I VkStartupLoad: ✓ dictionary batch done
+10-01 15:28:50.199  7002  7154 I VkStartupLoad: ▶ predictor preload flush count=3
+10-01 15:28:50.199  7002  7154 I VkLocaleAssets: preload predictors pt-BR
+10-01 15:28:50.201  7002  7155 I VkLocaleAssets: ✓ startup done locales=3 retries=0
+10-01 15:28:50.285  7002  7161 I VkNgram : model ready locale=pt-BR gen=1 84ms
+10-01 15:28:50.366  7002  7002 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+10-01 15:28:50.382  7002  7152 I VkDictionaries: ✓ open emoji pt-BR
+10-01 15:28:50.486  7002  7002 I VkEffects: idleArm surface=strip type=breathe inMs=1924 epoch=7
+10-01 15:28:50.499  7002  7002 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=1910 epoch=7
+10-01 15:28:50.664  7002  7123 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-01 15:28:50.666  7002  7123 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-01 15:28:50.667  7002  7123 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=3 gen=0
+10-01 15:28:50.887  7002  7002 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-01 15:28:50.887  7002  7002 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=523ms
+10-01 15:28:50.888  7002  7002 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-01 15:28:50.888  7002  7156 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+10-01 15:28:50.979  7002  7002 I VkLocaleAssets: preload predictors pt-BR
+10-01 15:28:52.200  7002  7112 I VkLocaleAssets: preload predictors en-US
+10-01 15:28:52.274  7002  7203 I VkNgram : model ready locale=en-US gen=1 73ms
+10-01 15:28:52.607  7124  7147 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 1312ms
+10-01 15:28:52.643  7002  7002 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2234 epoch=7
+10-01 15:28:52.687  7002  7002 I VkEffects: idleDraw surface=strip type=breathe afterMs=2278 epoch=7
+10-01 15:28:52.886  7002  7002 I VkKeyPress: strip pick key=[REDACTED]
+10-01 15:28:52.896  7002  7002 I VkPanels: ▶ open menu
+10-01 15:28:52.907  7002  7002 I VkPanels: ▶ open popui_menu
+10-01 15:28:52.907  7002  7154 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+10-01 15:28:52.914  7002  7154 I VkLocaleAssets: preload predictors pt-BR
+10-01 15:28:52.923  7002  7154 I VkLocaleAssets: ○ ready pt-BR (cached)
+10-01 15:28:52.923  7002  7154 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+10-01 15:28:52.928  7002  7002 I VkEffects: idleArm surface=strip type=breathe inMs=1983 epoch=8
+10-01 15:28:53.024  7002  7123 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=5 gen=0
+10-01 15:28:54.202  7002  7112 I VkLocaleAssets: preload predictors es
+10-01 15:28:54.281  7002  7203 I VkNgram : model ready locale=es gen=1 79ms
+10-01 15:28:54.645  7002  7002 I VkKeyPress: keys pressed=1
+10-01 15:28:54.645  7002  7002 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+10-01 15:28:54.645  7002  7002 I VkPanels: ○ close menu
+10-01 15:28:54.646  7002  7002 I VkPanels: ○ close menu
+10-01 15:28:54.785  7002  7002 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=126 epoch=8
+10-01 15:28:54.874  7002  7002 I VkSettings: ▶ activity open spellchecker=false
+10-01 15:28:54.903  7002  7002 I VkTyping: ○ hidden
+10-01 15:28:54.997  7002  7112 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-01 15:28:54.997  7002  7112 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+10-01 15:28:55.119  7002  7002 I VkEffects: idleDraw surface=strip type=breathe afterMs=2208 epoch=8
+10-01 15:28:55.121  7002  7002 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2210 epoch=8
+10-01 15:28:55.141  7002  7002 I VkSettings: → screen settings
+10-01 15:29:06.310  7002  7002 I VkSettings: → screen dictionaries
+10-01 15:29:07.750  7002  7002 I VkSettings: → screen settings
+10-01 15:29:08.830  7002  7002 I VkSettings: → screen languages
+10-01 15:29:10.103  7002  7002 I VkSettings: → screen settings
+10-01 15:29:11.360  7002  7002 I VkSettings: → screen preferences
+10-01 15:29:12.622  7002  7002 I VkSettings: → screen settings
+10-01 15:29:17.594  7002  7002 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+10-01 15:29:17.681  7002  7156 I LlmEngineClient: release on IME hidden: engine torn down (force=false)
+10-01 15:29:17.706  7002  7002 I VkEffects: idleArm surface=strip type=breathe inMs=1943 epoch=10
+10-01 15:29:17.711  7002  7002 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=1938 epoch=10
+10-01 15:29:17.730  7002  7002 I VkLocaleAssets: preload predictors pt-BR
+10-01 15:29:17.822  7002  7123 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=11 gen=0
+10-01 15:29:18.117  7002  7002 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-01 15:29:18.117  7002  7002 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=527ms
+10-01 15:29:18.118  7002  7002 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-01 15:29:18.118  7002  7154 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+10-01 15:29:19.650  7002  7002 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2001 epoch=10
+10-01 15:29:19.678  7002  7002 I VkEffects: idleDraw surface=strip type=breathe afterMs=2029 epoch=10
+10-01 15:29:20.785  7002  7002 I VkKeyPress: strip pick key=[REDACTED]
+10-01 15:29:20.794  7002  7002 I VkPanels: ▶ open menu
+10-01 15:29:20.801  7002  7002 I VkPanels: ▶ open popui_menu
+10-01 15:29:20.801  7002  7154 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-01 15:29:20.801  7002  7154 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-01 15:29:20.810  7002  7002 I VkEffects: idleArm surface=strip type=breathe inMs=1994 epoch=11
+10-01 15:29:22.041  7002  7002 I VkKeyPress: keys pressed=2
+10-01 15:29:22.042  7002  7002 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+10-01 15:29:22.042  7002  7002 I VkPanels: ○ close menu
+10-01 15:29:22.043  7002  7002 I VkPanels: ○ close menu
+10-01 15:29:22.100  7002  7002 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=704 epoch=11
+10-01 15:29:22.144  7002  7002 I VkSettings: ▶ activity open spellchecker=false
+10-01 15:29:22.165  7002  7002 I VkTyping: ○ hidden
+10-01 15:29:22.817  7002  7002 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2013 epoch=11
+10-01 15:29:22.832  7002  7002 I VkEffects: idleDraw surface=strip type=breathe afterMs=2028 epoch=11
+10-01 15:29:24.870  7002  7002 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-10-01 14:05:07.124839 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:05:07.126530 I VkThemeApply: heal source=snapshot blur dp→px stored=28,0→105,0
+2026-10-01 14:05:07.126760 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-01 14:05:07.136731 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-01 14:05:07.137156 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh bgGrad=radial press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-01 14:05:07.140764 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=33 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-01 14:05:07.910852 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-01 14:05:07.919517 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:07:33.491185 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 622ms
+2026-10-01 14:08:15.760277 I VkVault: ▶ try item=[REDACTED] title=len=23
+2026-10-01 14:08:16.001358 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:08:16.003087 I VkThemeApply: heal source=snapshot blur dp→px stored=25,0→93,8
+2026-10-01 14:08:16.003557 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-01 14:08:16.034084 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=130
+2026-10-01 14:08:16.034577 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=503 allColorsLen=1149 font=orbitron sound=retro haptic=heavy bgFx=mesh bgGrad=linear press=neon_pulse idle=breathe overlay=crt popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-10-01 14:08:16.037640 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=33 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=retro ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=93.75 installSalt=absent
+2026-10-01 14:08:16.039552 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-10-01 14:08:16.040809 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-10-01 14:08:16.320213 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=8 cached=true sound=len=5 cached=true
+2026-10-01 14:08:16.325669 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:08:17.724440 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 546ms
+2026-10-01 14:08:22.685203 I VkVault: ▶ try item=[REDACTED] title=len=15
+2026-10-01 14:08:24.301871 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:08:24.303600 I VkThemeApply: heal source=snapshot blur dp→px stored=150,0→150,0
+2026-10-01 14:08:24.342064 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=130
+2026-10-01 14:08:24.342619 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=136 colorsLen=507 allColorsLen=1171 font=google-sans sound=click haptic=light bgFx=mesh bgGrad=none press=scale idle=none overlay=none popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=150
+2026-10-01 14:08:24.343856 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=32 themeKey=[REDACTED] ai_font_family=google-sans ai_sound_theme=click ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=150.00 installSalt=absent
+2026-10-01 14:08:24.344479 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-10-01 14:08:24.344933 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-10-01 14:08:24.758507 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=11 cached=true sound=len=5 cached=true
+2026-10-01 14:08:24.763093 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:08:42.114202 I VkVault: ▶ claim item=[REDACTED] kind=vktheme
+2026-10-01 14:08:42.129930 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-01 14:08:44.241514 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:08:44.244344 I VkThemeApply: heal source=snapshot blur dp→px stored=150,0→150,0
+2026-10-01 14:08:44.248731 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=130
+2026-10-01 14:08:44.249571 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=136 colorsLen=507 allColorsLen=1171 font=google-sans sound=click haptic=light bgFx=mesh bgGrad=none press=scale idle=none overlay=none popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=150
+2026-10-01 14:08:44.253913 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=32 themeKey=[REDACTED] ai_font_family=google-sans ai_sound_theme=click ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=150.00 installSalt=absent
+2026-10-01 14:08:44.256676 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-10-01 14:08:44.257743 I VkVault: ✓ claimApply item=[REDACTED] theme=[REDACTED] ok=true
+2026-10-01 14:08:44.260612 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=11 cached=true sound=len=5 cached=true
+2026-10-01 14:08:47.552707 I VkVault: ▶ try item=[REDACTED] title=len=15
+2026-10-01 14:08:47.820825 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:08:47.822871 I VkThemeApply: heal source=snapshot blur dp→px stored=24,0→90,0
+2026-10-01 14:08:47.863726 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=131
+2026-10-01 14:08:47.864215 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=508 allColorsLen=1158 font=pixelify-sans sound=retro haptic=sharp bgFx=mesh bgGrad=linear press=neon_pulse idle=shimmer overlay=scanlines popup=scale glow=true frameGlow=none/0.00 fontScale=0.95 blurDp=24
+2026-10-01 14:08:47.866999 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=33 themeKey=[REDACTED] ai_font_family=pixelify-sans ai_sound_theme=retro ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.95 ai_bg_blur_radius=90.00 installSalt=absent
+2026-10-01 14:08:47.869307 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-10-01 14:08:47.869956 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-10-01 14:08:48.096767 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-01 14:08:48.101805 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:09:46.251764 I VkThemes: ▶ tap generate ref=false descLen=16
+2026-10-01 14:09:46.335139 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-10-01 14:09:46.335562 I VkThemeApply: ▶ begin source=favorites theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:09:46.361527 I VkThemeApply: ✓ commit source=favorites theme=[REDACTED] effectKeys=135
+2026-10-01 14:09:46.361920 I VkThemeApply: snapshot source=favorites theme=[REDACTED] item=[REDACTED] effects=135 colorsLen=507 allColorsLen=1171 font=google-sans sound=click haptic=light bgFx=mesh bgGrad=none press=scale idle=none overlay=none popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurPx=150
+2026-10-01 14:09:46.364098 I VkThemeApply: ✓ verify source=favorites theme=[REDACTED] ok=true checked=31 themeKey=[REDACTED] ai_font_family=google-sans ai_sound_theme=click ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=150.00 installSalt=absent
+2026-10-01 14:09:46.367140 I VkThemeApply: reload source=favorites phase=postApply theme=[REDACTED]
+2026-10-01 14:09:46.639789 I VkThemeApply: prefetch source=favorites theme=[REDACTED] font=len=11 cached=true sound=len=5 cached=true
+2026-10-01 14:09:46.643403 I VkThemeApply: reload source=favorites phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:10:16.937894 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=626 promptTok=2003 textChars=1551 cached=false
+2026-10-01 14:10:16.957673 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=16 model=gemini-3.1-flash-lite ref=false bg=#0A0A0A accent=#FF003C keyBg=#525252 text=[REDACTED] font=orbitron radius=10 seed=1420129088 7780ms
+2026-10-01 14:10:16.995655 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:10:17.040455 I VkThemeApply: ✓ commit source=generated theme=[REDACTED] effectKeys=140
+2026-10-01 14:10:17.041206 I VkThemeApply: snapshot source=generated theme=[REDACTED] item=[REDACTED] effects=140 colorsLen=506 allColorsLen=1117 font=orbitron sound=laser haptic=pulse bgFx=mesh bgGrad=linear press=neon_pulse idle=breathe overlay=none popup=scale glow=true frameGlow=standard/0.72 fontScale=1.03 blurPx=0
+2026-10-01 14:10:17.044434 I VkThemeApply: ✓ verify source=generated theme=[REDACTED] ok=true checked=34 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=laser ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=1.03 ai_bg_blur_radius=0.00 installSalt=Long
+2026-10-01 14:10:17.203350 I VkThemeApply: prefetch source=generated theme=[REDACTED] font=len=8 cached=true sound=len=5 cached=true
+2026-10-01 14:10:17.206579 I VkThemeApply: reload source=generated phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:10:22.266736 W VkSuggestions: slow frame 29.9ms locales=1 typedLen=1 candidates=14
+2026-10-01 14:10:22.582637 W VkSuggestions: slow frame 18.4ms locales=1 typedLen=2 candidates=14
+2026-10-01 14:10:49.413133 I VkThemes: ▶ tap generate ref=false descLen=23
+2026-10-01 14:11:07.119476 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=604 promptTok=1991 textChars=1444 cached=false
+2026-10-01 14:11:07.155207 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=23 model=gemini-3.1-flash-lite ref=false bg=#0A0B0E accent=#FF3E00 keyBg=#1C1F26 text=[REDACTED] font=orbitron radius=6 seed=1926113466 4970ms
+2026-10-01 14:11:07.197116 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:11:07.233561 I VkThemeApply: ✓ commit source=generated theme=[REDACTED] effectKeys=140
+2026-10-01 14:11:07.234226 I VkThemeApply: snapshot source=generated theme=[REDACTED] item=[REDACTED] effects=140 colorsLen=506 allColorsLen=1139 font=orbitron sound=sci_fi haptic=sharp bgFx=mesh bgGrad=linear press=glow idle=wave overlay=vignette popup=scale glow=true frameGlow=standard/0.72 fontScale=0.93 blurPx=0
+2026-10-01 14:11:07.237117 I VkThemeApply: ✓ verify source=generated theme=[REDACTED] ok=true checked=34 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.93 ai_bg_blur_radius=0.00 installSalt=Long
+2026-10-01 14:11:07.418761 I VkThemeApply: prefetch source=generated theme=[REDACTED] font=len=8 cached=true sound=len=6 cached=true
+2026-10-01 14:11:07.421887 I VkThemeApply: reload source=generated phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:19:20.088959 W VkSuggestions: slow frame 19.9ms locales=1 typedLen=2 candidates=14
+2026-10-01 14:19:20.335901 W VkSuggestions: slow frame 24.7ms locales=1 typedLen=3 candidates=14
+2026-10-01 14:19:26.710922 W VkSuggestions: slow frame 20.0ms locales=1 typedLen=1 candidates=14
+2026-10-01 14:19:30.513397 W VkSuggestions: slow frame 19.1ms locales=1 typedLen=5 candidates=14
+2026-10-01 14:20:08.154107 I VkThemes: ▶ tap generate ref=false descLen=29
+2026-10-01 14:20:25.404557 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=595 promptTok=1990 textChars=1436 cached=false
+2026-10-01 14:20:25.429708 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=29 model=gemini-3.1-flash-lite ref=false bg=#050A14 accent=#FFB800 keyBg=#0F1F3D text=[REDACTED] font=orbitron radius=10 seed=1561007103 4517ms
+2026-10-01 14:20:25.530396 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-10-01 14:20:25.583977 I VkThemeApply: ✓ commit source=generated theme=[REDACTED] effectKeys=140
+2026-10-01 14:20:25.584727 I VkThemeApply: snapshot source=generated theme=[REDACTED] item=[REDACTED] effects=140 colorsLen=506 allColorsLen=1139 font=orbitron sound=sci_fi haptic=sharp bgFx=mesh bgGrad=radial press=neon_pulse idle=breathe overlay=none popup=scale glow=true frameGlow=standard/0.72 fontScale=0.92 blurPx=0
+2026-10-01 14:20:25.588944 I VkThemeApply: ✓ verify source=generated theme=[REDACTED] ok=true checked=34 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.92 ai_bg_blur_radius=0.00 installSalt=Long
+2026-10-01 14:20:25.785361 I VkThemeApply: prefetch source=generated theme=[REDACTED] font=len=8 cached=true sound=len=6 cached=true
+2026-10-01 14:20:25.787892 I VkThemeApply: reload source=generated phase=postPrefetch theme=[REDACTED]
+2026-10-01 14:22:33.309256 I VkShare: logUploaded redaction=v5 bytes=165294 report=ab4e3123
+2026-10-01 15:28:52.607651 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 1312ms
+=== In-memory (current process) ===
+2026-10-01 15:28:49.889504 I startup: Starting com.vibekey.keyboard version 4.5.923 (5283) on Android 12 (SDK 31)
+2026-10-01 15:28:50.007289 I VkNgram: registered lang=vi,th source=bundled
+2026-10-01 15:28:50.038135 I VkEffects: reload keyPress=neon_pulse popup=scale popupFx=true blurPx=0 glow=true stickers=true fontScale=0.92 font=orbitron bgFx=mesh bgFxInt=0.65 overlay=none/0.25 bgGrad=radial visible=true idle=breathe spacebarIdle=glow_breathe frameGlow=standard/0.72 sound=true(sci_fi) vibrate=true(sharp)
+2026-10-01 15:28:50.038957 I VkMultilingual: reset main=pt-BR locales=[pt] count=1
+2026-10-01 15:28:50.042815 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-01 15:28:50.061810 I VkDictionaries: ✓ open emoji pt-BR
+2026-10-01 15:28:50.064661 I VkDictionaries: ✓ open main pt-BR
+2026-10-01 15:28:50.064970 I VkDictionaries: collection pt-BR dicts=2 emoji=true
+2026-10-01 15:28:50.069498 I VkLocaleAssets: ▶ startup download begin
+2026-10-01 15:28:50.077445 I VkStartupLoad: ▶ dictionary batch begin recentInstall=false
+2026-10-01 15:28:50.079026 I VkLocaleAssets: ▶ batch source=startup count=3 [pt-BR,en-US,es]
+2026-10-01 15:28:50.119136 I VkStartupLoad: ○ predictor preload deferred pt-BR
+2026-10-01 15:28:50.133939 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-01 15:28:50.159043 I VkStartupLoad: ○ predictor preload deferred en-US
+2026-10-01 15:28:50.175148 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-01 15:28:50.194459 I VkStartupLoad: ○ predictor preload deferred es
+2026-10-01 15:28:50.196771 I VkLocaleAssets: ○ ready es (cached)
+2026-10-01 15:28:50.197053 I VkLocaleAssets: ✓ batch source=startup locales=3 fetched=0
+2026-10-01 15:28:50.199556 I VkStartupLoad: ✓ dictionary batch done
+2026-10-01 15:28:50.199557 I VkStartupLoad: ▶ predictor preload flush count=3
+2026-10-01 15:28:50.199706 I VkLocaleAssets: preload predictors pt-BR
+2026-10-01 15:28:50.201502 I VkLocaleAssets: ✓ startup done locales=3 retries=0
+2026-10-01 15:28:50.285711 I KenLmBridge: Loaded VkLM for pt from [REDACTED]
+2026-10-01 15:28:50.285858 I VkNgram: model ready locale=pt-BR gen=1 84ms
+2026-10-01 15:28:50.366095 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-01 15:28:50.382059 I VkDictionaries: ✓ open emoji pt-BR
+2026-10-01 15:28:50.486229 I VkEffects: idleArm surface=strip type=breathe inMs=1924 epoch=7
+2026-10-01 15:28:50.499451 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=1910 epoch=7
+2026-10-01 15:28:50.664523 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-01 15:28:50.666730 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-01 15:28:50.667332 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=3 gen=0
+2026-10-01 15:28:50.887443 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-01 15:28:50.887545 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=523ms
+2026-10-01 15:28:50.888535 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-01 15:28:50.888813 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-01 15:28:50.979120 I VkLocaleAssets: preload predictors pt-BR
+2026-10-01 15:28:52.200705 I VkLocaleAssets: preload predictors en-US
+2026-10-01 15:28:52.274031 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-10-01 15:28:52.274267 I VkNgram: model ready locale=en-US gen=1 73ms
+2026-10-01 15:28:52.643499 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2234 epoch=7
+2026-10-01 15:28:52.687617 I VkEffects: idleDraw surface=strip type=breathe afterMs=2278 epoch=7
+2026-10-01 15:28:52.886632 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-01 15:28:52.896188 I VkPanels: ▶ open menu
+2026-10-01 15:28:52.907079 I VkPanels: ▶ open popui_menu
+2026-10-01 15:28:52.907664 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-10-01 15:28:52.914184 I VkLocaleAssets: preload predictors pt-BR
+2026-10-01 15:28:52.923053 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-01 15:28:52.923177 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-01 15:28:52.928752 I VkEffects: idleArm surface=strip type=breathe inMs=1983 epoch=8
+2026-10-01 15:28:53.024956 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=5 gen=0
+2026-10-01 15:28:54.202303 I VkLocaleAssets: preload predictors es
+2026-10-01 15:28:54.281258 I KenLmBridge: Loaded VkLM for es from [REDACTED]
+2026-10-01 15:28:54.281420 I VkNgram: model ready locale=es gen=1 79ms
+2026-10-01 15:28:54.645083 I VkKeyPress: keys pressed=1
+2026-10-01 15:28:54.645386 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-10-01 15:28:54.645892 I VkPanels: ○ close menu
+2026-10-01 15:28:54.646178 I VkPanels: ○ close menu
+2026-10-01 15:28:54.785415 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=126 epoch=8
+2026-10-01 15:28:54.874465 I VkSettings: ▶ activity open spellchecker=false
+2026-10-01 15:28:54.903568 I VkTyping: ○ hidden
+2026-10-01 15:28:54.996942 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-01 15:28:54.997219 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-10-01 15:28:55.119094 I VkEffects: idleDraw surface=strip type=breathe afterMs=2208 epoch=8
+2026-10-01 15:28:55.121339 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2210 epoch=8
+2026-10-01 15:28:55.141815 I VkSettings: → screen settings
+2026-10-01 15:29:06.310503 I VkSettings: → screen dictionaries
+2026-10-01 15:29:07.750335 I VkSettings: → screen settings
+2026-10-01 15:29:08.829950 I VkSettings: → screen languages
+2026-10-01 15:29:10.103496 I VkSettings: → screen settings
+2026-10-01 15:29:11.360461 I VkSettings: → screen preferences
+2026-10-01 15:29:12.622158 I VkSettings: → screen settings
+2026-10-01 15:29:17.594093 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-01 15:29:17.680848 I LlmEngineClient: release on IME hidden: engine torn down (force=false)
+2026-10-01 15:29:17.706746 I VkEffects: idleArm surface=strip type=breathe inMs=1943 epoch=10
+2026-10-01 15:29:17.711728 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=1938 epoch=10
+2026-10-01 15:29:17.730880 I VkLocaleAssets: preload predictors pt-BR
+2026-10-01 15:29:17.822386 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=11 gen=0
+2026-10-01 15:29:18.117114 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-01 15:29:18.117251 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=527ms
+2026-10-01 15:29:18.118345 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-01 15:29:18.118814 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-10-01 15:29:19.650326 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2001 epoch=10
+2026-10-01 15:29:19.678870 I VkEffects: idleDraw surface=strip type=breathe afterMs=2029 epoch=10
+2026-10-01 15:29:20.785097 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-01 15:29:20.794371 I VkPanels: ▶ open menu
+2026-10-01 15:29:20.801447 I VkPanels: ▶ open popui_menu
+2026-10-01 15:29:20.801527 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-01 15:29:20.801569 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-01 15:29:20.810334 I VkEffects: idleArm surface=strip type=breathe inMs=1994 epoch=11
+2026-10-01 15:29:22.041824 I VkKeyPress: keys pressed=2
+2026-10-01 15:29:22.042154 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-10-01 15:29:22.042873 I VkPanels: ○ close menu
+2026-10-01 15:29:22.043152 I VkPanels: ○ close menu
+2026-10-01 15:29:22.100039 I VkEffects: idleArm surface=keys type=breathe+glow_breathe inMs=704 epoch=11
+2026-10-01 15:29:22.144755 I VkSettings: ▶ activity open spellchecker=false
+2026-10-01 15:29:22.165478 I VkTyping: ○ hidden
+2026-10-01 15:29:22.817084 I VkEffects: idleDraw surface=keys type=breathe+glow_breathe afterMs=2013 epoch=11
+2026-10-01 15:29:22.832592 I VkEffects: idleDraw surface=strip type=breathe afterMs=2028 epoch=11
+2026-10-01 15:29:24.870358 I VkSettings: → screen about
