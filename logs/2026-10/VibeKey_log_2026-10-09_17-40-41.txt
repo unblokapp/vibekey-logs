@@ -1,0 +1,629 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.984 (5344) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: en-US
+system: en-US
+enabled: en-US
+redaction: v6
+report: 198fbc67
+generated: 2026-10-09T17:40:38.516046Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.984 (5344) ===
+10-09 13:40:34.634 31361 31397 I VkStore : catalog not-modified version=213
+10-09 13:40:34.647 31361 31415 I VkStore : catalog not-modified version=213
+10-09 13:40:34.766 31361 31361 I VkSettings: ▶ activity open spellchecker=false
+10-09 13:40:36.668 31361 31361 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-10-09 13:30:41.703031 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-09 13:30:41.704955 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-09 13:30:41.705221 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-09 13:30:41.728555 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-09 13:30:41.729214 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob bgGrad=radial kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-09 13:30:41.738265 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-09 13:30:42.418981 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-09 13:30:42.428421 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-09 13:36:42.874415 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 728ms
+=== In-memory (current process) ===
+2026-10-09 13:30:33.677671 I VkLanguageSettings: legacy multilingual pref migrated main=en-US
+2026-10-09 13:30:33.703428 I startup: Starting com.vibekey.keyboard version 4.5.984 (5344) on Android 12 (SDK 31)
+2026-10-09 13:30:33.792646 I VkSettings: ▶ activity open spellchecker=false
+2026-10-09 13:30:34.130335 I VkSettings: → screen settings
+2026-10-09 13:30:34.131949 I VkSetupWizard: → step 0
+2026-10-09 13:30:34.957675 I VkSetupWizard: → step 1
+2026-10-09 13:30:38.660832 I VkSetupWizard: → step 2
+2026-10-09 13:30:41.393639 I VkSetupWizard: → step 3
+2026-10-09 13:30:41.666893 I VkNgram: registered lang=vi,th source=bundled
+2026-10-09 13:30:41.702955 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-09 13:30:41.704893 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-09 13:30:41.705195 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-09 13:30:41.728450 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-09 13:30:41.729159 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob bgGrad=radial kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-09 13:30:41.737451 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=mesh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:30:41.738176 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-09 13:30:41.788393 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-09 13:30:41.792252 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-09 13:30:41.833396 I VkDictionaries: ✓ open main en-US
+2026-10-09 13:30:41.833453 I VkDictionaries: collection en-US dicts=1 emoji=true
+2026-10-09 13:30:41.866770 I VkStartupLoad: ▶ cold start — stagger heavy background work
+2026-10-09 13:30:41.867440 I VkLocaleAssets: ▶ startup download begin
+2026-10-09 13:30:41.868837 I VkStartupLoad: ▶ dictionary batch begin recentInstall=true
+2026-10-09 13:30:41.869008 I VkLocaleAssets: ▶ batch source=startup count=1 [en-US]
+2026-10-09 13:30:41.877135 I VkLocaleAssets: ▶ fetch en-US main=false emoji=true bigram=false
+2026-10-09 13:30:42.135772 I GoogleFontsLoader: cached space-grotesk-v2.ttf (136676 bytes) via=gcs
+2026-10-09 13:30:42.395265 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:30:42.417565 I GoogleFontsLoader: cached outfit-v2.ttf (110884 bytes) via=gcs
+2026-10-09 13:30:42.418898 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-09 13:30:42.428348 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-09 13:30:42.496317 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-10-09 13:30:42.497518 I VkNgram: model ready locale=en-US gen=1 101ms
+2026-10-09 13:30:42.974881 I VkLanguageSettings: + enable en-US
+2026-10-09 13:30:42.975249 I VkLanguageSettings: select en-US
+2026-10-09 13:30:43.000993 I VkSetupWizard: languages enabled=1/3 [len=5] download=1 [len=5]
+2026-10-09 13:30:43.001839 I VkLanguageSettings: ▶ pack download count=1 [len=5]
+2026-10-09 13:30:43.775901 I VkLocaleAssets: ✓ en-US emoji via=codeberg
+2026-10-09 13:30:43.787233 I VkLocaleAssets: ✓ ready en-US (fetched)
+2026-10-09 13:30:43.788537 I VkLocaleAssets: ✓ batch source=startup locales=1 fetched=1
+2026-10-09 13:30:43.791714 I VkStartupLoad: ✓ dictionary batch done
+2026-10-09 13:30:43.794019 I VkLocaleAssets: ✓ startup done locales=1 retries=0
+2026-10-09 13:30:43.795661 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:30:43.797473 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:30:43.805948 I VkLanguageSettings: ✓ pack download result=Success
+2026-10-09 13:30:43.815651 I VkSetupWizard: ✓ wizard completed
+2026-10-09 13:30:44.152630 I VkTyping: ○ hidden
+2026-10-09 13:30:44.409153 I VkLocaleAssets: ▶ apply IME en-US live=fetched
+2026-10-09 13:30:44.409608 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-09 13:30:44.411595 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-09 13:30:44.415480 I VkDictionaries: ✓ open emoji en-US
+2026-10-09 13:30:44.415907 I VkDictionaries: ✓ open main en-US
+2026-10-09 13:30:44.416326 I VkDictionaries: collection en-US dicts=2 emoji=true
+2026-10-09 13:30:44.685079 I VkStore: catalog fetch ok=true http=200 version=213
+2026-10-09 13:30:50.966513 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-09 13:30:50.972991 I VkDictionaries: ✓ open emoji en-US
+2026-10-09 13:30:51.101760 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1921 epoch=12
+2026-10-09 13:30:51.227005 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:30:51.427264 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3318 epoch=12
+2026-10-09 13:30:51.479663 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-09 13:30:51.480525 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-09 13:30:51.480782 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=4 gen=1
+2026-10-09 13:30:51.515634 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-09 13:30:51.515762 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=551ms
+2026-10-09 13:30:52.474168 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:30:52.485593 I VkPanels: ▶ open menu
+2026-10-09 13:30:52.495206 I VkPanels: ▶ open popui_menu
+2026-10-09 13:30:52.495369 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:30:52.504757 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:30:52.508134 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:30:52.508270 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:30:52.615164 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=6 gen=1
+2026-10-09 13:30:53.165859 I VkPanels: ○ close menu
+2026-10-09 13:30:53.166670 I VkPanels: ○ close menu
+2026-10-09 13:30:53.176327 I VkPanels: ▶ open ai_theme
+2026-10-09 13:30:53.184453 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:30:53.188513 I VkPanels: ▶ open effects
+2026-10-09 13:30:53.313850 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:30:53.317569 I VkEffects: ▶ panel tab=tint
+2026-10-09 13:30:53.334706 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1167 epoch=13
+2026-10-09 13:30:54.517036 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2015 epoch=13
+2026-10-09 13:30:56.160778 I VkEffects: → tab backdrop
+2026-10-09 13:31:03.975828 I VkEffects: set bgEffect=aurora
+2026-10-09 13:31:04.008515 I VkEffects: apply (panel)
+2026-10-09 13:31:04.023275 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=aurora bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:04.054510 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1969 epoch=14
+2026-10-09 13:31:06.025592 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=14
+2026-10-09 13:31:07.078216 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:07.090080 I VkPanels: ▶ open menu
+2026-10-09 13:31:07.096641 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:07.096789 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:31:07.096853 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:31:08.154303 I VkPanels: ○ close menu
+2026-10-09 13:31:08.155773 I VkPanels: ○ close menu
+2026-10-09 13:31:08.166314 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:08.172993 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:08.176032 I VkPanels: ▶ open effects
+2026-10-09 13:31:08.264954 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:08.269010 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:08.294182 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=808 epoch=15
+2026-10-09 13:31:09.114149 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2012 epoch=15
+2026-10-09 13:31:09.589769 I VkEffects: set bgEffect=horizon
+2026-10-09 13:31:09.619416 I VkEffects: apply (panel)
+2026-10-09 13:31:09.634980 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=horizon bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:09.662590 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1972 epoch=16
+2026-10-09 13:31:11.636730 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=16
+2026-10-09 13:31:13.782335 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:13.794483 I VkPanels: ▶ open menu
+2026-10-09 13:31:13.800481 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:13.800698 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:31:13.800753 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:31:15.185678 I VkPanels: ○ close menu
+2026-10-09 13:31:15.186880 I VkPanels: ○ close menu
+2026-10-09 13:31:15.196182 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:15.202377 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:15.205609 I VkPanels: ▶ open effects
+2026-10-09 13:31:15.295697 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:15.299312 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:15.315939 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=490 epoch=17
+2026-10-09 13:31:15.812694 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2007 epoch=17
+2026-10-09 13:31:16.464400 I VkEffects: set bgEffect=aurora
+2026-10-09 13:31:16.493223 I VkEffects: apply (panel)
+2026-10-09 13:31:16.502653 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=aurora bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:16.536884 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1966 epoch=18
+2026-10-09 13:31:17.841858 I VkEffects: set bgEffect=horizon
+2026-10-09 13:31:17.865749 I VkEffects: apply (panel)
+2026-10-09 13:31:17.898654 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1975 epoch=19
+2026-10-09 13:31:19.874354 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2001 epoch=19
+2026-10-09 13:31:20.880562 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=horizon bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:22.645257 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:22.655450 I VkPanels: ▶ open menu
+2026-10-09 13:31:22.661676 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:22.661905 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:31:22.669229 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:31:22.672249 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:31:22.672385 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:31:22.764639 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=44 gen=1
+2026-10-09 13:31:23.572397 I VkPanels: ○ close menu
+2026-10-09 13:31:23.573691 I VkPanels: ○ close menu
+2026-10-09 13:31:23.583911 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:23.589327 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:23.592052 I VkPanels: ▶ open effects
+2026-10-09 13:31:23.667688 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:23.671684 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:23.688612 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=979 epoch=20
+2026-10-09 13:31:24.682165 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2015 epoch=20
+2026-10-09 13:31:24.823110 I VkEffects: set bgEffect=aurora
+2026-10-09 13:31:24.843994 I VkEffects: apply (panel)
+2026-10-09 13:31:24.853009 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=aurora bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:24.879759 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1973 epoch=21
+2026-10-09 13:31:26.855038 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=21
+2026-10-09 13:31:27.010047 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:27.019784 I VkPanels: ▶ open menu
+2026-10-09 13:31:27.025406 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:27.025556 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:31:27.025595 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:31:27.740080 I VkPanels: ○ close menu
+2026-10-09 13:31:27.741229 I VkPanels: ○ close menu
+2026-10-09 13:31:27.751612 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:27.757240 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:27.762166 I VkPanels: ▶ open effects
+2026-10-09 13:31:27.843931 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:27.846636 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:27.860810 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1170 epoch=22
+2026-10-09 13:31:29.033195 I VkEffects: set bgEffect=veil
+2026-10-09 13:31:29.051947 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2021 epoch=22
+2026-10-09 13:31:29.054822 I VkEffects: apply (panel)
+2026-10-09 13:31:29.065223 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=veil bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:29.088092 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1978 epoch=23
+2026-10-09 13:31:31.084081 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2018 epoch=23
+2026-10-09 13:31:41.957029 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:31:41.957133 I VkKeyPreview: show burst=1 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-09 13:31:41.959938 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=24
+2026-10-09 13:31:42.011743 I VkKeyPreview: dismiss burst=1 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-09 13:31:42.011859 I VkKeyPress: keys pressed=1
+2026-10-09 13:31:42.069383 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:31:42.071862 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=25
+2026-10-09 13:31:42.088012 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=68 gen=1
+2026-10-09 13:31:42.256668 I VkSuggestions: strip composing typedLen=2 candidates=13 autocorrect=false top=[REDACTED] locale=en token=68 gen=1
+2026-10-09 13:31:42.291877 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:31:42.295117 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=26
+2026-10-09 13:31:42.455826 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=en token=69 gen=1
+2026-10-09 13:31:42.965130 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=27
+2026-10-09 13:31:43.683555 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=70 gen=1
+2026-10-09 13:31:44.573368 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:44.583466 I VkPanels: ▶ open menu
+2026-10-09 13:31:44.589826 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:44.589967 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:31:44.590018 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:31:45.221697 I VkPanels: ○ close menu
+2026-10-09 13:31:45.222825 I VkPanels: ○ close menu
+2026-10-09 13:31:45.232280 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:45.237474 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:45.240306 I VkPanels: ▶ open effects
+2026-10-09 13:31:45.312554 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:45.316164 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:45.330560 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1264 epoch=28
+2026-10-09 13:31:46.483473 I VkEffects: set bgEffect=horizon
+2026-10-09 13:31:46.509221 I VkEffects: apply (panel)
+2026-10-09 13:31:46.517800 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=horizon bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:46.546487 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1971 epoch=29
+2026-10-09 13:31:48.520085 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=29
+2026-10-09 13:31:56.514070 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:31:56.524724 I VkPanels: ▶ open menu
+2026-10-09 13:31:56.530742 I VkPanels: ▶ open popui_menu
+2026-10-09 13:31:56.530916 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:31:56.536442 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:31:56.539942 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:31:56.540047 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:31:56.631073 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=84 gen=1
+2026-10-09 13:31:57.600364 I VkPanels: ○ close menu
+2026-10-09 13:31:57.601518 I VkPanels: ○ close menu
+2026-10-09 13:31:57.611751 I VkPanels: ▶ open ai_theme
+2026-10-09 13:31:57.617020 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:31:57.619882 I VkPanels: ▶ open effects
+2026-10-09 13:31:57.691329 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:31:57.694682 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:31:57.713096 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=824 epoch=30
+2026-10-09 13:31:58.547632 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=30
+2026-10-09 13:31:58.983166 I VkEffects: set bgEffect=aurora
+2026-10-09 13:31:59.011370 I VkEffects: apply (panel)
+2026-10-09 13:31:59.021259 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=aurora bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:31:59.054207 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1967 epoch=31
+2026-10-09 13:32:01.021906 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2000 epoch=31
+2026-10-09 13:32:08.812651 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:32:08.823418 I VkPanels: ▶ open menu
+2026-10-09 13:32:08.828951 I VkPanels: ▶ open popui_menu
+2026-10-09 13:32:08.829110 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:32:08.829167 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:32:09.562358 I VkPanels: ○ close menu
+2026-10-09 13:32:09.563671 I VkPanels: ○ close menu
+2026-10-09 13:32:09.573550 I VkPanels: ▶ open ai_theme
+2026-10-09 13:32:09.579378 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:32:09.581922 I VkPanels: ▶ open effects
+2026-10-09 13:32:09.652125 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:32:09.655228 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:32:09.674922 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1160 epoch=32
+2026-10-09 13:32:10.841472 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2007 epoch=32
+2026-10-09 13:32:11.998046 I VkStore: catalog not-modified version=213
+2026-10-09 13:32:12.020713 I VkStore: sync imported=0 catalog=213
+2026-10-09 13:32:14.205356 I VkEffects: set bgEffect=pulse
+2026-10-09 13:32:14.231952 I VkEffects: apply (panel)
+2026-10-09 13:32:14.249608 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=pulse bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:32:14.283784 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1966 epoch=33
+2026-10-09 13:32:16.253903 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2004 epoch=33
+2026-10-09 13:32:24.907271 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:32:24.915292 I VkPanels: ▶ open menu
+2026-10-09 13:32:24.921569 I VkPanels: ▶ open popui_menu
+2026-10-09 13:32:24.921689 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:32:24.921741 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:32:25.684444 I VkPanels: ○ close menu
+2026-10-09 13:32:25.685673 I VkPanels: ○ close menu
+2026-10-09 13:32:25.695660 I VkPanels: ▶ open ai_theme
+2026-10-09 13:32:25.703048 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:32:25.706042 I VkPanels: ▶ open effects
+2026-10-09 13:32:25.787912 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:32:25.790831 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:32:25.804985 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1122 epoch=34
+2026-10-09 13:32:26.929696 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2003 epoch=34
+2026-10-09 13:32:27.534410 I VkEffects: set bgEffect=shimmer
+2026-10-09 13:32:27.563053 I VkEffects: apply (panel)
+2026-10-09 13:32:27.577453 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=shimmer bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:32:27.612634 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1965 epoch=35
+2026-10-09 13:32:29.585187 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2007 epoch=35
+2026-10-09 13:32:38.589470 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:32:38.601885 I VkPanels: ▶ open menu
+2026-10-09 13:32:38.609280 I VkPanels: ▶ open popui_menu
+2026-10-09 13:32:38.609472 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:32:38.618529 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:32:38.623840 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:32:38.624007 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:32:38.721308 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=120 gen=1
+2026-10-09 13:32:39.340313 I VkPanels: ○ close menu
+2026-10-09 13:32:39.341584 I VkPanels: ○ close menu
+2026-10-09 13:32:39.352924 I VkPanels: ▶ open ai_theme
+2026-10-09 13:32:39.358701 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:32:39.361301 I VkPanels: ▶ open effects
+2026-10-09 13:32:39.430606 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:32:39.433358 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:32:39.448228 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1167 epoch=36
+2026-10-09 13:32:40.628231 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=36
+2026-10-09 13:32:41.970006 I VkEffects: set bgEffect=rays
+2026-10-09 13:32:41.993956 I VkEffects: apply (panel)
+2026-10-09 13:32:42.005307 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=rays bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:32:42.041627 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1964 epoch=37
+2026-10-09 13:32:44.021868 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2016 epoch=37
+2026-10-09 13:32:57.073710 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:32:57.085094 I VkPanels: ▶ open menu
+2026-10-09 13:32:57.092026 I VkPanels: ▶ open popui_menu
+2026-10-09 13:32:57.092182 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:32:57.092223 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:32:57.584025 I VkPanels: ○ close menu
+2026-10-09 13:32:57.585164 I VkPanels: ○ close menu
+2026-10-09 13:32:57.612715 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1485 epoch=38
+2026-10-09 13:32:59.105520 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=38
+2026-10-09 13:33:04.720131 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:33:04.731361 I VkPanels: ▶ open menu
+2026-10-09 13:33:04.737072 I VkPanels: ▶ open popui_menu
+2026-10-09 13:33:04.737195 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:33:04.737244 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:33:05.447053 I VkPanels: ○ close menu
+2026-10-09 13:33:05.448255 I VkPanels: ○ close menu
+2026-10-09 13:33:05.456708 I VkPanels: ▶ open ai_theme
+2026-10-09 13:33:05.461765 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:33:05.464307 I VkPanels: ▶ open effects
+2026-10-09 13:33:05.532455 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:33:05.535179 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:33:05.550386 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1192 epoch=39
+2026-10-09 13:33:06.756261 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=39
+2026-10-09 13:33:08.242770 I VkEffects: set bgEffect=bloom
+2026-10-09 13:33:08.268948 I VkEffects: apply (panel)
+2026-10-09 13:33:08.282273 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=bloom bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:33:08.311026 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1972 epoch=40
+2026-10-09 13:33:10.314811 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2032 epoch=40
+2026-10-09 13:33:15.300043 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:33:15.309434 I VkPanels: ▶ open menu
+2026-10-09 13:33:15.315205 I VkPanels: ▶ open popui_menu
+2026-10-09 13:33:15.315384 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:33:15.320891 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:33:15.326126 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:33:15.326286 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:33:15.412118 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=148 gen=1
+2026-10-09 13:33:16.163386 I VkPanels: ○ close menu
+2026-10-09 13:33:16.165185 I VkPanels: ○ close menu
+2026-10-09 13:33:16.176495 I VkPanels: ▶ open ai_theme
+2026-10-09 13:33:16.184797 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:33:16.188046 I VkPanels: ▶ open effects
+2026-10-09 13:33:16.264623 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:33:16.268529 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:33:16.282790 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1038 epoch=41
+2026-10-09 13:33:17.333728 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=41
+2026-10-09 13:33:18.359201 I VkEffects: set bgEffect=bokeh
+2026-10-09 13:33:18.380532 I VkEffects: apply (panel)
+2026-10-09 13:33:18.405017 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=bokeh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:33:18.457265 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1948 epoch=42
+2026-10-09 13:33:20.406929 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2001 epoch=42
+2026-10-09 13:33:23.715261 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:23.715341 I VkKeyPreview: show burst=3 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-09 13:33:23.718221 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=43
+2026-10-09 13:33:23.781976 I VkKeyPreview: dismiss burst=3 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-09 13:33:23.782118 I VkKeyPress: keys pressed=9
+2026-10-09 13:33:23.854981 I VkTextCorrection: rerank composing head len=3→len=2
+2026-10-09 13:33:23.855614 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=159 gen=1
+2026-10-09 13:33:23.900425 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:23.904457 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=44
+2026-10-09 13:33:24.067278 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=160 gen=1
+2026-10-09 13:33:25.904979 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=44
+2026-10-09 13:33:25.954001 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:25.958293 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=45
+2026-10-09 13:33:26.094882 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=en token=161 gen=1
+2026-10-09 13:33:26.165299 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:26.168751 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=46
+2026-10-09 13:33:26.286884 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:26.289637 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=47
+2026-10-09 13:33:26.315045 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=en token=163 gen=1
+2026-10-09 13:33:26.450067 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=en token=163 gen=1
+2026-10-09 13:33:26.797901 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:26.798020 I VkKeyPreview: show burst=5 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-09 13:33:26.800646 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=48
+2026-10-09 13:33:26.861650 I VkKeyPreview: dismiss burst=5 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-09 13:33:26.861750 I VkKeyPress: keys pressed=14
+2026-10-09 13:33:26.940366 I VkSuggestions: strip composing typedLen=6 candidates=15 autocorrect=false top=[REDACTED] locale=en token=164 gen=1
+2026-10-09 13:33:27.149181 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-09 13:33:27.151746 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=49
+2026-10-09 13:33:27.263935 I VkSuggestions: strip composing typedLen=7 candidates=15 autocorrect=false top=[REDACTED] locale=en token=165 gen=1
+2026-10-09 13:33:28.246367 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=50
+2026-10-09 13:33:29.238132 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=166 gen=1
+2026-10-09 13:33:29.277977 I VkStripPipeline: publishLatency seq=95 latencyMs=43
+2026-10-09 13:33:30.248047 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2004 epoch=50
+2026-10-09 13:33:42.022951 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:33:42.032558 I VkPanels: ▶ open menu
+2026-10-09 13:33:42.038544 I VkPanels: ▶ open popui_menu
+2026-10-09 13:33:42.038685 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:33:42.038732 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:33:42.819669 I VkPanels: ○ close menu
+2026-10-09 13:33:42.820734 I VkPanels: ○ close menu
+2026-10-09 13:33:42.830374 I VkPanels: ▶ open ai_theme
+2026-10-09 13:33:42.835439 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:33:42.838149 I VkPanels: ▶ open effects
+2026-10-09 13:33:42.908725 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:33:42.911994 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:33:42.926323 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1116 epoch=51
+2026-10-09 13:33:44.054253 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2012 epoch=51
+2026-10-09 13:33:46.439851 I VkEffects: set bgEffect=drift
+2026-10-09 13:33:46.464250 I VkEffects: apply (panel)
+2026-10-09 13:33:46.476022 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=drift bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:33:46.498768 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1977 epoch=52
+2026-10-09 13:33:48.475790 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2000 epoch=52
+2026-10-09 13:33:52.416442 I VkEffects: set bgEffect=orbit
+2026-10-09 13:33:52.443669 I VkEffects: apply (panel)
+2026-10-09 13:33:52.456422 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=orbit bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-09 13:33:52.486424 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1970 epoch=53
+2026-10-09 13:33:54.458782 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=53
+2026-10-09 13:34:04.404951 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:34:04.415347 I VkPanels: ▶ open menu
+2026-10-09 13:34:04.420306 I VkPanels: ▶ open popui_menu
+2026-10-09 13:34:04.420517 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:34:04.426391 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:34:04.440341 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:34:04.440554 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:34:04.514583 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=182 gen=1
+2026-10-09 13:34:05.264472 I VkPanels: ○ close menu
+2026-10-09 13:34:05.265388 I VkPanels: ○ close menu
+2026-10-09 13:34:05.273354 I VkPanels: ▶ open ai_theme
+2026-10-09 13:34:05.278869 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:34:05.281547 I VkPanels: ▶ open effects
+2026-10-09 13:34:05.351090 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:34:05.353840 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:34:05.368141 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1058 epoch=54
+2026-10-09 13:34:06.291742 I VkEffects: → tab tint
+2026-10-09 13:34:06.433811 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=54
+2026-10-09 13:34:08.924318 I VkEffects: set ai_key_bg_opacity=0%
+2026-10-09 13:34:08.924846 I VkEffects: apply (panel)
+2026-10-09 13:34:08.979898 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1966 epoch=55
+2026-10-09 13:34:10.954427 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2009 epoch=55
+2026-10-09 13:34:16.806599 I VkEffects: set ai_key_bg_opacity=100%
+2026-10-09 13:34:16.826820 I VkEffects: apply (panel)
+2026-10-09 13:34:16.884798 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1962 epoch=56
+2026-10-09 13:34:18.856942 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2010 epoch=56
+2026-10-09 13:34:19.224078 I VkEffects: set ai_key_bg_opacity=90%
+2026-10-09 13:34:19.233806 I VkEffects: apply (panel)
+2026-10-09 13:34:19.285510 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1967 epoch=57
+2026-10-09 13:34:21.256170 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2003 epoch=57
+2026-10-09 13:34:21.946507 I VkEffects: → tab backdrop
+2026-10-09 13:34:25.770799 I VkEffects: set bgEffect=ripple
+2026-10-09 13:34:25.793377 I VkEffects: apply (panel)
+2026-10-09 13:34:25.826868 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1980 epoch=58
+2026-10-09 13:34:27.821750 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2015 epoch=58
+2026-10-09 13:34:39.289711 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:34:39.298246 I VkPanels: ▶ open menu
+2026-10-09 13:34:39.303263 I VkPanels: ▶ open popui_menu
+2026-10-09 13:34:39.303467 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:34:39.313641 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:34:39.315382 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:34:39.315478 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:34:39.410370 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=200 gen=1
+2026-10-09 13:34:40.109207 I VkPanels: ○ close menu
+2026-10-09 13:34:40.110163 I VkPanels: ○ close menu
+2026-10-09 13:34:40.119969 I VkPanels: ▶ open ai_theme
+2026-10-09 13:34:40.124007 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:34:40.126449 I VkPanels: ▶ open effects
+2026-10-09 13:34:40.195362 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:34:40.198335 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:34:40.219401 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1088 epoch=59
+2026-10-09 13:34:41.307413 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2000 epoch=59
+2026-10-09 13:34:44.902911 I VkEffects: set bgEffect=filaments
+2026-10-09 13:34:44.930342 I VkEffects: apply (panel)
+2026-10-09 13:34:44.964924 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1975 epoch=60
+2026-10-09 13:34:46.950718 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=60
+2026-10-09 13:35:02.596484 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:35:02.605575 I VkPanels: ▶ open menu
+2026-10-09 13:35:02.611456 I VkPanels: ▶ open popui_menu
+2026-10-09 13:35:02.611666 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:35:02.611724 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:35:03.501441 I VkPanels: ○ close menu
+2026-10-09 13:35:03.502381 I VkPanels: ○ close menu
+2026-10-09 13:35:03.511053 I VkPanels: ▶ open ai_theme
+2026-10-09 13:35:03.515873 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:35:03.518643 I VkPanels: ▶ open effects
+2026-10-09 13:35:03.588137 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:35:03.591479 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:35:03.604937 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1012 epoch=61
+2026-10-09 13:35:04.629267 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=61
+2026-10-09 13:35:06.701603 I VkEffects: set bgEffect=mist
+2026-10-09 13:35:06.727603 I VkEffects: apply (panel)
+2026-10-09 13:35:06.760856 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1977 epoch=62
+2026-10-09 13:35:08.741651 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2004 epoch=62
+2026-10-09 13:35:15.343996 I VkEffects: set bgEffect=swell
+2026-10-09 13:35:15.365324 I VkEffects: apply (panel)
+2026-10-09 13:35:15.421568 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1964 epoch=63
+2026-10-09 13:35:17.398785 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=63
+2026-10-09 13:35:31.286229 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:35:31.295912 I VkPanels: ▶ open menu
+2026-10-09 13:35:31.301063 I VkPanels: ▶ open popui_menu
+2026-10-09 13:35:31.301235 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:35:31.306743 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:35:31.310586 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:35:31.310708 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:35:31.397305 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=226 gen=1
+2026-10-09 13:35:32.115227 I VkPanels: ○ close menu
+2026-10-09 13:35:32.117022 I VkPanels: ○ close menu
+2026-10-09 13:35:32.125985 I VkPanels: ▶ open ai_theme
+2026-10-09 13:35:32.131147 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:35:32.133733 I VkPanels: ▶ open effects
+2026-10-09 13:35:32.206184 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:35:32.209342 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:35:32.231673 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1074 epoch=64
+2026-10-09 13:35:33.318863 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=64
+2026-10-09 13:35:35.058203 I VkEffects: set bgEffect=ember
+2026-10-09 13:35:35.083160 I VkEffects: apply (panel)
+2026-10-09 13:35:35.135722 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1964 epoch=65
+2026-10-09 13:35:37.101665 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2002 epoch=65
+2026-10-09 13:35:40.393876 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:35:40.402446 I VkPanels: ▶ open menu
+2026-10-09 13:35:40.408 I VkPanels: ▶ open popui_menu
+2026-10-09 13:35:40.408197 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:35:40.408244 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:35:41.105935 I VkPanels: ○ close menu
+2026-10-09 13:35:41.107812 I VkPanels: ○ close menu
+2026-10-09 13:35:41.116101 I VkPanels: ▶ open ai_theme
+2026-10-09 13:35:41.121110 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:35:41.123720 I VkPanels: ▶ open effects
+2026-10-09 13:35:41.192364 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:35:41.195366 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:35:41.216627 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1196 epoch=66
+2026-10-09 13:35:42.425280 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=66
+2026-10-09 13:35:43.650135 I VkEffects: set bgEffect=rain
+2026-10-09 13:35:43.674180 I VkEffects: apply (panel)
+2026-10-09 13:35:43.707768 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1976 epoch=67
+2026-10-09 13:35:45.702706 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2019 epoch=67
+2026-10-09 13:35:53.575375 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:35:53.585107 I VkPanels: ▶ open menu
+2026-10-09 13:35:53.589935 I VkPanels: ▶ open popui_menu
+2026-10-09 13:35:53.590077 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:35:53.590142 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:35:54.378856 I VkPanels: ○ close menu
+2026-10-09 13:35:54.379965 I VkPanels: ○ close menu
+2026-10-09 13:35:54.389451 I VkPanels: ▶ open ai_theme
+2026-10-09 13:35:54.394303 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:35:54.396956 I VkPanels: ▶ open effects
+2026-10-09 13:35:54.466626 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:35:54.470026 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:35:54.490884 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1105 epoch=68
+2026-10-09 13:35:55.607139 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=68
+2026-10-09 13:35:56.959556 I VkEffects: set bgEffect=lattice
+2026-10-09 13:35:56.985557 I VkEffects: apply (panel)
+2026-10-09 13:35:57.031936 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1966 epoch=69
+2026-10-09 13:35:59.001054 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2003 epoch=69
+2026-10-09 13:36:06.090883 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:36:06.099091 I VkPanels: ▶ open menu
+2026-10-09 13:36:06.104492 I VkPanels: ▶ open popui_menu
+2026-10-09 13:36:06.104643 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:36:06.110028 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:36:06.113657 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:36:06.113812 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:36:06.211483 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=262 gen=1
+2026-10-09 13:36:07.229028 I VkPanels: ○ close menu
+2026-10-09 13:36:07.230086 I VkPanels: ○ close menu
+2026-10-09 13:36:07.239589 I VkPanels: ▶ open ai_theme
+2026-10-09 13:36:07.243926 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:36:07.246397 I VkPanels: ▶ open effects
+2026-10-09 13:36:07.313369 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:36:07.316822 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:36:07.335681 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=774 epoch=70
+2026-10-09 13:36:08.129606 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2020 epoch=70
+2026-10-09 13:36:09.859451 I VkEffects: set bgEffect=mesh
+2026-10-09 13:36:09.894553 I VkEffects: apply (panel)
+2026-10-09 13:36:09.946203 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1965 epoch=71
+2026-10-09 13:36:11.917010 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=71
+2026-10-09 13:36:14.555706 I VkEffects: set bgEffect=soft_blobs
+2026-10-09 13:36:14.581304 I VkEffects: apply (panel)
+2026-10-09 13:36:14.609749 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1981 epoch=72
+2026-10-09 13:36:16.595851 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=72
+2026-10-09 13:36:17.369389 I VkEffects: set bgEffect=noise
+2026-10-09 13:36:17.392701 I VkEffects: apply (panel)
+2026-10-09 13:36:17.428185 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1973 epoch=73
+2026-10-09 13:36:19.407013 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=73
+2026-10-09 13:36:22.569739 I VkEffects: set bgEffect=lattice
+2026-10-09 13:36:22.598884 I VkEffects: apply (panel)
+2026-10-09 13:36:22.659645 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1959 epoch=74
+2026-10-09 13:36:24.632422 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=74
+2026-10-09 13:36:40.105537 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:36:40.114458 I VkPanels: ▶ open menu
+2026-10-09 13:36:40.120761 I VkPanels: ▶ open popui_menu
+2026-10-09 13:36:40.120922 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-09 13:36:40.126343 I VkLocaleAssets: preload predictors en-US
+2026-10-09 13:36:40.129547 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-09 13:36:40.129677 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-09 13:36:40.219795 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=280 gen=1
+2026-10-09 13:36:40.649946 I VkPanels: ○ close menu
+2026-10-09 13:36:40.650975 I VkPanels: ○ close menu
+2026-10-09 13:36:40.680629 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1445 epoch=75
+2026-10-09 13:36:41.707422 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:36:41.720597 I VkPanels: ▶ open voice
+2026-10-09 13:36:41.724491 I VkPanels: ▶ open popui_voice
+2026-10-09 13:36:42.055234 I OnDeviceAssist: ▶ prewarm reason=voice_panel_open urgent=false
+2026-10-09 13:36:43.410610 I VkPanels: ○ close voice
+2026-10-09 13:36:43.410827 I OnDeviceLlmPrewarm: voice teardown grace armed 4000ms (panel_close)
+2026-10-09 13:36:43.432778 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3307 epoch=75
+2026-10-09 13:36:45.093352 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-09 13:36:45.103482 I VkPanels: ▶ open menu
+2026-10-09 13:36:45.109698 I VkPanels: ▶ open popui_menu
+2026-10-09 13:36:45.109818 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-09 13:36:45.109864 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-09 13:36:46.822888 I VkPanels: ○ close menu
+2026-10-09 13:36:46.824662 I VkPanels: ○ close menu
+2026-10-09 13:36:46.834108 I VkPanels: ▶ open ai_theme
+2026-10-09 13:36:46.839125 I VkPanels: ▶ open popui_ai_theme
+2026-10-09 13:36:46.841485 I VkPanels: ▶ open effects
+2026-10-09 13:36:46.909211 I VkPanels: ▶ open popui_swap_effects
+2026-10-09 13:36:46.912758 I VkEffects: ▶ panel tab=backdrop
+2026-10-09 13:36:46.927037 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=188 epoch=76
+2026-10-09 13:36:47.124205 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2010 epoch=76
+2026-10-09 13:37:11.640562 I VkTyping: ○ hidden
+2026-10-09 13:37:11.738468 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-09 13:37:11.738727 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-10-09 13:37:34.534929 I LlmEngineClient: release on IME hidden: engine torn down (force=false)
+2026-10-09 13:40:34.634064 I VkStore: catalog not-modified version=213
+2026-10-09 13:40:34.647390 I VkStore: catalog not-modified version=213
+2026-10-09 13:40:34.766943 I VkSettings: ▶ activity open spellchecker=false
+2026-10-09 13:40:36.668579 I VkSettings: → screen about
