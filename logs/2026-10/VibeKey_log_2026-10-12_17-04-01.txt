@@ -1,0 +1,391 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.1017 (5377) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: en-US
+system: en-US
+enabled: en-US
+redaction: v6
+report: 085bcd61
+generated: 2026-10-12T17:03:58.587446Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.1017 (5377) ===
+10-12 13:02:56.655 31061 31849 I VkApi   : ✓ response /geminiGenerateContent 10051ms code=200
+10-12 13:02:56.658 31061 31503 I VkApi   : proxy_theme_entitlement outcome=refunded_not_salvageable
+10-12 13:02:56.658 31061 31503 I VkApi   : gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1046 promptTok=5026 textChars=2712 cached=false
+10-12 13:02:56.663 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:02:56.667 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:02:56.668 31061 31503 I VkApi   : ▶ request gemini/system model=gemini-3.1-flash-lite
+10-12 13:02:56.673 31061 31849 I VkApi   : ▶ request /geminiGenerateContent
+10-12 13:03:00.648 31061 31849 I VkApi   : ✓ response /geminiGenerateContent 3974ms code=200
+10-12 13:03:00.649 31061 31503 I VkApi   : proxy_theme_entitlement outcome=refunded_not_salvageable
+10-12 13:03:00.650 31061 31503 I VkApi   : gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1057 promptTok=1177 textChars=2739 cached=false
+10-12 13:03:00.653 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: funcKeyBorderColor)
+10-12 13:03:00.653 31061 31503 W VkApi   : ✗ response gemini/system 3985ms len=76
+10-12 13:03:00.655 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:03:00.656 31061 31503 W VkApi   : ✗ response gemini/system 14062ms len=66
+10-12 13:03:00.657 31061 31061 I VkAiEconomics: theme_free_retry grant reason=unusable_json
+10-12 13:03:00.657 31061 31061 I VkAiEconomics: theme success=false 14108ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=PRIMARY key=[REDACTED]
+10-12 13:03:00.657 31061 31061 W VkThemes: ✗ generate 14108ms
+10-12 13:03:07.721 31061 31061 I VkPanels: ○ close menu
+10-12 13:03:07.752 31061 31061 I VkTyping: ○ hidden
+10-12 13:03:07.839 31061 31117 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-12 13:03:07.839 31061 31117 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+10-12 13:03:30.465 31061 31117 I LlmEngineClient: release on IME hidden: engine torn down (force=false)
+10-12 13:03:35.217 31061 31117 I VkStore : catalog not-modified version=213
+10-12 13:03:35.250 31061 31061 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+10-12 13:03:35.286 31061 31061 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1976 epoch=53
+10-12 13:03:35.296 31061 31061 I VkLocaleAssets: preload predictors en-US
+10-12 13:03:35.302 31061 31503 I VkStore : catalog not-modified version=213
+10-12 13:03:35.392 31061 31463 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=34 gen=1
+10-12 13:03:35.770 31061 31061 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-12 13:03:35.770 31061 31061 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+10-12 13:03:35.771 31061 31061 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-12 13:03:35.771 31061 31503 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+10-12 13:03:37.272 31061 31061 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2009 epoch=53
+10-12 13:03:37.536 31061 31061 I VkKeyPress: strip pick key=[REDACTED]
+10-12 13:03:37.558 31061 31061 I VkPanels: ▶ open menu
+10-12 13:03:37.575 31061 31061 I VkPanels: ▶ open popui_menu
+10-12 13:03:37.576 31061 31117 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+10-12 13:03:37.584 31061 31117 I VkLocaleAssets: preload predictors en-US
+10-12 13:03:37.588 31061 31117 I VkLocaleAssets: ○ ready en-US (cached)
+10-12 13:03:37.588 31061 31117 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+10-12 13:03:37.688 31061 31463 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=36 gen=1
+10-12 13:03:38.696 31061 31061 I VkThemes: ▶ tap generate ref=false descLen=25
+10-12 13:03:38.703 31061 31061 I VkAiEconomics: theme_free_retry consumed skip_ad=true
+10-12 13:03:38.724 31061 31061 I VkAiEconomics: rewarded_grant feature=theme waterfall=?
+10-12 13:03:38.725 31061 31061 I VkThemes: ▶ generate ref=false descLen=25
+10-12 13:03:38.745 31061 31503 I VkApi   : ▶ request gemini/system model=gemini-3.1-flash-lite
+10-12 13:03:38.750 31061 31849 I VkApi   : ▶ request /geminiGenerateContent
+10-12 13:03:39.050 31061 31503 I VkStore : catalog not-modified version=213
+10-12 13:03:39.071 31061 31503 I VkStore : sync imported=0 catalog=213
+10-12 13:03:43.964 31061 31849 I VkApi   : ✓ response /geminiGenerateContent 5214ms code=200
+10-12 13:03:43.965 31061 31503 I VkApi   : proxy_theme_entitlement outcome=refunded_not_salvageable
+10-12 13:03:43.966 31061 31503 I VkApi   : gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1165 promptTok=5029 textChars=3023 cached=false
+10-12 13:03:43.968 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:03:43.970 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:03:43.971 31061 31503 I VkApi   : ▶ request gemini/system model=gemini-3.1-flash-lite
+10-12 13:03:43.976 31061 31849 I VkApi   : ▶ request /geminiGenerateContent
+10-12 13:03:48.368 31061 31849 I VkApi   : ✓ response /geminiGenerateContent 4391ms code=200
+10-12 13:03:48.371 31061 31503 I VkApi   : proxy_theme_entitlement outcome=refunded_not_salvageable
+10-12 13:03:48.371 31061 31503 I VkApi   : gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1180 promptTok=1296 textChars=3076 cached=false
+10-12 13:03:48.377 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (hintText must be #AARRGGBB hex or "none")
+10-12 13:03:48.377 31061 31503 W VkApi   : ✗ response gemini/system 4406ms len=75
+10-12 13:03:48.383 31061 31503 I VkApi   : theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+10-12 13:03:48.383 31061 31503 W VkApi   : ✗ response gemini/system 9639ms len=66
+10-12 13:03:48.392 31061 31061 I VkAiEconomics: theme_free_retry grant reason=unusable_json
+10-12 13:03:48.393 31061 31061 I VkAiEconomics: theme success=false 9670ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=? key=[REDACTED]
+10-12 13:03:48.393 31061 31061 W VkThemes: ✗ generate 9670ms
+10-12 13:03:51.231 31061 31061 I VkPanels: ○ close menu
+10-12 13:03:51.238 31061 31061 I VkPanels: ○ close menu
+10-12 13:03:51.280 31061 31061 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=13695 epoch=54
+10-12 13:03:52.044 31061 31061 I VkKeyPress: strip pick key=[REDACTED]
+10-12 13:03:52.075 31061 31061 I VkPanels: ▶ open menu
+10-12 13:03:52.099 31061 31061 I VkPanels: ▶ open popui_menu
+10-12 13:03:52.099 31061 31117 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-12 13:03:52.099 31061 31117 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-12 13:03:54.315 31061 31061 I VkKeyPress: keys pressed=33
+10-12 13:03:54.315 31061 31061 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+10-12 13:03:54.317 31061 31061 I VkPanels: ○ close menu
+10-12 13:03:54.323 31061 31061 I VkPanels: ○ close menu
+10-12 13:03:54.404 31061 31061 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2287 epoch=55
+10-12 13:03:54.461 31061 31061 I VkTyping: ○ hidden
+10-12 13:03:54.476 31061 31061 I VkSettings: ▶ activity open spellchecker=false
+10-12 13:03:56.705 31061 31061 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-10-12 13:02:08.599666 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-12 13:02:08.602190 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-12 13:02:08.602578 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-12 13:02:08.618025 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-12 13:02:08.618561 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-12 13:02:08.626697 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-12 13:02:09.489063 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-12 13:02:09.500587 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-12 13:02:15.916759 I OnDeviceAssist: loaded pack=en cards=13 fillers=6 source=bundled v=1
+2026-10-12 13:02:16.042845 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-10-12 13:02:32.533752 I VkThemes: ▶ tap generate ref=false descLen=25
+2026-10-12 13:02:47.446331 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 818ms
+2026-10-12 13:02:56.658920 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1046 promptTok=5026 textChars=2712 cached=false
+2026-10-12 13:03:00.650079 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1057 promptTok=1177 textChars=2739 cached=false
+2026-10-12 13:03:00.653328 W VkApi: ✗ response gemini/system 3985ms len=76
+2026-10-12 13:03:00.656105 W VkApi: ✗ response gemini/system 14062ms len=66
+2026-10-12 13:03:00.657360 W VkThemes: ✗ generate 14108ms
+2026-10-12 13:03:38.696178 I VkThemes: ▶ tap generate ref=false descLen=25
+2026-10-12 13:03:43.966153 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1165 promptTok=5029 textChars=3023 cached=false
+2026-10-12 13:03:48.372021 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1180 promptTok=1296 textChars=3076 cached=false
+2026-10-12 13:03:48.377983 W VkApi: ✗ response gemini/system 4406ms len=75
+2026-10-12 13:03:48.383439 W VkApi: ✗ response gemini/system 9639ms len=66
+2026-10-12 13:03:48.393252 W VkThemes: ✗ generate 9670ms
+=== In-memory (current process) ===
+2026-10-12 13:01:59.797453 I VkLanguageSettings: legacy multilingual pref migrated main=en-US
+2026-10-12 13:01:59.850195 I startup: Starting com.vibekey.keyboard version 4.5.1017 (5377) on Android 12 (SDK 31)
+2026-10-12 13:01:59.995860 I VkSettings: ▶ activity open spellchecker=false
+2026-10-12 13:02:00.452865 I VkSettings: → screen settings
+2026-10-12 13:02:00.454450 I VkSetupWizard: → step 0
+2026-10-12 13:02:01.295096 I VkSetupWizard: → step 1
+2026-10-12 13:02:06.132463 I VkSetupWizard: → step 2
+2026-10-12 13:02:08.346802 I VkSetupWizard: → step 3
+2026-10-12 13:02:08.560302 I VkNgram: registered lang=vi,th source=bundled
+2026-10-12 13:02:08.599598 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-12 13:02:08.602120 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-12 13:02:08.602527 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-12 13:02:08.617932 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-12 13:02:08.618507 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-12 13:02:08.625967 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=mesh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true sound=true(chime) vibrate=true(light)
+2026-10-12 13:02:08.626614 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-12 13:02:08.683401 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-12 13:02:08.685773 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-12 13:02:08.733163 I VkDictionaries: ✓ open main en-US
+2026-10-12 13:02:08.733235 I VkDictionaries: collection en-US dicts=1 emoji=true
+2026-10-12 13:02:08.841991 I VkStartupLoad: ▶ cold start — stagger heavy background work
+2026-10-12 13:02:08.842924 I VkLocaleAssets: ▶ startup download begin
+2026-10-12 13:02:08.843752 I VkStartupLoad: ▶ dictionary batch begin recentInstall=true
+2026-10-12 13:02:08.843918 I VkLocaleAssets: ▶ batch source=startup count=1 [en-US]
+2026-10-12 13:02:08.852661 I VkLocaleAssets: ▶ fetch en-US main=false emoji=true bigram=false
+2026-10-12 13:02:09.095093 I GoogleFontsLoader: cached space-grotesk-v2.ttf (136676 bytes) via=gcs
+2026-10-12 13:02:09.289380 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:09.399859 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-10-12 13:02:09.400049 I VkNgram: model ready locale=en-US gen=1 109ms
+2026-10-12 13:02:09.487598 I GoogleFontsLoader: cached outfit-v2.ttf (110884 bytes) via=gcs
+2026-10-12 13:02:09.488985 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-12 13:02:09.500514 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-12 13:02:10.071995 I VkLanguageSettings: + enable en-US
+2026-10-12 13:02:10.072664 I VkLanguageSettings: select en-US
+2026-10-12 13:02:10.122645 I VkSetupWizard: languages enabled=1/3 [len=5] download=1 [len=5]
+2026-10-12 13:02:10.123418 I VkLanguageSettings: ▶ pack download count=1 [len=5]
+2026-10-12 13:02:11.088343 I VkLocaleAssets: ✓ en-US emoji via=codeberg
+2026-10-12 13:02:11.094842 I VkLocaleAssets: ✓ ready en-US (fetched)
+2026-10-12 13:02:11.095952 I VkLocaleAssets: ✓ batch source=startup locales=1 fetched=1
+2026-10-12 13:02:11.104119 I VkStartupLoad: ✓ dictionary batch done
+2026-10-12 13:02:11.108320 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:11.110932 I VkLocaleAssets: ✓ startup done locales=1 retries=0
+2026-10-12 13:02:11.113063 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-12 13:02:11.122231 I VkLanguageSettings: ✓ pack download result=Success
+2026-10-12 13:02:11.137049 I VkSetupWizard: ✓ wizard completed
+2026-10-12 13:02:11.510595 I VkTyping: ○ hidden
+2026-10-12 13:02:11.743265 I VkLocaleAssets: ▶ apply IME en-US live=fetched
+2026-10-12 13:02:11.743832 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-12 13:02:11.745996 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-12 13:02:11.749770 I VkDictionaries: ✓ open emoji en-US
+2026-10-12 13:02:11.750242 I VkDictionaries: ✓ open main en-US
+2026-10-12 13:02:11.750344 I VkDictionaries: collection en-US dicts=2 emoji=true
+2026-10-12 13:02:13.033251 I VkStore: catalog fetch ok=true http=200 version=213
+2026-10-12 13:02:13.283994 I VkStore: catalog fetch ok=true http=200 version=213
+2026-10-12 13:02:13.693202 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-12 13:02:13.700936 I VkDictionaries: ✓ open emoji en-US
+2026-10-12 13:02:13.788296 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1916 epoch=12
+2026-10-12 13:02:14.197689 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3326 epoch=12
+2026-10-12 13:02:14.271669 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:02:14.271761 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=579ms
+2026-10-12 13:02:14.300647 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:14.377435 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-12 13:02:14.378621 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-12 13:02:14.378853 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=4 gen=1
+2026-10-12 13:02:15.081790 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:15.081928 I VkKeyPreview: show burst=1 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-12 13:02:15.085909 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1992 epoch=13
+2026-10-12 13:02:15.087288 I VkKeyPreview: dismiss burst=1 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-12 13:02:15.087455 I VkKeyPress: keys pressed=1
+2026-10-12 13:02:15.202061 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:15.206234 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=14
+2026-10-12 13:02:15.215726 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=6 gen=1
+2026-10-12 13:02:15.334170 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:15.359016 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1975 epoch=15
+2026-10-12 13:02:15.386929 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=7 gen=1
+2026-10-12 13:02:15.391914 I VkStripPipeline: staleDrop typedWord token=7 seq=5
+2026-10-12 13:02:15.468292 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=7 gen=1
+2026-10-12 13:02:15.891416 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-12 13:02:15.905483 I VkPanels: ▶ open assist
+2026-10-12 13:02:16.042780 I OnDeviceAssist: ▶ panel open locale=en-US pack=en cards=13 source=bundled
+2026-10-12 13:02:16.045870 I VkPanels: ▶ open popui_assist
+2026-10-12 13:02:17.092465 I VkTyping: ○ hidden
+2026-10-12 13:02:17.093381 I VkPanels: ○ close assist
+2026-10-12 13:02:17.349063 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2015 epoch=15
+2026-10-12 13:02:18.870244 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-12 13:02:18.953277 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1926 epoch=17
+2026-10-12 13:02:18.963699 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:19.045004 I VkFastTyping: async fetch style=[REDACTED] seq=-1
+2026-10-12 13:02:19.055455 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=en token=13 gen=1
+2026-10-12 13:02:19.389444 I SessionContext: updateAmbientCapture sensitive=false ambientChars=36
+2026-10-12 13:02:19.389563 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=36 sensitive=false attempt=0 elapsed=521ms
+2026-10-12 13:02:19.797749 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=18
+2026-10-12 13:02:19.810195 I VkKeyPress: keys pressed=4
+2026-10-12 13:02:19.909076 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=en token=15 gen=1
+2026-10-12 13:02:19.924359 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=19
+2026-10-12 13:02:19.925302 I VkStripPipeline: staleDrop publishSession token=14 seq=11
+2026-10-12 13:02:20.044147 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=en token=15 gen=1
+2026-10-12 13:02:20.069376 I VkStripPipeline: staleDrop publishSession token=15 seq=12
+2026-10-12 13:02:20.072850 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=20
+2026-10-12 13:02:20.202850 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=21
+2026-10-12 13:02:20.210387 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=17 gen=1
+2026-10-12 13:02:21.328495 I VkTyping: ○ hidden
+2026-10-12 13:02:22.208525 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2010 epoch=21
+2026-10-12 13:02:22.542728 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-12 13:02:22.654573 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1957 epoch=23
+2026-10-12 13:02:22.665096 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:22.749170 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=21 gen=1
+2026-10-12 13:02:23.062902 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:02:23.063020 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+2026-10-12 13:02:23.442552 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-12 13:02:23.452204 I VkPanels: ▶ open menu
+2026-10-12 13:02:23.461205 I VkPanels: ▶ open popui_menu
+2026-10-12 13:02:23.461405 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-12 13:02:23.466801 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:23.471656 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-12 13:02:23.471794 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-12 13:02:23.573540 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=23 gen=1
+2026-10-12 13:02:24.401494 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1065 epoch=24
+2026-10-12 13:02:25.275854 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:25.275953 I VkKeyPreview: show burst=3 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-12 13:02:25.279351 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=25
+2026-10-12 13:02:25.354800 I VkKeyPreview: dismiss burst=3 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-12 13:02:25.354898 I VkKeyPress: keys pressed=8
+2026-10-12 13:02:25.525817 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:25.529293 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=26
+2026-10-12 13:02:25.834378 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:25.837693 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=27
+2026-10-12 13:02:26.044088 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:26.047477 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=28
+2026-10-12 13:02:26.241841 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:26.245012 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=29
+2026-10-12 13:02:26.361460 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:26.364872 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=30
+2026-10-12 13:02:26.545290 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=31
+2026-10-12 13:02:27.321375 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:27.324779 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=32
+2026-10-12 13:02:27.511833 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:27.515125 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=33
+2026-10-12 13:02:27.746126 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:27.749402 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=34
+2026-10-12 13:02:27.933721 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=35
+2026-10-12 13:02:28.450729 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:28.450841 I VkKeyPreview: show burst=9 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-12 13:02:28.454383 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=36
+2026-10-12 13:02:28.538124 I VkKeyPreview: dismiss burst=9 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-12 13:02:28.538201 I VkKeyPress: keys pressed=19
+2026-10-12 13:02:28.691043 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:28.694499 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=37
+2026-10-12 13:02:28.917333 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=38
+2026-10-12 13:02:29.308950 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:29.312317 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=39
+2026-10-12 13:02:29.546824 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:29.550435 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=40
+2026-10-12 13:02:29.674457 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:29.677928 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=41
+2026-10-12 13:02:29.790629 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:29.794400 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=42
+2026-10-12 13:02:29.984306 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:29.987411 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=43
+2026-10-12 13:02:30.368144 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=44
+2026-10-12 13:02:30.697678 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:30.701286 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=45
+2026-10-12 13:02:30.852932 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:30.856089 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1997 epoch=46
+2026-10-12 13:02:31.081557 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:31.084951 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=47
+2026-10-12 13:02:31.381112 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:31.384514 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=48
+2026-10-12 13:02:31.604591 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-12 13:02:31.604697 I VkKeyPreview: show burst=11 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-12 13:02:31.607708 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=49
+2026-10-12 13:02:31.695353 I VkKeyPreview: dismiss burst=11 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-12 13:02:31.695448 I VkKeyPress: keys pressed=32
+2026-10-12 13:02:32.533631 I VkThemes: ▶ tap generate ref=false descLen=25
+2026-10-12 13:02:33.614789 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=49
+2026-10-12 13:02:43.281505 I VkMonetization: rewarded_earned waterfall=PRIMARY feature=theme
+2026-10-12 13:02:43.321266 I VkApi: ▶ request /mintEntitlement
+2026-10-12 13:02:45.734027 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-12 13:02:45.780365 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1963 epoch=51
+2026-10-12 13:02:45.802376 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:02:45.805458 I VkStore: catalog not-modified version=213
+2026-10-12 13:02:45.872385 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=26 gen=1
+2026-10-12 13:02:45.901001 I VkStore: catalog not-modified version=213
+2026-10-12 13:02:46.264399 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:02:46.264587 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=532ms
+2026-10-12 13:02:46.265141 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:02:46.266013 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-12 13:02:46.518319 I VkApi: ✓ response /mintEntitlement 3194ms code=200
+2026-10-12 13:02:46.519608 I VkAiEconomics: entitlement_mint feature=theme ok=true
+2026-10-12 13:02:46.561170 I VkAiEconomics: rewarded_grant feature=theme waterfall=PRIMARY
+2026-10-12 13:02:46.561842 I VkThemes: ▶ generate ref=false descLen=25
+2026-10-12 13:02:46.593997 I VkApi: ▶ request gemini/system model=gemini-3.1-flash-lite
+2026-10-12 13:02:46.604527 I VkApi: ▶ request /geminiGenerateContent
+2026-10-12 13:02:47.769722 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2026 epoch=51
+2026-10-12 13:02:56.655813 I VkApi: ✓ response /geminiGenerateContent 10051ms code=200
+2026-10-12 13:02:56.658475 I VkApi: proxy_theme_entitlement outcome=refunded_not_salvageable
+2026-10-12 13:02:56.658828 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1046 promptTok=5026 textChars=2712 cached=false
+2026-10-12 13:02:56.663139 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:02:56.667096 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:02:56.668409 I VkApi: ▶ request gemini/system model=gemini-3.1-flash-lite
+2026-10-12 13:02:56.673570 I VkApi: ▶ request /geminiGenerateContent
+2026-10-12 13:03:00.647970 I VkApi: ✓ response /geminiGenerateContent 3974ms code=200
+2026-10-12 13:03:00.649786 I VkApi: proxy_theme_entitlement outcome=refunded_not_salvageable
+2026-10-12 13:03:00.650016 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1057 promptTok=1177 textChars=2739 cached=false
+2026-10-12 13:03:00.653208 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: funcKeyBorderColor)
+2026-10-12 13:03:00.655752 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:03:00.657149 I VkAiEconomics: theme_free_retry grant reason=unusable_json
+2026-10-12 13:03:00.657255 I VkAiEconomics: theme success=false 14108ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=PRIMARY key=[REDACTED]
+2026-10-12 13:03:07.721196 I VkPanels: ○ close menu
+2026-10-12 13:03:07.752494 I VkTyping: ○ hidden
+2026-10-12 13:03:07.839682 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-12 13:03:07.839919 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-10-12 13:03:30.465618 I LlmEngineClient: release on IME hidden: engine torn down (force=false)
+2026-10-12 13:03:35.217270 I VkStore: catalog not-modified version=213
+2026-10-12 13:03:35.250895 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-12 13:03:35.286259 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1976 epoch=53
+2026-10-12 13:03:35.296426 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:03:35.302898 I VkStore: catalog not-modified version=213
+2026-10-12 13:03:35.392433 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=34 gen=1
+2026-10-12 13:03:35.770318 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:03:35.770472 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+2026-10-12 13:03:35.771320 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-12 13:03:35.771852 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-10-12 13:03:37.272145 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2009 epoch=53
+2026-10-12 13:03:37.536215 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-12 13:03:37.558105 I VkPanels: ▶ open menu
+2026-10-12 13:03:37.575781 I VkPanels: ▶ open popui_menu
+2026-10-12 13:03:37.575980 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-10-12 13:03:37.584593 I VkLocaleAssets: preload predictors en-US
+2026-10-12 13:03:37.588467 I VkLocaleAssets: ○ ready en-US (cached)
+2026-10-12 13:03:37.588604 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-12 13:03:37.688055 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=36 gen=1
+2026-10-12 13:03:38.695866 I VkThemes: ▶ tap generate ref=false descLen=25
+2026-10-12 13:03:38.703061 I VkAiEconomics: theme_free_retry consumed skip_ad=true
+2026-10-12 13:03:38.724385 I VkAiEconomics: rewarded_grant feature=theme waterfall=?
+2026-10-12 13:03:38.725263 I VkThemes: ▶ generate ref=false descLen=25
+2026-10-12 13:03:38.745073 I VkApi: ▶ request gemini/system model=gemini-3.1-flash-lite
+2026-10-12 13:03:38.750276 I VkApi: ▶ request /geminiGenerateContent
+2026-10-12 13:03:39.050179 I VkStore: catalog not-modified version=213
+2026-10-12 13:03:39.070946 I VkStore: sync imported=0 catalog=213
+2026-10-12 13:03:43.964888 I VkApi: ✓ response /geminiGenerateContent 5214ms code=200
+2026-10-12 13:03:43.965956 I VkApi: proxy_theme_entitlement outcome=refunded_not_salvageable
+2026-10-12 13:03:43.966113 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1165 promptTok=5029 textChars=3023 cached=false
+2026-10-12 13:03:43.968057 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:03:43.970374 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:03:43.971146 I VkApi: ▶ request gemini/system model=gemini-3.1-flash-lite
+2026-10-12 13:03:43.976838 I VkApi: ▶ request /geminiGenerateContent
+2026-10-12 13:03:48.367933 I VkApi: ✓ response /geminiGenerateContent 4391ms code=200
+2026-10-12 13:03:48.371583 I VkApi: proxy_theme_entitlement outcome=refunded_not_salvageable
+2026-10-12 13:03:48.371940 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1180 promptTok=1296 textChars=3076 cached=false
+2026-10-12 13:03:48.377777 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (hintText must be #AARRGGBB hex or "none")
+2026-10-12 13:03:48.383283 I VkApi: theme_author_reject reason=Incomplete theme JSON from model (missing visible field: hintText)
+2026-10-12 13:03:48.392740 I VkAiEconomics: theme_free_retry grant reason=unusable_json
+2026-10-12 13:03:48.393008 I VkAiEconomics: theme success=false 9670ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=? key=[REDACTED]
+2026-10-12 13:03:51.231412 I VkPanels: ○ close menu
+2026-10-12 13:03:51.238087 I VkPanels: ○ close menu
+2026-10-12 13:03:51.280528 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=13695 epoch=54
+2026-10-12 13:03:52.044913 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-12 13:03:52.075419 I VkPanels: ▶ open menu
+2026-10-12 13:03:52.099025 I VkPanels: ▶ open popui_menu
+2026-10-12 13:03:52.099691 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-12 13:03:52.099909 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-12 13:03:54.314934 I VkKeyPress: keys pressed=33
+2026-10-12 13:03:54.315426 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-10-12 13:03:54.317326 I VkPanels: ○ close menu
+2026-10-12 13:03:54.322959 I VkPanels: ○ close menu
+2026-10-12 13:03:54.404537 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2287 epoch=55
+2026-10-12 13:03:54.461756 I VkTyping: ○ hidden
+2026-10-12 13:03:54.476281 I VkSettings: ▶ activity open spellchecker=false
+2026-10-12 13:03:56.705082 I VkSettings: → screen about
