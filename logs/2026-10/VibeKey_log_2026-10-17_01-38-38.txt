@@ -1,0 +1,229 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.1084 (5444) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: en-US
+system: en-US
+enabled: en-US
+redaction: v6
+report: a811b5bb
+generated: 2026-10-17T01:38:34.758084Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.1084 (5444) ===
+10-16 21:36:28.725  4914  5515 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+10-16 21:36:31.415  4914  5515 I VkStore : import len=52 kind=vkcard ok=true
+10-16 21:36:31.417  4914  5515 I VkVault : ✓ claimImport item=[REDACTED] ok=true
+10-16 21:36:31.419  4914  5503 I VkApi   : ▶ request /storeClaim
+10-16 21:36:31.929  4914  5503 W VkApi   : ✗ response /storeClaim 510ms code=401
+10-16 21:36:31.934  4914  5515 W VkVault : ○ rollback item=[REDACTED] reason=booking_failed
+10-16 21:36:31.935  4914  5515 I VkVibeCards: ○ deactivate len=17
+10-16 21:36:31.936  4914  5515 I VkFavorites: delete card len=58
+10-16 21:36:32.007  4914  4914 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+10-16 21:36:35.711  4914  5269 I VkVault : ▶ claim item=[REDACTED] kind=vkcard
+10-16 21:36:36.023  4914  5269 I VkStore : download len=46 ok=true bytes=3963730
+10-16 21:36:36.093  4914  5269 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+10-16 21:36:39.011  4914  5269 I VkStore : import len=46 kind=vkcard ok=true
+10-16 21:36:39.013  4914  5269 I VkVault : ✓ claimImport item=[REDACTED] ok=true
+10-16 21:36:39.015  4914  5503 I VkApi   : ▶ request /storeClaim
+10-16 21:36:39.713  4914  5503 W VkApi   : ✗ response /storeClaim 698ms code=401
+10-16 21:36:39.718  4914  5269 W VkVault : ○ rollback item=[REDACTED] reason=booking_failed
+10-16 21:36:39.720  4914  5269 I VkVibeCards: ○ deactivate len=17
+10-16 21:36:39.721  4914  5269 I VkFavorites: delete card len=52
+10-16 21:36:39.780  4914  4914 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+10-16 21:38:13.605  4914  4963 I VkStore : catalog not-modified version=219
+10-16 21:38:19.820  4914  4963 I VkVault : ▶ claim item=[REDACTED] kind=vkcard
+10-16 21:38:20.507  4914  4963 I VkStore : download len=52 ok=true bytes=4136157
+10-16 21:38:20.578  4914  4963 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+10-16 21:38:22.714  4914  4963 I VkStore : import len=52 kind=vkcard ok=true
+10-16 21:38:22.717  4914  4963 I VkVault : ✓ claimImport item=[REDACTED] ok=true
+10-16 21:38:22.718  4914  5503 I VkApi   : ▶ request /storeClaim
+10-16 21:38:23.309  4914  4914 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+10-16 21:38:23.317  4914  4914 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-16 21:38:23.334  4914  5503 W VkApi   : ✗ response /storeClaim 616ms code=401
+10-16 21:38:23.335  4914  4963 W VkVault : ○ rollback item=[REDACTED] reason=booking_failed
+10-16 21:38:23.336  4914  4963 I VkVibeCards: ○ deactivate len=17
+10-16 21:38:23.337  4914  4963 I VkFavorites: delete card len=58
+10-16 21:38:23.377  4914  4914 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1945 epoch=14
+10-16 21:38:23.414  4914  4914 I VkLocaleAssets: preload predictors en-US
+10-16 21:38:23.488  4914  4914 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+10-16 21:38:23.550  4914  5246 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=8 gen=1
+10-16 21:38:23.829  4914  4914 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-16 21:38:23.829  4914  4914 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=523ms
+10-16 21:38:23.830  4914  4914 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-16 21:38:23.831  4914  5271 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+10-16 21:38:24.737  4914  4963 I VkStore : catalog not-modified version=219
+10-16 21:38:24.782  4914  4963 I VkStore : sync imported=0 catalog=219
+10-16 21:38:24.862  4914  4914 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-16 21:38:24.919  4993  5027 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 669ms
+10-16 21:38:25.328  4914  4914 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=14
+10-16 21:38:26.181  4914  4914 I VkTyping: ○ hidden
+10-16 21:38:26.273  4914  4962 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-16 21:38:26.273  4914  4962 I LlmEngineClient: release on IME hidden: defer 19999ms (short-hide grace)
+10-16 21:38:31.158  4914  4914 I VkSettings: ▶ activity open spellchecker=false
+10-16 21:38:32.862  4914  4914 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-10-16 21:36:02.275977 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-16 21:36:02.278372 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-16 21:36:02.278692 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-16 21:36:02.291017 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-16 21:36:02.291444 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-16 21:36:02.303442 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-16 21:36:02.596481 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-16 21:36:02.608126 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-16 21:36:19.092591 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:23.573359 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:25.062631 W VkApi: ✗ response /storeClaim 1484ms code=401
+2026-10-16 21:36:25.064310 W VkVault: ○ rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:36:25.064675 W VkVault: rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:36:28.172213 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:31.417984 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:31.930091 W VkApi: ✗ response /storeClaim 510ms code=401
+2026-10-16 21:36:31.934184 W VkVault: ○ rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:36:31.934580 W VkVault: rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:36:35.712097 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:39.013966 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:39.713584 W VkApi: ✗ response /storeClaim 698ms code=401
+2026-10-16 21:36:39.718702 W VkVault: ○ rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:36:39.719064 W VkVault: rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:38:19.820402 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:38:22.717121 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:38:23.334692 W VkApi: ✗ response /storeClaim 616ms code=401
+2026-10-16 21:38:23.335373 W VkVault: ○ rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:38:23.335561 W VkVault: rollback item=[REDACTED] reason=booking_failed
+2026-10-16 21:38:24.919213 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 669ms
+=== In-memory (current process) ===
+2026-10-16 21:35:53.381750 I VkLanguageSettings: legacy multilingual pref migrated main=en-US
+2026-10-16 21:35:53.438798 I startup: Starting com.vibekey.keyboard version 4.5.1084 (5444) on Android 12 (SDK 31)
+2026-10-16 21:35:53.529060 I VkSettings: ▶ activity open spellchecker=false
+2026-10-16 21:35:53.891783 I VkSettings: → screen settings
+2026-10-16 21:35:53.893392 I VkSetupWizard: → step 0
+2026-10-16 21:35:54.741272 I VkSetupWizard: → step 1
+2026-10-16 21:35:58.195199 I VkSetupWizard: → step 2
+2026-10-16 21:36:01.015649 I VkSetupWizard: → step 3
+2026-10-16 21:36:02.236642 I VkNgram: registered lang=vi,th source=bundled
+2026-10-16 21:36:02.275859 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-16 21:36:02.278290 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→105.0
+2026-10-16 21:36:02.278663 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-16 21:36:02.290943 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-16 21:36:02.291404 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-16 21:36:02.297795 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=mesh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true kbOp=0.98 fullFrame=true sound=true(chime) vibrate=true(light)
+2026-10-16 21:36:02.298393 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:36:02.303354 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-16 21:36:02.359580 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-16 21:36:02.362498 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-16 21:36:02.404106 I VkDictionaries: ✓ open main en-US
+2026-10-16 21:36:02.404196 I VkDictionaries: collection en-US dicts=1 emoji=true
+2026-10-16 21:36:02.466290 I VkStartupLoad: ▶ cold start — stagger heavy background work
+2026-10-16 21:36:02.467516 I VkLocaleAssets: ▶ startup download begin
+2026-10-16 21:36:02.468810 I VkStartupLoad: ▶ dictionary batch begin recentInstall=true
+2026-10-16 21:36:02.469023 I VkLocaleAssets: ▶ batch source=startup count=1 [en-US]
+2026-10-16 21:36:02.477440 I VkLocaleAssets: ▶ fetch en-US main=false emoji=true bigram=false
+2026-10-16 21:36:02.515967 I GoogleFontsLoader: cached space-grotesk-v2.ttf (136676 bytes) via=gcs
+2026-10-16 21:36:02.593291 I GoogleFontsLoader: cached outfit-v2.ttf (110884 bytes) via=gcs
+2026-10-16 21:36:02.596380 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-16 21:36:02.607989 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-16 21:36:02.964690 I VkLocaleAssets: preload predictors en-US
+2026-10-16 21:36:03.052521 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-10-16 21:36:03.052718 I VkNgram: model ready locale=en-US gen=1 87ms
+2026-10-16 21:36:04.307722 I VkLocaleAssets: ✓ en-US emoji via=codeberg
+2026-10-16 21:36:04.313534 I VkLocaleAssets: ✓ ready en-US (fetched)
+2026-10-16 21:36:04.315163 I VkLocaleAssets: ✓ batch source=startup locales=1 fetched=1
+2026-10-16 21:36:04.320422 I VkStartupLoad: ✓ dictionary batch done
+2026-10-16 21:36:04.324680 I VkLocaleAssets: ✓ startup done locales=1 retries=0
+2026-10-16 21:36:04.920669 I VkLocaleAssets: ▶ apply IME en-US live=fetched
+2026-10-16 21:36:04.921086 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-10-16 21:36:04.922627 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-16 21:36:04.924652 I VkDictionaries: ✓ open emoji en-US
+2026-10-16 21:36:04.924969 I VkDictionaries: ✓ open main en-US
+2026-10-16 21:36:04.925026 I VkDictionaries: collection en-US dicts=2 emoji=true
+2026-10-16 21:36:09.833267 I VkLanguageSettings: + enable en-US
+2026-10-16 21:36:09.833636 I VkLanguageSettings: select en-US
+2026-10-16 21:36:09.879943 I VkSetupWizard: languages enabled=1/3 [len=5] download=0 []
+2026-10-16 21:36:09.888256 I VkSetupWizard: ✓ wizard completed
+2026-10-16 21:36:10.175626 I VkTyping: ○ hidden
+2026-10-16 21:36:10.433222 I VkStore: catalog fetch ok=true http=200 version=219
+2026-10-16 21:36:10.463616 I VkStore: catalog fetch ok=true http=200 version=219
+2026-10-16 21:36:13.138358 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:36:13.258955 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-16 21:36:13.264790 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=0 frameTop=0 reason=refresh
+2026-10-16 21:36:13.267068 I VkDictionaries: ✓ open emoji en-US
+2026-10-16 21:36:13.335833 I VkEffects: backdropBlur radiusPx=105 applied=false reason=crossWindowBlurDisabled kbA=249
+2026-10-16 21:36:13.351660 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1918 epoch=12
+2026-10-16 21:36:13.351821 I VkNavBar: stripDraw branch=skipped: [REDACTED]
+2026-10-16 21:36:13.461711 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=attach
+2026-10-16 21:36:13.463449 I VkLocaleAssets: preload predictors en-US
+2026-10-16 21:36:13.465204 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:36:13.614039 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=0 kbA=249 blurOk=false
+2026-10-16 21:36:13.618179 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:36:13.640225 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=0 kbA=249 blurOk=false
+2026-10-16 21:36:13.713734 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3322 epoch=12
+2026-10-16 21:36:13.719412 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:36:13.829765 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-16 21:36:13.830638 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-16 21:36:13.834508 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=4 gen=1
+2026-10-16 21:36:13.841049 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-16 21:36:13.841132 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=583ms
+2026-10-16 21:36:15.047200 I VkTyping: ○ hidden
+2026-10-16 21:36:19.092501 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:19.530904 I VibeStoreDownloader: cached card.admin_remix_streetwear_ape_remix_remix_mu69ha7n (3766685 bytes)
+2026-10-16 21:36:19.531130 I VkStore: download len=52 ok=true bytes=3766685
+2026-10-16 21:36:19.598704 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-16 21:36:23.159088 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:36:23.571172 I VkStore: import len=52 kind=vkcard ok=true
+2026-10-16 21:36:23.573281 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:23.578688 I VkApi: ▶ request /storeClaim
+2026-10-16 21:36:25.066969 I VkVibeCards: ○ deactivate len=17
+2026-10-16 21:36:25.067971 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:36:25.070085 I VkFavorites: delete card len=58
+2026-10-16 21:36:25.091989 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:36:28.171910 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:28.650885 I VibeStoreDownloader: cached card.admin_remix_vintage_cyborg_remix_remix_mtwf2qi2 (3994269 bytes)
+2026-10-16 21:36:28.651155 I VkStore: download len=52 ok=true bytes=3994269
+2026-10-16 21:36:28.725062 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-16 21:36:31.415467 I VkStore: import len=52 kind=vkcard ok=true
+2026-10-16 21:36:31.417924 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:31.419563 I VkApi: ▶ request /storeClaim
+2026-10-16 21:36:31.935634 I VkVibeCards: ○ deactivate len=17
+2026-10-16 21:36:31.936747 I VkFavorites: delete card len=58
+2026-10-16 21:36:32.007751 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:36:35.711614 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:36:36.023479 I VibeStoreDownloader: cached card.admin_remix_vintage_cyborg_remix_mtweux3w (3963730 bytes)
+2026-10-16 21:36:36.023734 I VkStore: download len=46 ok=true bytes=3963730
+2026-10-16 21:36:36.093292 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-16 21:36:39.011576 I VkStore: import len=46 kind=vkcard ok=true
+2026-10-16 21:36:39.013898 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:36:39.015007 I VkApi: ▶ request /storeClaim
+2026-10-16 21:36:39.720176 I VkVibeCards: ○ deactivate len=17
+2026-10-16 21:36:39.721403 I VkFavorites: delete card len=52
+2026-10-16 21:36:39.780398 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:38:13.605089 I VkStore: catalog not-modified version=219
+2026-10-16 21:38:19.820264 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-16 21:38:20.506507 I VibeStoreDownloader: cached card.admin_remix_streetwear_ape_remix_remix_mu69dwp9 (4136157 bytes)
+2026-10-16 21:38:20.507046 I VkStore: download len=52 ok=true bytes=4136157
+2026-10-16 21:38:20.578758 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-16 21:38:22.714787 I VkStore: import len=52 kind=vkcard ok=true
+2026-10-16 21:38:22.717057 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-16 21:38:22.718345 I VkApi: ▶ request /storeClaim
+2026-10-16 21:38:23.309936 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-16 21:38:23.317576 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:38:23.336212 I VkVibeCards: ○ deactivate len=17
+2026-10-16 21:38:23.337171 I VkFavorites: delete card len=58
+2026-10-16 21:38:23.377779 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1945 epoch=14
+2026-10-16 21:38:23.414398 I VkLocaleAssets: preload predictors en-US
+2026-10-16 21:38:23.488901 I VkVibeCards: launcher bind card=[REDACTED] mode=card reason=no_active_cards
+2026-10-16 21:38:23.550604 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=8 gen=1
+2026-10-16 21:38:23.829363 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-16 21:38:23.829629 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=523ms
+2026-10-16 21:38:23.830463 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-16 21:38:23.831181 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-16 21:38:24.737609 I VkStore: catalog not-modified version=219
+2026-10-16 21:38:24.782941 I VkStore: sync imported=0 catalog=219
+2026-10-16 21:38:24.862329 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-16 21:38:25.327999 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=14
+2026-10-16 21:38:26.181497 I VkTyping: ○ hidden
+2026-10-16 21:38:26.273007 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-16 21:38:26.273442 I LlmEngineClient: release on IME hidden: defer 19999ms (short-hide grace)
+2026-10-16 21:38:31.158079 I VkSettings: ▶ activity open spellchecker=false
+2026-10-16 21:38:32.862185 I VkSettings: → screen about
