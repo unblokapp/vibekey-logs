@@ -1,0 +1,1269 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.1102 (5462) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: pt-BR
+system: pt-BR
+enabled: pt-BR
+redaction: v6
+report: e8b20090
+generated: 2026-10-19T17:18:44.447142Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed) ===
+=== VibeKey 4.5.1102 (5462) ===
+10-19 13:17:49.798 12473 13478 I VkApi   : ▶ request /mintEntitlement
+10-19 13:17:49.980 12473 13153 I VkStore : catalog not-modified version=221
+10-19 13:17:50.049 12473 12881 I VkStore : catalog not-modified version=221
+10-19 13:17:50.271 12473 13478 I VkApi   : ✓ response /mintEntitlement 473ms code=200
+10-19 13:17:50.273 12473 13480 I VkAiEconomics: entitlement_mint feature=claim ok=true
+10-19 13:17:50.273 12473 13480 I VkVault : ▶ claim item=[REDACTED] kind=vkcard
+10-19 13:17:50.854 12473 13480 I VkStore : download len=29 ok=true bytes=2752386
+10-19 13:17:50.912 12473 13480 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+10-19 13:17:53.351 12473 13480 I VkStore : import len=29 kind=vkcard ok=true
+10-19 13:17:53.354 12473 13480 I VkVault : ✓ claimImport item=[REDACTED] ok=true
+10-19 13:17:53.355 12473 13478 I VkApi   : ▶ request /storeClaim
+10-19 13:17:55.004 12473 13478 I VkApi   : ✓ response /storeClaim 1649ms code=200
+10-19 13:17:55.682 12473 12473 I VkVibeCards: decode phase=activate card=[REDACTED] srcEdge=1600 out=1216x1600
+10-19 13:17:55.685 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:17:55.687 12473 12473 I VkVibeCards: ▶ activate len=9
+10-19 13:17:55.793 12473 13480 I VkVibeCards: loaded 2 cards (disk)
+10-19 13:17:57.254 12473 12473 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+10-19 13:17:57.271 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:17:57.328 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1950 epoch=40
+10-19 13:17:57.342 12473 12473 I VkLocaleAssets: preload predictors pt-BR
+10-19 13:17:57.443 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=86 gen=46
+10-19 13:17:57.771 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:17:57.771 12473 12473 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+10-19 13:17:57.773 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:17:57.773 12473 13480 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+10-19 13:17:58.087 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 0ms
+10-19 13:17:58.432 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:17:58.452 12473 12473 I VkPanels: ▶ open editor
+10-19 13:17:58.459 12473 12473 I VkPanels: ▶ open popui_editor
+10-19 13:17:58.466 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+10-19 13:17:58.815 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:17:59.231 12473 12473 I VkPanels: ○ close editor
+10-19 13:17:59.289 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=40
+10-19 13:17:59.835 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:17:59.852 12473 12473 I VkPanels: ▶ open menu
+10-19 13:17:59.872 12473 12473 I VkPanels: ▶ open popui_menu
+10-19 13:17:59.873 12473 13153 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-19 13:17:59.873 12473 13153 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-19 13:17:59.889 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+10-19 13:18:00.328 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:00.330 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:00.342 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:00.383 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1501 epoch=41
+10-19 13:18:01.113 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:18:01.130 12473 12473 I VkPanels: ▶ open menu
+10-19 13:18:01.151 12473 12473 I VkPanels: ▶ open popui_menu
+10-19 13:18:01.151 12473 13480 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-19 13:18:01.151 12473 13480 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-19 13:18:01.158 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+10-19 13:18:02.014 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:02.512 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:02.515 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:02.531 12473 12473 I VkPanels: ▶ open ai_theme
+10-19 13:18:02.538 12473 12473 I VkPanels: ▶ open popui_ai_theme
+10-19 13:18:02.545 12473 12473 I VkPanels: ▶ open effects
+10-19 13:18:02.666 12473 12473 I VkPanels: ▶ open popui_swap_effects
+10-19 13:18:02.670 12473 12473 I VkEffects: ▶ panel tab=vibe
+10-19 13:18:02.683 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=474 epoch=42
+10-19 13:18:02.694 12473 12473 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1053 reason=refresh
+10-19 13:18:03.165 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=42
+10-19 13:18:03.518 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:14.363 12473 12473 I VkPanels: ▶ open popui_swap_ai_theme
+10-19 13:18:14.400 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:14.405 12473 12473 I VkPanels: ▶ open menu
+10-19 13:18:14.413 12473 12473 I VkPanels: ▶ open popui_menu
+10-19 13:18:14.414 12473 13483 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+10-19 13:18:14.428 12473 13483 I VkLocaleAssets: preload predictors pt-BR
+10-19 13:18:14.440 12473 13483 I VkLocaleAssets: ○ ready pt-BR (cached)
+10-19 13:18:14.440 12473 13483 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+10-19 13:18:14.444 12473 12473 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=refresh
+10-19 13:18:14.585 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=112 gen=46
+10-19 13:18:15.661 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:15.700 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=720 epoch=43
+10-19 13:18:15.704 12473 12473 I VkTyping: ○ hidden
+10-19 13:18:15.793 12473 12515 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-19 13:18:15.793 12473 12515 I LlmEngineClient: release on IME hidden: defer 19999ms (short-hide grace)
+10-19 13:18:16.430 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=43
+10-19 13:18:18.777 12473 12473 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+10-19 13:18:18.784 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:18.871 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1957 epoch=45
+10-19 13:18:18.880 12473 12473 I VkLocaleAssets: preload predictors pt-BR
+10-19 13:18:18.971 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=116 gen=46
+10-19 13:18:19.300 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:18:19.300 12473 12473 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=525ms
+10-19 13:18:19.302 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:18:19.304 12473 13041 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+10-19 13:18:20.201 12473 12473 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+10-19 13:18:20.201 12473 12473 I VkKeyPreview: show burst=3 last=key=[REDACTED] instant=true pool showing=1 free=6
+10-19 13:18:20.204 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=46
+10-19 13:18:20.279 12473 12473 I VkKeyPreview: dismiss burst=3 last=key=[REDACTED] reason=release pool showing=0 free=7
+10-19 13:18:20.279 12473 12473 I VkKeyPress: keys pressed=184
+10-19 13:18:20.354 12473 12871 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=118 gen=46
+10-19 13:18:20.362 12473 12473 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+10-19 13:18:20.365 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=47
+10-19 13:18:20.365 12473 12473 I VkStripPipeline: staleDrop publishSession token=117 seq=161
+10-19 13:18:20.367 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:20.509 12473 12871 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=118 gen=46
+10-19 13:18:20.895 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:20.974 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:20.976 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=47
+10-19 13:18:21.286 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=36
+10-19 13:18:21.286 12473 13041 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=36
+10-19 13:18:21.414 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:21.492 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=3, len=5, len=3
+10-19 13:18:21.492 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:21.494 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:21.494 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=48
+10-19 13:18:21.600 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=36 chars 0ms
+10-19 13:18:21.680 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:21.749 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:21.751 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:21.751 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=49
+10-19 13:18:21.932 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:21.999 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:22.001 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:22.001 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=50
+10-19 13:18:22.132 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:22.197 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:22.199 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:22.200 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=51
+10-19 13:18:22.342 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:22.375 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=47
+10-19 13:18:22.406 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+10-19 13:18:22.407 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:22.407 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=52
+10-19 13:18:22.643 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:22.706 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:22.706 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:22.706 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=53
+10-19 13:18:23.000 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:23.067 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:23.069 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:23.069 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=54
+10-19 13:18:23.378 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:23.444 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:23.447 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:23.447 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=55
+10-19 13:18:23.665 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:23.734 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:23.736 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=56
+10-19 13:18:23.901 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:23.968 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+10-19 13:18:23.970 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:23.970 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=57
+10-19 13:18:24.201 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:24.268 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+10-19 13:18:24.270 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:24.270 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=58
+10-19 13:18:24.450 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:24.521 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:24.523 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:24.523 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=59
+10-19 13:18:24.686 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:24.754 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:24.756 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:24.757 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=60
+10-19 13:18:25.002 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:25.068 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=5, len=4, len=7
+10-19 13:18:25.068 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:25.068 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:25.068 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=61
+10-19 13:18:25.388 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=115
+10-19 13:18:25.388 12473 13153 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=115
+10-19 13:18:25.403 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:25.478 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:25.481 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:25.481 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=62
+10-19 13:18:25.509 12473 12473 I VkStripPipeline: publishLatency seq=178 latencyMs=32
+10-19 13:18:25.656 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:25.712 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=115 chars 0ms
+10-19 13:18:25.741 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+10-19 13:18:25.742 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:25.742 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=63
+10-19 13:18:25.905 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:25.984 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:25.986 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:25.986 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=64
+10-19 13:18:26.139 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:26.215 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:26.216 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=65
+10-19 13:18:26.523 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=130
+10-19 13:18:26.524 12473 13480 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=15
+10-19 13:18:26.573 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:26.647 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:26.648 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:26.648 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=66
+10-19 13:18:26.940 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:27.015 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+10-19 13:18:27.015 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:27.015 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:27.015 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=67
+10-19 13:18:27.339 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=143
+10-19 13:18:27.341 12473 12515 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=143
+10-19 13:18:27.558 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:27.628 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:27.631 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:27.631 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=68
+10-19 13:18:27.660 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=143 chars 0ms
+10-19 13:18:27.824 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:27.893 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+10-19 13:18:27.893 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:27.894 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:27.894 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=69
+10-19 13:18:28.108 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:28.174 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+10-19 13:18:28.175 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:28.175 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=70
+10-19 13:18:28.492 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=153
+10-19 13:18:28.492 12473 13041 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=10
+10-19 13:18:28.573 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:28.650 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=3 assets=true
+10-19 13:18:28.651 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:28.651 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=71
+10-19 13:18:28.861 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:28.933 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+10-19 13:18:28.934 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:28.934 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=72
+10-19 13:18:29.145 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:29.220 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:29.222 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:29.222 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=73
+10-19 13:18:29.251 12473 12473 I VkStripPipeline: publishLatency seq=189 latencyMs=32
+10-19 13:18:29.446 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:29.513 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+10-19 13:18:29.513 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:29.515 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:29.515 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=74
+10-19 13:18:29.697 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:29.764 12473 12871 I VkNgram : contextual locale=pt prev=[REDACTED] → len=1, len=3, len=3
+10-19 13:18:29.764 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+10-19 13:18:29.767 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:29.767 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=75
+10-19 13:18:30.027 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:30.098 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+10-19 13:18:30.099 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:30.099 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=76
+10-19 13:18:30.257 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:30.324 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+10-19 13:18:30.326 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+10-19 13:18:30.326 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=77
+10-19 13:18:30.618 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:30.682 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:30.683 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:30.684 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=78
+10-19 13:18:30.908 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:30.973 12473 12871 I VkNgram : merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+10-19 13:18:30.975 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:30.975 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=79
+10-19 13:18:31.115 12473 12473 I VkAutocorrect: picked: [REDACTED]
+10-19 13:18:31.180 12473 12871 I VkNgram : unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+10-19 13:18:31.180 12473 12871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=80
+10-19 13:18:31.468 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:18:31.475 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:31.476 12473 12473 I VkPanels: ▶ open assist
+10-19 13:18:31.610 12473 12473 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+10-19 13:18:31.616 12473 12473 I VkPanels: ▶ open popui_assist
+10-19 13:18:31.618 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=ineligible_code
+10-19 13:18:31.647 12473 12473 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1053 reason=refresh
+10-19 13:18:31.665 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=191
+10-19 13:18:31.665 12473 12515 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=191
+10-19 13:18:31.699 12473 13041 I OnDeviceAssist: ✓ local grammar (pt) in=158 out=159 — skipping llama
+10-19 13:18:31.700 12473 13041 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+10-19 13:18:31.987 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=191 chars 0ms
+10-19 13:18:32.779 12473 12473 I VkTyping: ○ hidden
+10-19 13:18:32.781 12473 12473 I VkPanels: ○ close assist
+10-19 13:18:32.866 12473 13041 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-19 13:18:32.866 12473 13041 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+10-19 13:18:33.760 12473 12473 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+10-19 13:18:33.767 12473 12473 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=refresh
+10-19 13:18:33.767 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:33.894 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1958 epoch=49
+10-19 13:18:33.895 12473 12473 I VkLocaleAssets: preload predictors pt-BR
+10-19 13:18:33.925 12473 12871 I VkTextCorrection: rerank composing head len=3→len=4
+10-19 13:18:33.925 12473 12871 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=124 gen=80
+10-19 13:18:34.282 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=189
+10-19 13:18:34.282 12473 12473 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=189 sensitive=false attempt=0 elapsed=525ms
+10-19 13:18:34.292 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=189
+10-19 13:18:34.293 12473 13041 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=189
+10-19 13:18:34.603 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=189 chars 0ms
+10-19 13:18:34.645 12473 12871 I VkTextCorrection: rerank composing head len=3→len=4
+10-19 13:18:35.357 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:35.806 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:18:35.814 12473 12473 I VkPanels: ▶ open menu
+10-19 13:18:35.823 12473 12473 I VkPanels: ▶ open popui_menu
+10-19 13:18:35.823 12473 13483 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-19 13:18:35.823 12473 13483 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-19 13:18:35.830 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+10-19 13:18:36.276 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:36.277 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:36.302 12473 12473 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1526 epoch=50
+10-19 13:18:37.114 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:37.536 12473 12473 I VkTyping: ▶ open restart=true pkg=len=20 inputType=589825
+10-19 13:18:37.841 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=50
+10-19 13:18:38.056 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:18:38.056 12473 12473 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=522ms
+10-19 13:18:38.066 12473 12473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+10-19 13:18:38.067 12473 13041 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+10-19 13:18:38.390 12522 13204 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 0ms
+10-19 13:18:38.492 12473 12473 I VkKeyPress: strip pick key=[REDACTED]
+10-19 13:18:38.498 12473 12473 I VkPanels: ▶ open menu
+10-19 13:18:38.505 12473 12473 I VkPanels: ▶ open popui_menu
+10-19 13:18:38.505 12473 13483 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+10-19 13:18:38.505 12473 13483 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+10-19 13:18:38.512 12473 12473 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+10-19 13:18:38.671 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:40.664 12473 12473 I VkKeyPress: keys pressed=186
+10-19 13:18:40.665 12473 12473 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+10-19 13:18:40.667 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:40.669 12473 12473 I VkPanels: ○ close menu
+10-19 13:18:40.682 12473 12473 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+10-19 13:18:40.745 12473 12473 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2234 epoch=51
+10-19 13:18:40.774 12473 12473 I VkSettings: ▶ activity open spellchecker=false
+10-19 13:18:40.970 12473 12473 I VkTyping: ○ hidden
+10-19 13:18:41.053 12473 13153 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+10-19 13:18:41.054 12473 13153 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+10-19 13:18:42.417 12473 12473 I VkSettings: → screen about
+=== Feature activity (persisted across restarts) ===
+2026-10-19 13:16:01.173756 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-19 13:16:01.176525 I VkThemeApply: heal source=snapshot blur dp→px stored=28,0→105,0
+2026-10-19 13:16:01.176862 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-19 13:16:01.190319 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-19 13:16:01.190926 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-19 13:16:01.200817 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-19 13:16:02.362030 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-19 13:16:02.386343 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-19 13:16:27.080345 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-19 13:16:31.529311 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-19 13:16:40.735447 W VkSuggestions: slow frame 21.0ms locales=1 typedLen=3 candidates=14
+2026-10-19 13:16:47.496038 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 655ms
+2026-10-19 13:17:06.357591 W VkSuggestions: slow frame 16.4ms locales=1 typedLen=1 candidates=14
+2026-10-19 13:17:08.509861 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=43 chars 0ms
+2026-10-19 13:17:10.361111 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=68 chars 1ms
+2026-10-19 13:17:13.701144 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=105 chars 0ms
+2026-10-19 13:17:17.640550 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=154 chars 0ms
+2026-10-19 13:17:23.020897 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=232 chars 0ms
+2026-10-19 13:17:25.697982 W VkSuggestions: slow frame 25.5ms locales=1 typedLen=5 candidates=14
+2026-10-19 13:17:26.177468 W VkSuggestions: slow frame 17.5ms locales=1 typedLen=5 candidates=14
+2026-10-19 13:17:27.937048 W VkSuggestions: slow frame 26.8ms locales=1 typedLen=3 candidates=14
+2026-10-19 13:17:28.310162 W VkSuggestions: slow frame 17.8ms locales=1 typedLen=4 candidates=14
+2026-10-19 13:17:28.578338 W VkSuggestions: slow frame 18.9ms locales=1 typedLen=2 candidates=14
+2026-10-19 13:17:28.797964 W VkSuggestions: slow frame 21.2ms locales=1 typedLen=2 candidates=14
+2026-10-19 13:17:29.179461 W VkSuggestions: slow frame 18.5ms locales=1 typedLen=4 candidates=14
+2026-10-19 13:17:29.459220 W VkSuggestions: slow frame 16.3ms locales=1 typedLen=2 candidates=14
+2026-10-19 13:17:29.613289 W VkSuggestions: slow frame 18.6ms locales=1 typedLen=5 candidates=14
+2026-10-19 13:17:30.032381 W VkSuggestions: slow frame 17.8ms locales=1 typedLen=3 candidates=14
+2026-10-19 13:17:50.274017 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-19 13:17:53.354284 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-19 13:17:58.088047 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 0ms
+2026-10-19 13:18:21.600675 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=36 chars 0ms
+2026-10-19 13:18:25.712844 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=115 chars 0ms
+2026-10-19 13:18:27.660783 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=143 chars 0ms
+2026-10-19 13:18:31.483926 I OnDeviceAssist: loaded pack=pt-BR cards=13 fillers=6 source=bundled v=1
+2026-10-19 13:18:31.610538 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+2026-10-19 13:18:31.699513 I OnDeviceAssist: instant grammar lang=pt in=158 out=159
+2026-10-19 13:18:31.700665 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+2026-10-19 13:18:31.987680 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=191 chars 0ms
+2026-10-19 13:18:34.603968 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=189 chars 0ms
+2026-10-19 13:18:38.390503 I OnDeviceAssist: warm ok model=qwen3-0.6b-instruct-q4_0.gguf ambient=40 chars 0ms
+=== In-memory (current process) ===
+2026-10-19 13:15:51.867201 I VkLanguageSettings: legacy multilingual pref migrated main=pt-BR
+2026-10-19 13:15:51.930297 I startup: Starting com.vibekey.keyboard version 4.5.1102 (5462) on Android 12 (SDK 31)
+2026-10-19 13:15:52.065136 I VkSettings: ▶ activity open spellchecker=false
+2026-10-19 13:15:52.418034 I VkSettings: → screen settings
+2026-10-19 13:15:52.419743 I VkSetupWizard: → step 0
+2026-10-19 13:15:53.324853 I VkSetupWizard: → step 1
+2026-10-19 13:15:57.856578 I VkSetupWizard: → step 2
+2026-10-19 13:16:00.015123 I VkSetupWizard: → step 3
+2026-10-19 13:16:01.127189 I VkNgram: registered lang=vi,th source=bundled
+2026-10-19 13:16:01.173644 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-10-19 13:16:01.176433 I VkThemeApply: heal source=snapshot blur dp→px stored=28,0→105,0
+2026-10-19 13:16:01.176837 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-10-19 13:16:01.190217 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-10-19 13:16:01.190870 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-10-19 13:16:01.197872 I VkEffects: reload keyPress=glow popup=scale popupFx=true blurPx=105 glow=true stickers=true fontScale=0.90 font=space-grotesk bgFx=mesh bgFxInt=0.75 overlay=vignette/0.42 bgGrad=radial visible=true idle=shimmer spacebarIdle=shimmer frameGlow=none/0.00 lottie=len=4/ready=false/1.00/loop=true kbOp=0.98 fullFrame=true sound=true(chime) vibrate=true(light)
+2026-10-19 13:16:01.198227 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:01.200752 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=105.00 installSalt=absent
+2026-10-19 13:16:01.255130 I VkMultilingual: reset main=pt-BR locales=[pt] count=1
+2026-10-19 13:16:01.259975 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-10-19 13:16:01.267655 I VkDictionaries: ✓ open emoji pt-BR
+2026-10-19 13:16:01.279845 I VkDictionaries: ✓ open main pt-BR
+2026-10-19 13:16:01.279961 I VkDictionaries: collection pt-BR dicts=2 emoji=true
+2026-10-19 13:16:01.301761 I VkStartupLoad: ▶ cold start — stagger heavy background work
+2026-10-19 13:16:01.302293 I VkLocaleAssets: ▶ startup download begin
+2026-10-19 13:16:01.306605 I VkStartupLoad: ▶ dictionary batch begin recentInstall=true
+2026-10-19 13:16:01.306850 I VkLocaleAssets: ▶ batch source=startup count=1 [pt-BR]
+2026-10-19 13:16:01.320797 I VkStartupLoad: ○ predictor preload deferred pt-BR
+2026-10-19 13:16:01.323093 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-19 13:16:01.323461 I VkLocaleAssets: ✓ batch source=startup locales=1 fetched=0
+2026-10-19 13:16:01.325734 I VkStartupLoad: ✓ dictionary batch done
+2026-10-19 13:16:01.325834 I VkStartupLoad: ▶ predictor preload flush count=1
+2026-10-19 13:16:01.325907 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:01.335384 I VkLocaleAssets: ✓ startup done locales=1 retries=0
+2026-10-19 13:16:01.415292 I KenLmBridge: Loaded VkLM for pt from [REDACTED]
+2026-10-19 13:16:01.415557 I VkNgram: model ready locale=pt-BR gen=1 89ms
+2026-10-19 13:16:01.865043 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:01.959540 I GoogleFontsLoader: cached space-grotesk-v2.ttf (136676 bytes) via=gcs
+2026-10-19 13:16:02.252297 I VkLanguageSettings: + enable pt-BR
+2026-10-19 13:16:02.252768 I VkLanguageSettings: select pt-BR
+2026-10-19 13:16:02.284116 I VkSetupWizard: languages enabled=1/3 [len=5] download=0 []
+2026-10-19 13:16:02.294090 I VkSetupWizard: ✓ wizard completed
+2026-10-19 13:16:02.298843 I GoogleFontsLoader: cached outfit-v2.ttf (110884 bytes) via=gcs
+2026-10-19 13:16:02.361971 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=13 cached=true sound=len=5 cached=true
+2026-10-19 13:16:02.386275 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-10-19 13:16:02.693495 I VkTyping: ○ hidden
+2026-10-19 13:16:03.299327 I VkStore: catalog fetch ok=true http=200 version=221
+2026-10-19 13:16:03.343319 I VkStore: catalog fetch ok=true http=200 version=221
+2026-10-19 13:16:04.270720 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:04.393649 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-19 13:16:04.401069 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=0 frameTop=0 reason=refresh
+2026-10-19 13:16:04.406607 I VkDictionaries: ✓ open emoji pt-BR
+2026-10-19 13:16:04.472730 I VkEffects: backdropBlur radiusPx=105 applied=false reason=crossWindowBlurDisabled kbA=249
+2026-10-19 13:16:04.489453 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1919 epoch=12
+2026-10-19 13:16:04.489626 I VkNavBar: stripDraw branch=skipped: [REDACTED]
+2026-10-19 13:16:04.597603 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=attach
+2026-10-19 13:16:04.600153 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:04.729209 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=0 kbA=249 blurOk=false
+2026-10-19 13:16:04.734061 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:04.749596 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=0 kbA=249 blurOk=false
+2026-10-19 13:16:04.816095 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=3314 epoch=12
+2026-10-19 13:16:04.821135 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:04.890237 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:16:04.892008 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:16:04.892596 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=4 gen=0
+2026-10-19 13:16:04.921027 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:16:04.921113 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=528ms
+2026-10-19 13:16:06.454203 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:06.898291 I VkTyping: ○ hidden
+2026-10-19 13:16:21.813444 I VkMonetization: rewarded_earned waterfall=PRIMARY feature=claim
+2026-10-19 13:16:23.204579 I VkApi: ▶ request /mintEntitlement
+2026-10-19 13:16:23.430736 I VkStore: catalog not-modified version=221
+2026-10-19 13:16:23.578158 I VkStore: catalog not-modified version=221
+2026-10-19 13:16:27.069917 I VkApi: ✓ response /mintEntitlement 3866ms code=200
+2026-10-19 13:16:27.079205 I VkAiEconomics: entitlement_mint feature=claim ok=true
+2026-10-19 13:16:27.080259 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-19 13:16:27.525766 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-19 13:16:27.532754 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:27.584929 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1952 epoch=14
+2026-10-19 13:16:27.619969 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:27.725089 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=8 gen=0
+2026-10-19 13:16:27.866354 I VibeStoreDownloader: cached card.admin_vaporwave_frog_mtbwt7v2 (2192922 bytes)
+2026-10-19 13:16:27.871906 I VkStore: download len=34 ok=true bytes=2192922
+2026-10-19 13:16:27.918485 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-19 13:16:28.044046 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:16:28.044136 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=520ms
+2026-10-19 13:16:29.073668 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:29.551278 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=14
+2026-10-19 13:16:31.526438 I VkStore: import len=34 kind=vkcard ok=true
+2026-10-19 13:16:31.529231 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-19 13:16:31.532557 I VkApi: ▶ request /storeClaim
+2026-10-19 13:16:33.577065 I VkTyping: ○ hidden
+2026-10-19 13:16:33.733309 I VkApi: ✓ response /storeClaim 2201ms code=200
+2026-10-19 13:16:34.558743 I VkVibeCards: decode phase=activate card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-19 13:16:34.562383 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:34.564722 I VkVibeCards: ▶ activate len=14
+2026-10-19 13:16:34.568561 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=15
+2026-10-19 13:16:34.616030 I VkVibeCards: loaded 1 cards (disk)
+2026-10-19 13:16:34.836365 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-19 13:16:34.890001 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1958 epoch=17
+2026-10-19 13:16:34.899014 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:35.013372 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=12 gen=0
+2026-10-19 13:16:35.355050 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:16:35.355167 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+2026-10-19 13:16:36.380564 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:36.863460 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2015 epoch=17
+2026-10-19 13:16:37.027201 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:16:37.044247 I VkPanels: ▶ open menu
+2026-10-19 13:16:37.060490 I VkPanels: ▶ open popui_menu
+2026-10-19 13:16:37.062623 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-10-19 13:16:37.067518 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:37.069525 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:16:37.073327 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-19 13:16:37.073486 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-19 13:16:37.216239 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=14 gen=0
+2026-10-19 13:16:37.788467 I VkPanels: ○ close menu
+2026-10-19 13:16:37.790658 I VkPanels: ○ close menu
+2026-10-19 13:16:37.852356 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1214 epoch=18
+2026-10-19 13:16:37.885581 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:39.067637 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2001 epoch=18
+2026-10-19 13:16:39.175310 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:16:39.185200 I VkPanels: ▶ open menu
+2026-10-19 13:16:39.195472 I VkPanels: ▶ open popui_menu
+2026-10-19 13:16:39.196706 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:16:39.196809 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:16:39.204618 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:16:39.612241 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:39.745461 I VkPanels: ○ close menu
+2026-10-19 13:16:39.747182 I VkPanels: ○ close menu
+2026-10-19 13:16:39.809057 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1392 epoch=19
+2026-10-19 13:16:40.262700 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:16:40.262880 I VkKeyPreview: show burst=1 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-19 13:16:40.268413 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1991 epoch=20
+2026-10-19 13:16:40.327332 I VkKeyPreview: dismiss burst=1 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-19 13:16:40.327475 I VkKeyPress: keys pressed=1
+2026-10-19 13:16:40.421239 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:16:40.425263 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=21
+2026-10-19 13:16:40.439998 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=22 gen=0
+2026-10-19 13:16:40.543043 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:16:40.546899 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=22
+2026-10-19 13:16:40.578369 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=23 gen=0
+2026-10-19 13:16:40.734239 I VkEffects: qualityGovernor motionScale=0,82 slowFrameMs=21.046615
+2026-10-19 13:16:40.738404 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=23 gen=0
+2026-10-19 13:16:40.748865 I VkStripPipeline: publishLatency seq=19 latencyMs=36
+2026-10-19 13:16:40.828241 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:16:40.834540 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1993 epoch=23
+2026-10-19 13:16:40.997800 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=24 gen=0
+2026-10-19 13:16:41.348172 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1994 epoch=24
+2026-10-19 13:16:41.967986 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=25 gen=0
+2026-10-19 13:16:42.679701 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:16:42.688454 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:42.690502 I VkPanels: ▶ open menu
+2026-10-19 13:16:42.699250 I VkPanels: ▶ open popui_menu
+2026-10-19 13:16:42.699555 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:16:42.699604 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:16:42.707177 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:16:43.178483 I VkPanels: ○ close menu
+2026-10-19 13:16:43.181914 I VkPanels: ○ close menu
+2026-10-19 13:16:43.257918 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1447 epoch=25
+2026-10-19 13:16:44.604383 I VkTyping: ○ hidden
+2026-10-19 13:16:44.711815 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2007 epoch=25
+2026-10-19 13:16:45.887702 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-19 13:16:45.893834 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:45.943573 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1956 epoch=27
+2026-10-19 13:16:45.954423 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:16:46.052741 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=33 gen=0
+2026-10-19 13:16:46.407387 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:16:46.407602 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+2026-10-19 13:16:46.410001 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:16:46.410842 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-19 13:16:46.855842 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:16:46.865768 I VkPanels: ▶ open editor
+2026-10-19 13:16:46.869037 I VkPanels: ▶ open popui_editor
+2026-10-19 13:16:46.870969 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:16:47.432515 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:48.071036 I VkPanels: ○ close editor
+2026-10-19 13:16:48.163713 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2264 epoch=27
+2026-10-19 13:16:48.881427 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:16:48.901830 I VkPanels: ▶ open menu
+2026-10-19 13:16:48.923834 I VkPanels: ▶ open popui_menu
+2026-10-19 13:16:48.924574 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:16:48.924773 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:16:48.937021 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:48.943055 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:16:49.862523 I VkPanels: ○ close menu
+2026-10-19 13:16:49.865179 I VkPanels: ○ close menu
+2026-10-19 13:16:49.881799 I VkPanels: ▶ open ai_theme
+2026-10-19 13:16:49.890097 I VkPanels: ▶ open popui_ai_theme
+2026-10-19 13:16:49.893338 I VkPanels: ▶ open favorites
+2026-10-19 13:16:49.923498 I VkPanels: ▶ open popui_swap_favorites
+2026-10-19 13:16:50.781019 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:52.222918 I VkPanels: ▶ open menu
+2026-10-19 13:16:52.241846 I VkPanels: ▶ open popui_menu
+2026-10-19 13:16:52.242407 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:16:52.242471 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:16:52.282711 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:53.311005 I VkPanels: ○ close menu
+2026-10-19 13:16:53.313087 I VkPanels: ○ close menu
+2026-10-19 13:16:53.326941 I VkPanels: ▶ open ai_theme
+2026-10-19 13:16:53.334586 I VkPanels: ▶ open popui_ai_theme
+2026-10-19 13:16:53.338813 I VkPanels: ▶ open effects
+2026-10-19 13:16:53.456900 I VkPanels: ▶ open popui_swap_effects
+2026-10-19 13:16:53.460229 I VkEffects: ▶ panel tab=tint
+2026-10-19 13:16:53.481354 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=767 epoch=29
+2026-10-19 13:16:53.491333 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1053 reason=refresh
+2026-10-19 13:16:53.601048 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1933 epoch=30
+2026-10-19 13:16:53.997694 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:54.916468 I VkEffects: → tab vibe
+2026-10-19 13:16:55.509013 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:16:55.548578 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=30
+2026-10-19 13:17:00.560012 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:00.608227 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=refresh
+2026-10-19 13:17:01.524202 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:01.549026 I VkPanels: ▶ open menu
+2026-10-19 13:17:01.576403 I VkPanels: ▶ open popui_menu
+2026-10-19 13:17:01.577182 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:17:01.577335 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:17:01.595422 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:17:02.395457 I VkPanels: ○ close menu
+2026-10-19 13:17:02.398405 I VkPanels: ○ close menu
+2026-10-19 13:17:02.416037 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:02.462742 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1127 epoch=31
+2026-10-19 13:17:03.233789 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:03.254334 I VkPanels: ▶ open menu
+2026-10-19 13:17:03.276794 I VkPanels: ▶ open popui_menu
+2026-10-19 13:17:03.277542 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:17:03.277608 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:17:03.291005 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:17:04.081650 I VkPanels: ○ close menu
+2026-10-19 13:17:04.083782 I VkPanels: ○ close menu
+2026-10-19 13:17:04.094478 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:04.134892 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1150 epoch=32
+2026-10-19 13:17:05.140823 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:05.162386 I VkPanels: ▶ open editor
+2026-10-19 13:17:05.172141 I VkPanels: ▶ open popui_editor
+2026-10-19 13:17:05.179149 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:17:05.630595 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:05.676456 I VkPanels: ○ close editor
+2026-10-19 13:17:05.757806 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2472 epoch=32
+2026-10-19 13:17:06.158403 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:17:06.158621 I VkKeyPreview: show burst=4 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-19 13:17:06.164856 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1991 epoch=33
+2026-10-19 13:17:06.255720 I VkKeyPreview: dismiss burst=4 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-19 13:17:06.255947 I VkKeyPress: keys pressed=15
+2026-10-19 13:17:06.357352 I VkEffects: qualityGovernor motionScale=0,82 slowFrameMs=16.432812
+2026-10-19 13:17:06.359627 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=77 gen=0
+2026-10-19 13:17:06.372131 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:17:06.376292 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=34
+2026-10-19 13:17:06.378113 I VkStripPipeline: staleDrop publishSession token=76 seq=49
+2026-10-19 13:17:06.541814 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:17:06.548832 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1992 epoch=35
+2026-10-19 13:17:06.560836 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=78 gen=0
+2026-10-19 13:17:06.675367 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=78 gen=0
+2026-10-19 13:17:07.172683 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:07.263320 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:07.265093 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:07.265260 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=1
+2026-10-19 13:17:07.402198 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:07.489342 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=5, len=3
+2026-10-19 13:17:07.489581 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:07.492046 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:07.492279 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=2
+2026-10-19 13:17:07.710206 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:07.805321 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:07.807590 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:07.807795 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=3
+2026-10-19 13:17:08.121573 I SessionContext: updateAmbientCapture sensitive=false ambientChars=43
+2026-10-19 13:17:08.122527 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=43
+2026-10-19 13:17:08.144183 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:08.252124 I VkNgram: contextual locale=pt prev=[REDACTED] → len=8, len=3, len=3
+2026-10-19 13:17:08.252345 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:08.254619 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:08.254868 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=4
+2026-10-19 13:17:08.461313 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:08.547855 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:08.549858 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:08.550089 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=5
+2026-10-19 13:17:08.550891 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2010 epoch=35
+2026-10-19 13:17:08.860216 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:08.947703 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:08.950780 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:08.950984 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=6
+2026-10-19 13:17:09.275252 I SessionContext: updateAmbientCapture sensitive=false ambientChars=58
+2026-10-19 13:17:09.276313 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=15
+2026-10-19 13:17:09.364866 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:09.450909 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:09.452780 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:09.453025 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=7
+2026-10-19 13:17:09.629893 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:09.711488 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:09.713247 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:09.713422 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=8
+2026-10-19 13:17:10.040784 I SessionContext: updateAmbientCapture sensitive=false ambientChars=68
+2026-10-19 13:17:10.041982 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=68
+2026-10-19 13:17:10.074688 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:10.164504 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:10.164820 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=9
+2026-10-19 13:17:10.445289 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:10.528162 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:10.532152 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=10
+2026-10-19 13:17:10.852591 I SessionContext: updateAmbientCapture sensitive=false ambientChars=78
+2026-10-19 13:17:10.853464 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=10
+2026-10-19 13:17:10.899609 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:10.992825 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:10.994879 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:10.995108 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=11
+2026-10-19 13:17:11.316481 I SessionContext: updateAmbientCapture sensitive=false ambientChars=81
+2026-10-19 13:17:11.317355 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=13
+2026-10-19 13:17:11.418623 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:11.522696 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:11.531691 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:11.532034 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=12
+2026-10-19 13:17:11.826630 I SessionContext: updateAmbientCapture sensitive=false ambientChars=86
+2026-10-19 13:17:11.827254 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=18
+2026-10-19 13:17:11.878485 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:11.965284 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:11.965472 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=13
+2026-10-19 13:17:12.295121 I SessionContext: updateAmbientCapture sensitive=false ambientChars=91
+2026-10-19 13:17:12.297070 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=23
+2026-10-19 13:17:12.322688 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:12.408061 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:12.409380 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:12.409571 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=14
+2026-10-19 13:17:12.552241 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:12.644035 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:12.644866 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:12.644979 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=15
+2026-10-19 13:17:12.970717 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:13.058749 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:17:13.058854 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:13.059667 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:13.059775 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=16
+2026-10-19 13:17:13.379003 I SessionContext: updateAmbientCapture sensitive=false ambientChars=105
+2026-10-19 13:17:13.379878 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=105
+2026-10-19 13:17:13.424839 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:13.513882 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:13.514750 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:13.514891 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=17
+2026-10-19 13:17:13.820919 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:13.913511 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:13.914885 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:13.915113 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=18
+2026-10-19 13:17:14.216555 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:14.302698 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=3, len=5
+2026-10-19 13:17:14.302921 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:14.305372 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:14.305587 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=19
+2026-10-19 13:17:14.504701 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:14.586450 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:14.590116 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:14.590492 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=20
+2026-10-19 13:17:14.771470 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:14.866541 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:14.868782 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=21
+2026-10-19 13:17:15.179628 I SessionContext: updateAmbientCapture sensitive=false ambientChars=123
+2026-10-19 13:17:15.180357 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=18
+2026-10-19 13:17:15.284363 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:15.373373 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:17:15.373608 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:15.379230 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:15.379467 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=22
+2026-10-19 13:17:15.598326 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:15.671583 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:15.673670 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:15.673958 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=23
+2026-10-19 13:17:15.839508 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:15.924527 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+2026-10-19 13:17:15.925868 I ContinuousCache: boost tier=thread ctxWords=3 wordLen=3 millinats=1020
+2026-10-19 13:17:15.926272 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:15.926479 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=24
+2026-10-19 13:17:16.062063 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:16.140801 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:16.144637 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:16.145731 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=25
+2026-10-19 13:17:16.334894 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:16.421057 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:16.422990 I ContinuousCache: boost tier=thread ctxWords=3 wordLen=4 millinats=1020
+2026-10-19 13:17:16.423610 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:16.423817 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=26
+2026-10-19 13:17:16.623088 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:16.706919 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:16.708534 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:16.708711 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=27
+2026-10-19 13:17:16.909013 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:17.005785 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:17:17.006138 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:17.009193 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:17.009586 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=28
+2026-10-19 13:17:17.318973 I SessionContext: updateAmbientCapture sensitive=false ambientChars=154
+2026-10-19 13:17:17.319740 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=154
+2026-10-19 13:17:17.392821 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:17.477526 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:17.479142 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:17.479353 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=29
+2026-10-19 13:17:17.802643 I SessionContext: updateAmbientCapture sensitive=false ambientChars=156
+2026-10-19 13:17:17.803337 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=2
+2026-10-19 13:17:17.826659 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:17.913086 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:17.914843 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:17.915085 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=30
+2026-10-19 13:17:18.079392 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:18.165296 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:18.167402 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:18.167674 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=31
+2026-10-19 13:17:18.394653 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:18.469896 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:18.470096 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=32
+2026-10-19 13:17:18.708772 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:18.792785 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:18.795522 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:18.796003 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=33
+2026-10-19 13:17:18.940966 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:19.026247 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:19.028256 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:19.028529 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=34
+2026-10-19 13:17:19.308519 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:19.379750 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:19.380909 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:19.381051 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=35
+2026-10-19 13:17:19.578447 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:19.666451 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+2026-10-19 13:17:19.669016 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:19.669220 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=36
+2026-10-19 13:17:19.879763 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:19.959268 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:19.961283 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:19.961556 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=37
+2026-10-19 13:17:20.196613 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:20.274596 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:20.276176 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:20.276448 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=38
+2026-10-19 13:17:20.431585 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:20.512089 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+2026-10-19 13:17:20.512356 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:20.514303 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:20.514551 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=39
+2026-10-19 13:17:20.693870 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:20.779981 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:20.782422 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:20.782703 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=40
+2026-10-19 13:17:20.913824 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:21.002015 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:21.004033 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:21.004272 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=41
+2026-10-19 13:17:21.130193 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:21.214599 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:17:21.215934 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:21.216189 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=42
+2026-10-19 13:17:21.392540 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:21.467893 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:21.469138 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:21.469271 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=43
+2026-10-19 13:17:21.613114 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:21.699288 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:17:21.699492 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:21.701200 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:21.701439 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=44
+2026-10-19 13:17:22.037938 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:22.126605 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:22.128186 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:22.128412 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=45
+2026-10-19 13:17:22.300390 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:17:22.385738 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+2026-10-19 13:17:22.385973 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:17:22.388833 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:17:22.389103 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=78 gen=46
+2026-10-19 13:17:22.708473 I SessionContext: updateAmbientCapture sensitive=false ambientChars=232
+2026-10-19 13:17:22.709057 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=232
+2026-10-19 13:17:23.678718 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1995 epoch=36
+2026-10-19 13:17:24.077794 I VkKeyPress: keys pressed=18
+2026-10-19 13:17:24.089042 I VkFastTyping: async fetch style=[REDACTED] seq=-1
+2026-10-19 13:17:24.107220 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:24.316029 I VkTextCorrection: rerank composing head len=5→len=2
+2026-10-19 13:17:24.317063 I VkSuggestions: strip composing typedLen=5 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:24.323998 I VkTextCorrection: rerank composing head len=5→len=2
+2026-10-19 13:17:24.622232 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:24.838827 I VkTextCorrection: rerank composing head len=3→len=2
+2026-10-19 13:17:24.856610 I VkTextCorrection: rerank composing head len=3→len=2
+2026-10-19 13:17:25.082327 I VkStripPipeline: publishLatency seq=101 latencyMs=33
+2026-10-19 13:17:25.318092 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:25.319038 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:25.329137 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:25.352625 I VkStripPipeline: publishLatency seq=102 latencyMs=37
+2026-10-19 13:17:25.470557 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:25.679690 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2006 epoch=36
+2026-10-19 13:17:25.697792 I VkEffects: qualityGovernor motionScale=0,82 slowFrameMs=25.546511
+2026-10-19 13:17:25.700856 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:25.712879 I VkStripPipeline: publishLatency seq=104 latencyMs=32
+2026-10-19 13:17:25.996055 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:25.997009 I VkSuggestions: strip composing typedLen=1 candidates=11 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:26.007115 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:26.158138 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:26.177080 I VkEffects: qualityGovernor motionScale=0,67 slowFrameMs=17.464583
+2026-10-19 13:17:26.471806 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:26.473146 I VkSuggestions: strip composing typedLen=1 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:26.482230 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:26.499255 I VkStripPipeline: publishLatency seq=107 latencyMs=34
+2026-10-19 13:17:26.588500 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:26.852389 I VkSuggestions: strip composing typedLen=3 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:27.048341 I VkTextCorrection: rerank composing head len=4→len=4
+2026-10-19 13:17:27.049396 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:27.058568 I VkTextCorrection: rerank composing head len=4→len=4
+2026-10-19 13:17:27.081375 I VkKeyPress: keys pressed=75
+2026-10-19 13:17:27.247569 I VkTextCorrection: rerank composing head len=3→len=1
+2026-10-19 13:17:27.248492 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:27.259282 I VkTextCorrection: rerank composing head len=3→len=1
+2026-10-19 13:17:27.453593 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:27.466303 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:27.493943 I VkStripPipeline: publishLatency seq=112 latencyMs=44
+2026-10-19 13:17:27.617500 I VkTextCorrection: rerank composing head len=5→len=5
+2026-10-19 13:17:27.619009 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:27.627250 I VkTextCorrection: rerank composing head len=5→len=5
+2026-10-19 13:17:27.936832 I VkEffects: qualityGovernor motionScale=0,55 slowFrameMs=26.831615
+2026-10-19 13:17:27.939784 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:27.968357 I VkStripPipeline: publishLatency seq=114 latencyMs=48
+2026-10-19 13:17:28.133917 I VkTextCorrection: rerank composing head len=2→len=2
+2026-10-19 13:17:28.134731 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:28.143401 I VkTextCorrection: rerank composing head len=2→len=2
+2026-10-19 13:17:28.309827 I VkEffects: qualityGovernor motionScale=0,45 slowFrameMs=17.759636
+2026-10-19 13:17:28.314639 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:28.344506 I VkStripPipeline: publishLatency seq=116 latencyMs=42
+2026-10-19 13:17:28.578003 I VkEffects: qualityGovernor motionScale=0,37 slowFrameMs=18.899843
+2026-10-19 13:17:28.580617 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:28.581941 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:28.599320 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:28.602283 I VkStripPipeline: publishLatency seq=117 latencyMs=33
+2026-10-19 13:17:28.797781 I VkEffects: qualityGovernor motionScale=0,35 slowFrameMs=21.174167
+2026-10-19 13:17:28.824511 I VkStripPipeline: publishLatency seq=118 latencyMs=37
+2026-10-19 13:17:28.957422 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:29.183410 I VkSuggestions: strip composing typedLen=4 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:29.209217 I VkStripPipeline: publishLatency seq=120 latencyMs=39
+2026-10-19 13:17:29.441308 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:29.442360 I VkSuggestions: strip composing typedLen=2 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:29.460838 I VkTextCorrection: rerank composing head len=2→len=3
+2026-10-19 13:17:29.470694 I VkStripPipeline: publishLatency seq=121 latencyMs=33
+2026-10-19 13:17:29.617261 I VkSuggestions: strip composing typedLen=5 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:29.639903 I VkStripPipeline: publishLatency seq=122 latencyMs=36
+2026-10-19 13:17:29.929326 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:29.930208 I VkSuggestions: strip composing typedLen=1 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:29.938361 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:29.955402 I VkStripPipeline: publishLatency seq=123 latencyMs=32
+2026-10-19 13:17:30.036996 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:30.053800 I VkStripPipeline: publishLatency seq=124 latencyMs=32
+2026-10-19 13:17:30.122326 I VkKeyPress: keys pressed=132
+2026-10-19 13:17:30.238875 I VkSuggestions: strip composing typedLen=3 candidates=13 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:30.444187 I VkTextCorrection: rerank composing head len=2→len=2
+2026-10-19 13:17:30.444969 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:30.462481 I VkTextCorrection: rerank composing head len=2→len=2
+2026-10-19 13:17:30.613188 I VkTextCorrection: rerank composing head len=5→len=7
+2026-10-19 13:17:30.614036 I VkSuggestions: strip composing typedLen=6 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:30.618998 I VkTextCorrection: rerank composing head len=5→len=7
+2026-10-19 13:17:30.651894 I VkStripPipeline: publishLatency seq=127 latencyMs=45
+2026-10-19 13:17:31.377443 I VkTextCorrection: rerank composing head len=4→len=2
+2026-10-19 13:17:31.378417 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:31.388684 I VkTextCorrection: rerank composing head len=4→len=2
+2026-10-19 13:17:31.414195 I VkStripPipeline: publishLatency seq=129 latencyMs=39
+2026-10-19 13:17:31.467690 I VkStore: catalog not-modified version=221
+2026-10-19 13:17:31.488867 I VkStore: sync imported=0 catalog=221
+2026-10-19 13:17:31.584902 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:31.739025 I VkTextCorrection: rerank composing head len=3→len=5
+2026-10-19 13:17:31.740343 I VkSuggestions: strip composing typedLen=4 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:31.752024 I VkTextCorrection: rerank composing head len=3→len=5
+2026-10-19 13:17:31.996311 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:32.026292 I VkStripPipeline: publishLatency seq=132 latencyMs=33
+2026-10-19 13:17:32.141885 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:32.142630 I VkSuggestions: strip composing typedLen=1 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:32.156684 I VkTextCorrection: rerank composing head len=1→len=2
+2026-10-19 13:17:32.259019 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:32.416307 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:17:32.416705 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:17:32.416789 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=79 gen=46
+2026-10-19 13:17:33.466246 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:33.483238 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:33.490383 I VkPanels: ▶ open menu
+2026-10-19 13:17:33.515860 I VkPanels: ▶ open popui_menu
+2026-10-19 13:17:33.517155 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-10-19 13:17:33.527453 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:17:33.540130 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:17:33.544856 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-19 13:17:33.544980 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-19 13:17:33.657909 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=81 gen=46
+2026-10-19 13:17:34.486538 I VkPanels: ○ close menu
+2026-10-19 13:17:34.489865 I VkPanels: ○ close menu
+2026-10-19 13:17:34.542661 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=982 epoch=37
+2026-10-19 13:17:35.370271 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:35.529281 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2005 epoch=37
+2026-10-19 13:17:47.690909 I VkMonetization: rewarded_earned waterfall=PRIMARY feature=claim
+2026-10-19 13:17:49.798260 I VkApi: ▶ request /mintEntitlement
+2026-10-19 13:17:49.980524 I VkStore: catalog not-modified version=221
+2026-10-19 13:17:50.049497 I VkStore: catalog not-modified version=221
+2026-10-19 13:17:50.271614 I VkApi: ✓ response /mintEntitlement 473ms code=200
+2026-10-19 13:17:50.273299 I VkAiEconomics: entitlement_mint feature=claim ok=true
+2026-10-19 13:17:50.273944 I VkVault: ▶ claim item=[REDACTED] kind=vkcard
+2026-10-19 13:17:50.854667 I VibeStoreDownloader: cached card.admin_dj_dragon_mtamibbq (2752386 bytes)
+2026-10-19 13:17:50.854867 I VkStore: download len=29 ok=true bytes=2752386
+2026-10-19 13:17:50.912095 I VkVibeCards: decode phase=import card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-19 13:17:53.351736 I VkStore: import len=29 kind=vkcard ok=true
+2026-10-19 13:17:53.354219 I VkVault: ✓ claimImport item=[REDACTED] ok=true
+2026-10-19 13:17:53.355416 I VkApi: ▶ request /storeClaim
+2026-10-19 13:17:55.004580 I VkApi: ✓ response /storeClaim 1649ms code=200
+2026-10-19 13:17:55.682367 I VkVibeCards: decode phase=activate card=[REDACTED] srcEdge=1600 out=1216x1600
+2026-10-19 13:17:55.685727 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:55.686999 I VkVibeCards: ▶ activate len=9
+2026-10-19 13:17:55.793297 I VkVibeCards: loaded 2 cards (disk)
+2026-10-19 13:17:57.254811 I VkTyping: ▶ open restart=false pkg=len=20 inputType=524465
+2026-10-19 13:17:57.271089 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:57.328359 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1950 epoch=40
+2026-10-19 13:17:57.342773 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:17:57.443693 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=86 gen=46
+2026-10-19 13:17:57.771543 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:17:57.771704 I SessionContext: deferredIcCapture pkg=com.vibekey.keyboard ambientChars=40 sensitive=false attempt=0 elapsed=521ms
+2026-10-19 13:17:57.773244 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:17:57.773711 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-19 13:17:58.432641 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:58.452356 I VkPanels: ▶ open editor
+2026-10-19 13:17:58.459513 I VkPanels: ▶ open popui_editor
+2026-10-19 13:17:58.466362 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:17:58.815587 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:17:59.231848 I VkPanels: ○ close editor
+2026-10-19 13:17:59.289614 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=40
+2026-10-19 13:17:59.835213 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:17:59.852098 I VkPanels: ▶ open menu
+2026-10-19 13:17:59.872446 I VkPanels: ▶ open popui_menu
+2026-10-19 13:17:59.873180 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:17:59.873348 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:17:59.889897 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:18:00.327923 I VkPanels: ○ close menu
+2026-10-19 13:18:00.330292 I VkPanels: ○ close menu
+2026-10-19 13:18:00.341950 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:00.383103 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1501 epoch=41
+2026-10-19 13:18:01.113395 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:18:01.130351 I VkPanels: ▶ open menu
+2026-10-19 13:18:01.151171 I VkPanels: ▶ open popui_menu
+2026-10-19 13:18:01.151223 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:18:01.151272 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:18:01.158462 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:18:02.014436 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:02.512360 I VkPanels: ○ close menu
+2026-10-19 13:18:02.515083 I VkPanels: ○ close menu
+2026-10-19 13:18:02.531409 I VkPanels: ▶ open ai_theme
+2026-10-19 13:18:02.538591 I VkPanels: ▶ open popui_ai_theme
+2026-10-19 13:18:02.544923 I VkPanels: ▶ open effects
+2026-10-19 13:18:02.666277 I VkPanels: ▶ open popui_swap_effects
+2026-10-19 13:18:02.670176 I VkEffects: ▶ panel tab=vibe
+2026-10-19 13:18:02.683384 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=474 epoch=42
+2026-10-19 13:18:02.694491 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1053 reason=refresh
+2026-10-19 13:18:03.165368 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2008 epoch=42
+2026-10-19 13:18:03.518854 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:14.363515 I VkPanels: ▶ open popui_swap_ai_theme
+2026-10-19 13:18:14.400721 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:14.405135 I VkPanels: ▶ open menu
+2026-10-19 13:18:14.413327 I VkPanels: ▶ open popui_menu
+2026-10-19 13:18:14.414330 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [pt-BR]
+2026-10-19 13:18:14.428422 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:18:14.440551 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-10-19 13:18:14.440676 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-10-19 13:18:14.444749 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=refresh
+2026-10-19 13:18:14.585189 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=112 gen=46
+2026-10-19 13:18:15.661898 I VkPanels: ○ close menu
+2026-10-19 13:18:15.700506 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=720 epoch=43
+2026-10-19 13:18:15.704134 I VkTyping: ○ hidden
+2026-10-19 13:18:15.793642 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-19 13:18:15.793828 I LlmEngineClient: release on IME hidden: defer 19999ms (short-hide grace)
+2026-10-19 13:18:16.430885 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2011 epoch=43
+2026-10-19 13:18:18.777370 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-19 13:18:18.784066 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:18.871280 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1957 epoch=45
+2026-10-19 13:18:18.879996 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:18:18.971333 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=116 gen=46
+2026-10-19 13:18:19.300536 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:18:19.300674 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=525ms
+2026-10-19 13:18:19.302485 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:18:19.304145 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-10-19 13:18:20.201888 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:18:20.201976 I VkKeyPreview: show burst=3 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-10-19 13:18:20.204860 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=46
+2026-10-19 13:18:20.279438 I VkKeyPreview: dismiss burst=3 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-10-19 13:18:20.279549 I VkKeyPress: keys pressed=184
+2026-10-19 13:18:20.354817 I VkSuggestions: strip composing typedLen=1 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=118 gen=46
+2026-10-19 13:18:20.362256 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.12
+2026-10-19 13:18:20.365133 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1996 epoch=47
+2026-10-19 13:18:20.365873 I VkStripPipeline: staleDrop publishSession token=117 seq=161
+2026-10-19 13:18:20.367237 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:20.509622 I VkSuggestions: strip composing typedLen=2 candidates=15 autocorrect=false top=[REDACTED] locale=pt token=118 gen=46
+2026-10-19 13:18:20.895381 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:20.974190 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:20.976124 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=47
+2026-10-19 13:18:21.286281 I SessionContext: updateAmbientCapture sensitive=false ambientChars=36
+2026-10-19 13:18:21.286620 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=36
+2026-10-19 13:18:21.414090 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:21.492038 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=5, len=3
+2026-10-19 13:18:21.492251 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:21.494664 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:21.494833 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=48
+2026-10-19 13:18:21.680651 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:21.749019 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:21.751015 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:21.751232 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=49
+2026-10-19 13:18:21.932318 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:21.999477 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:22.001241 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:22.001543 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=50
+2026-10-19 13:18:22.132792 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:22.197852 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:22.199898 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:22.200105 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=51
+2026-10-19 13:18:22.342567 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:22.375684 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2014 epoch=47
+2026-10-19 13:18:22.405996 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:18:22.407234 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:22.407407 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=52
+2026-10-19 13:18:22.643442 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:22.706040 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:22.706879 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:22.706971 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=53
+2026-10-19 13:18:23.000210 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:23.067620 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:23.069337 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:23.069561 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=54
+2026-10-19 13:18:23.378537 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:23.444872 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:23.447253 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:23.447493 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=55
+2026-10-19 13:18:23.665670 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:23.734606 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:23.736870 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=56
+2026-10-19 13:18:23.901068 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:23.968767 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:18:23.969993 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:23.970144 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=57
+2026-10-19 13:18:24.201350 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:24.268288 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+2026-10-19 13:18:24.270017 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:24.270216 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=58
+2026-10-19 13:18:24.450194 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:24.521443 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:24.523207 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:24.523478 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=59
+2026-10-19 13:18:24.686691 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:24.754938 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:24.756750 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:24.756969 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=60
+2026-10-19 13:18:25.002350 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:25.068106 I VkNgram: contextual locale=pt prev=[REDACTED] → len=5, len=4, len=7
+2026-10-19 13:18:25.068210 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:25.068803 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:25.068871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=61
+2026-10-19 13:18:25.388062 I SessionContext: updateAmbientCapture sensitive=false ambientChars=115
+2026-10-19 13:18:25.388396 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=115
+2026-10-19 13:18:25.403514 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:25.478663 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:25.480998 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:25.481224 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=62
+2026-10-19 13:18:25.509529 I VkStripPipeline: publishLatency seq=178 latencyMs=32
+2026-10-19 13:18:25.656007 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:25.741090 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+2026-10-19 13:18:25.742669 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:25.742871 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=63
+2026-10-19 13:18:25.905579 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:25.984660 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:25.986289 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:25.986489 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=64
+2026-10-19 13:18:26.139494 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:26.215572 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:26.216410 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=65
+2026-10-19 13:18:26.523671 I SessionContext: updateAmbientCapture sensitive=false ambientChars=130
+2026-10-19 13:18:26.523986 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=15
+2026-10-19 13:18:26.573656 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:26.646970 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:26.648310 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:26.648456 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=66
+2026-10-19 13:18:26.939981 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:27.015062 I VkNgram: contextual locale=pt prev=[REDACTED] → len=3, len=4, len=4
+2026-10-19 13:18:27.015147 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:27.015888 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:27.015982 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=67
+2026-10-19 13:18:27.339449 I SessionContext: updateAmbientCapture sensitive=false ambientChars=143
+2026-10-19 13:18:27.340923 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=143
+2026-10-19 13:18:27.558862 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:27.628078 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:27.631465 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:27.631727 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=68
+2026-10-19 13:18:27.824324 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:27.893701 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:18:27.893806 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:27.894475 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:27.894552 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=69
+2026-10-19 13:18:28.108226 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:28.174703 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:18:28.175350 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:28.175440 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=70
+2026-10-19 13:18:28.492257 I SessionContext: updateAmbientCapture sensitive=false ambientChars=153
+2026-10-19 13:18:28.492563 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=10
+2026-10-19 13:18:28.572978 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:28.649983 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=3 assets=true
+2026-10-19 13:18:28.651085 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:28.651207 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=71
+2026-10-19 13:18:28.861229 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:28.933902 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:18:28.934822 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:28.934931 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=72
+2026-10-19 13:18:29.145799 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:29.220310 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:29.222168 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:29.222349 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=73
+2026-10-19 13:18:29.251661 I VkStripPipeline: publishLatency seq=189 latencyMs=32
+2026-10-19 13:18:29.446219 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:29.513476 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=4, len=4
+2026-10-19 13:18:29.513679 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:29.515139 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:29.515298 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=74
+2026-10-19 13:18:29.697941 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:29.764651 I VkNgram: contextual locale=pt prev=[REDACTED] → len=1, len=3, len=3
+2026-10-19 13:18:29.764956 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=5 assets=true
+2026-10-19 13:18:29.767143 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:29.767346 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=75
+2026-10-19 13:18:30.027511 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:30.098155 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=1 assets=true
+2026-10-19 13:18:30.099741 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:30.099951 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=76
+2026-10-19 13:18:30.257916 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:30.324750 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=2 assets=true
+2026-10-19 13:18:30.326591 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=true
+2026-10-19 13:18:30.326835 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=77
+2026-10-19 13:18:30.618423 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:30.682947 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:30.683961 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:30.684084 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=78
+2026-10-19 13:18:30.908108 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:30.973421 I VkNgram: merge locale=pt prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-10-19 13:18:30.975097 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:30.975273 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=79
+2026-10-19 13:18:31.115540 I VkAutocorrect: picked: [REDACTED]
+2026-10-19 13:18:31.180807 I VkNgram: unifiedRank locale=pt head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-10-19 13:18:31.180907 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=pt token=118 gen=80
+2026-10-19 13:18:31.468149 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:18:31.474988 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:31.476393 I VkPanels: ▶ open assist
+2026-10-19 13:18:31.610460 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+2026-10-19 13:18:31.616592 I VkPanels: ▶ open popui_assist
+2026-10-19 13:18:31.618955 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=ineligible_code
+2026-10-19 13:18:31.646990 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1053 reason=refresh
+2026-10-19 13:18:31.665024 I SessionContext: updateAmbientCapture sensitive=false ambientChars=191
+2026-10-19 13:18:31.665591 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=191
+2026-10-19 13:18:31.699293 I OnDeviceAssist: ✓ local grammar (pt) in=158 out=159 — skipping llama
+2026-10-19 13:18:31.700570 I OnDeviceAssist: ✓ instant task=grammar tier=INSTANT lang=pt
+2026-10-19 13:18:32.779555 I VkTyping: ○ hidden
+2026-10-19 13:18:32.781494 I VkPanels: ○ close assist
+2026-10-19 13:18:32.866451 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-19 13:18:32.866702 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-10-19 13:18:33.759991 I VkTyping: ▶ open restart=false pkg=len=20 inputType=589825
+2026-10-19 13:18:33.767409 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=refresh
+2026-10-19 13:18:33.767519 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:33.894663 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1958 epoch=49
+2026-10-19 13:18:33.895257 I VkLocaleAssets: preload predictors pt-BR
+2026-10-19 13:18:33.925069 I VkTextCorrection: rerank composing head len=3→len=4
+2026-10-19 13:18:33.925575 I VkSuggestions: strip composing typedLen=3 candidates=14 autocorrect=false top=[REDACTED] locale=pt token=124 gen=80
+2026-10-19 13:18:34.282611 I SessionContext: updateAmbientCapture sensitive=false ambientChars=189
+2026-10-19 13:18:34.282712 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=189 sensitive=false attempt=0 elapsed=525ms
+2026-10-19 13:18:34.292616 I SessionContext: updateAmbientCapture sensitive=false ambientChars=189
+2026-10-19 13:18:34.293427 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=189
+2026-10-19 13:18:34.645150 I VkTextCorrection: rerank composing head len=3→len=4
+2026-10-19 13:18:35.357380 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:35.806229 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:18:35.814315 I VkPanels: ▶ open menu
+2026-10-19 13:18:35.823461 I VkPanels: ▶ open popui_menu
+2026-10-19 13:18:35.823603 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:18:35.823648 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:18:35.829994 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:18:36.276969 I VkPanels: ○ close menu
+2026-10-19 13:18:36.277821 I VkPanels: ○ close menu
+2026-10-19 13:18:36.302142 I VkEffects: idleArm surface=keys type=shimmer+shimmer inMs=1526 epoch=50
+2026-10-19 13:18:37.114776 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:37.536161 I VkTyping: ▶ open restart=true pkg=len=20 inputType=589825
+2026-10-19 13:18:37.841653 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2013 epoch=50
+2026-10-19 13:18:38.056193 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:18:38.056370 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=40 sensitive=false attempt=0 elapsed=522ms
+2026-10-19 13:18:38.066547 I SessionContext: updateAmbientCapture sensitive=false ambientChars=40
+2026-10-19 13:18:38.067435 I OnDeviceLlmPrewarm: ambient recapture warm ambientChars=40
+2026-10-19 13:18:38.492238 I VkKeyPress: strip pick key=[REDACTED]
+2026-10-19 13:18:38.498883 I VkPanels: ▶ open menu
+2026-10-19 13:18:38.505564 I VkPanels: ▶ open popui_menu
+2026-10-19 13:18:38.505714 I VkLocaleAssets: ▶ batch source=menu_panel count=0 [cooldown]
+2026-10-19 13:18:38.505768 I VkLocaleAssets: ✓ batch source=menu_panel locales=0 fetched=0
+2026-10-19 13:18:38.512550 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=panel_switch
+2026-10-19 13:18:38.671067 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:40.664555 I VkKeyPress: keys pressed=186
+2026-10-19 13:18:40.665111 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-10-19 13:18:40.667428 I VkPanels: ○ close menu
+2026-10-19 13:18:40.669684 I VkPanels: ○ close menu
+2026-10-19 13:18:40.682025 I VkNavBar: apply tint=#FF040407 window=#FF040407 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=105 kbA=249 blurOk=false
+2026-10-19 13:18:40.745065 I VkEffects: idleDraw surface=keys type=shimmer+shimmer afterMs=2234 epoch=51
+2026-10-19 13:18:40.774919 I VkSettings: ▶ activity open spellchecker=false
+2026-10-19 13:18:40.970097 I VkTyping: ○ hidden
+2026-10-19 13:18:41.053920 I OnDeviceLlmPrewarm: short-hide teardown grace armed 20000ms
+2026-10-19 13:18:41.054007 I LlmEngineClient: release on IME hidden: defer 20000ms (short-hide grace)
+2026-10-19 13:18:42.417234 I VkSettings: → screen about
