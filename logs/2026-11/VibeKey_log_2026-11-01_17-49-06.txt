@@ -1,0 +1,838 @@
+=== VibeKey diagnostic log (report) ===
+app: 4.5.1170 (5530) build=release
+android: 12 (sdk 31) abi=arm64-v8a
+device: OnePlus GM1917
+keyboard: en-US
+system: en-US
+enabled: en-US,pt-BR
+redaction: v8
+report: c162e67b
+generated: 2026-11-01T17:49:01.749067Z
+note: pkg= fields name the host app, never its content
+
+=== REDACTED report (typed text, credentials, financial removed; text lengths bucketed) ===
+=== VibeKey 4.5.1170 (5530) ===
+11-01 12:48:30.925 25197 25197 I VkMonetization: rewarded_earned waterfall=PRIMARY feature=theme
+11-01 12:48:30.979 25197 29986 I VkApi   : ▶ request /mintEntitlement
+11-01 12:48:31.613 25197 29986 I VkApi   : ✓ response /mintEntitlement 634ms code=200
+11-01 12:48:31.615 25197 25771 I VkAiEconomics: entitlement_mint feature=theme ok=true
+11-01 12:48:32.581 25197 25197 I VkAiEconomics: rewarded_grant feature=theme waterfall=PRIMARY
+11-01 12:48:32.582 25197 25197 I VkThemes: ▶ generate ref=false descLen=1-20
+11-01 12:48:32.649 25197 25771 I VkApi   : ▶ request gemini/system model=gemini-3.1-flash-lite
+11-01 12:48:32.680 25197 29986 I VkApi   : ▶ request /geminiGenerateContent
+11-01 12:48:33.184 25197 25197 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+11-01 12:48:33.184 25197 25197 I SessionContext: bindEditorAndCapture: skip IC capture inputType=TYPE_NULL
+11-01 12:48:33.195 25197 25197 I VkTyping: ▶ open restart=false pkg=com.vibekey.keyboard inputType=0
+11-01 12:48:33.209 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:33.247 25197 26459 I VkStore : catalog not-modified version=273
+11-01 12:48:33.248 25197 25197 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1965 epoch=68
+11-01 12:48:33.705 25197 25197 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+11-01 12:48:33.706 25197 26459 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+11-01 12:48:34.735 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:35.216 25197 25197 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2003 epoch=68
+11-01 12:48:37.816 25197 29986 I VkApi   : ✓ response /geminiGenerateContent 5135ms code=200
+11-01 12:48:37.817 25197 26459 I VkApi   : proxy_theme_entitlement outcome=settled
+11-01 12:48:37.817 25197 26459 I VkApi   : gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1320 promptTok=6194 textChars=3268 cached=false
+11-01 12:48:37.832 25197 26459 I VkApi   : ✓ response gemini/system 5183ms
+11-01 12:48:37.855 25197 26459 I VkApi   : theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+11-01 12:48:37.868 25197 25197 I VkThemes: ✓ recipe designStyle=[REDACTED] desc=[REDACTED] model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#FF1C1F26 text=[REDACTED] font=jetbrains-mono radius=0 seed=777347695 5288ms
+11-01 12:48:37.868 25197 25197 I VkAiEconomics: theme success=true 5288ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=PRIMARY key=[REDACTED]
+11-01 12:48:37.869 25197 25197 I VkThemes: ✓ generate 5288ms theme=[REDACTED]
+11-01 12:48:37.918 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:37.934 25197 30253 I VkApi   : theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+11-01 12:48:37.937 25197 30253 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+11-01 12:48:37.953 25197 30253 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+11-01 12:48:51.716 25197 25197 I VkPanels: ○ close menu
+11-01 12:48:51.765 25197 25197 I VkTyping: ○ hidden
+11-01 12:48:54.978 25197 25197 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+11-01 12:48:54.985 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:54.990 25197 27529 I VkDictionaries: ✓ open emoji en-US
+11-01 12:48:55.054 25197 25197 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1975 epoch=71
+11-01 12:48:55.155 25197 25896 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=32 gen=0
+11-01 12:48:55.183 25197 25197 I VkStripPipeline: publishLatency seq=26 latencyMs=36
+11-01 12:48:55.499 25197 25197 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+11-01 12:48:55.499 25197 25197 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=21-100 sensitive=false attempt=0 elapsed=525ms
+11-01 12:48:55.501 25197 25197 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+11-01 12:48:55.502 25197 26457 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+11-01 12:48:56.209 25197 25197 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=defer_scheduled
+11-01 12:48:56.209 25197 25197 I VkKeyPress: strip pick key=[REDACTED]
+11-01 12:48:56.214 25197 25197 I VkPanels: ▶ open menu
+11-01 12:48:56.239 25197 25197 I VkPanels: ▶ open popui_menu
+11-01 12:48:56.239 25197 26457 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+11-01 12:48:56.249 25197 26457 I VkLocaleAssets: ○ ready en-US (cached)
+11-01 12:48:56.249 25197 26457 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+11-01 12:48:56.397 25197 25896 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=34 gen=0
+11-01 12:48:56.542 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:58.232 25197 25197 I VkKeyPress: keys pressed=22
+11-01 12:48:58.233 25197 25197 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+11-01 12:48:58.234 25197 25197 I VkPanels: ○ close menu
+11-01 12:48:58.249 25197 25197 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+11-01 12:48:58.316 25197 25197 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1935 epoch=75
+11-01 12:48:58.344 25197 25197 I VkSettings: ▶ activity open spellchecker=false
+11-01 12:48:58.573 25197 25197 I VkTyping: ○ hidden
+11-01 12:48:58.578 25197 25197 I VkSettings: → screen settings
+11-01 12:49:00.028 25197 25197 I VkSettings: → screen about
+11-01 12:49:00.260 25197 25197 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2009 epoch=75
+=== Feature activity (persisted across restarts) ===
+2026-11-01 11:11:11.444343 I VkThemeApply: ▶ begin source=bundled theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:11:11.446471 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→48.0
+2026-11-01 11:11:11.446904 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:11:11.457663 I VkThemeApply: ✓ commit source=bundled theme=[REDACTED] effectKeys=130
+2026-11-01 11:11:11.458075 I VkThemeApply: snapshot source=bundled theme=[REDACTED] item=[REDACTED] effects=130 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-11-01 11:11:11.458335 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=glow
+2026-11-01 11:11:11.464520 I VkThemeApply: ✓ verify source=bundled theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:11:12.504009 I VkThemeApply: prefetch source=bundled theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:11:12.521029 I VkThemeApply: reload source=bundled phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:11:17.091054 I OnDeviceAssist: loaded pack=pt-BR cards=13 fillers=6 source=bundled v=1
+2026-11-01 11:11:17.174647 I OnDeviceAssist: ▶ panel open locale=pt-BR pack=pt-BR cards=13 source=bundled
+2026-11-01 11:11:31.583655 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:11:31.585008 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:11:31.623099 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=140
+2026-11-01 11:11:31.623526 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=140 colorsLen=518 allColorsLen=1176 font=orbitron sound=click haptic=light bgFx=aurora/0.58 mesh=flow layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.95 press=neon_pulse idle=wave overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.94 blurDp=24
+2026-11-01 11:11:31.623761 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=6.0 textFx=glow
+2026-11-01 11:11:31.626208 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=click ai_bg_effect_type=aurora ai_key_glow_enabled=true font_scale=0.94 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:11:31.627355 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:11:32.028729 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:11:32.041326 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:12:04.513429 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:12:04.514620 I VkThemeApply: heal source=backdropImage cleared path ref=ai_theme_backdrop/current.png exists=false bytes=0 shaOk=n/a
+2026-11-01 11:12:04.514938 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:12:04.551929 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=137
+2026-11-01 11:12:04.552662 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=137 colorsLen=399 allColorsLen=1194 font=outfit sound=click haptic=light bgFx=soft_blobs/0.78 mesh=blob layers=2 bgImg=len=21-100/0.92/fi/bundled=false keyOp=0.50 layerTypes=soft_blobs+drift styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.85 press=ripple idle=wave overlay=particles popup=bounce…
+2026-11-01 11:12:04.552988 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=16.0 textFx=glow
+2026-11-01 11:12:04.557620 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=outfit ai_sound_theme=click ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:12:04.560885 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:12:04.561305 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:12:26.433858 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:12:26.435234 I VkThemeApply: heal source=backdropImage cleared path ref=ai_theme_backdrop/current.png exists=false bytes=0 shaOk=n/a
+2026-11-01 11:12:26.435610 I VkThemeApply: heal source=snapshot blur dp→px stored=32.0→48.0
+2026-11-01 11:12:26.478200 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=137
+2026-11-01 11:12:26.478826 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=137 colorsLen=409 allColorsLen=1223 font=space-grotesk sound=click haptic=light bgFx=drift/0.72 mesh=flow layers=3 bgImg=len=21-100/0.92/fi/bundled=false keyOp=0.35 layerTypes=drift+soft_blobs+shimmer styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.92 press=neon_pulse idle=breathe overlay=parti…
+2026-11-01 11:12:26.479119 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=glow
+2026-11-01 11:12:26.484059 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=click ai_bg_effect_type=drift ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:12:26.487468 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:12:26.488002 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:12:46.107932 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:12:46.155952 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=149
+2026-11-01 11:12:46.156529 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=149 colorsLen=497 allColorsLen=1102 font=orbitron sound=sci_fi haptic=sharp bgFx=horizon/0.72 mesh=blob layers=0 styleKeys=2 bgGrad=linear keyGrad=linear kbOp=0.96 press=scale idle=wave overlay=vignette popup=scale glow=true frameGlow=standard/0.30 fontScale=1.00 blurPx=18
+2026-11-01 11:12:46.156828 I VkThemeApply: keyChrome border=set/1.0 borderGrad=true glowPulse=true shape=squircle radius=14.0 textFx=outline
+2026-11-01 11:12:46.160409 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=horizon ai_key_glow_enabled=true font_scale=1.00 ai_bg_blur_radius=18.00 installSalt=absent
+2026-11-01 11:12:46.162457 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:12:46.162945 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:12:57.681004 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:12:57.682392 I VkThemeApply: heal source=backdropImage cleared path ref=ai_theme_backdrop/current.png exists=false bytes=0 shaOk=n/a
+2026-11-01 11:12:57.682730 I VkThemeApply: heal source=snapshot blur dp→px stored=42.0→48.0
+2026-11-01 11:12:57.722146 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=139
+2026-11-01 11:12:57.722914 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=139 colorsLen=497 allColorsLen=1116 font=audiowide sound=laser haptic=sharp bgFx=horizon/0.43 mesh=dual layers=1 bgImg=len=21-100/0.92/fi/bundled=false keyOp=1.00 layerTypes=horizon styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.95 press=neon_pulse idle=pulse overlay=scanlines popup=scale glow…
+2026-11-01 11:12:57.723191 I VkThemeApply: keyChrome border=set/1.0 borderGrad=false glowPulse=false shape=stadium radius=10.0 textFx=shadow
+2026-11-01 11:12:57.726383 W GoogleFontsLoader: audiowide not cached; substituting orbitron
+2026-11-01 11:12:57.729831 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=audiowide ai_sound_theme=laser ai_bg_effect_type=horizon ai_key_glow_enabled=false font_scale=1.01 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:12:57.733680 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:12:58.040812 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:12:58.051197 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:13:19.595738 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:13:19.597039 I VkThemeApply: heal source=snapshot blur dp→px stored=16.0→48.0
+2026-11-01 11:13:19.642337 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=131
+2026-11-01 11:13:19.642844 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=519 allColorsLen=1205 font=pixelify-sans sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=scale idle=breathe overlay=vignette popup=bounce glow=false frameGlow=none/0.00 fontScale=0.98 blurDp=16
+2026-11-01 11:13:19.643061 I VkThemeApply: keyChrome border=set/3.0 borderGrad=false glowPulse=false shape=rounded radius=6.0 textFx=shadow
+2026-11-01 11:13:19.646168 W GoogleFontsLoader: inter not cached; substituting outfit
+2026-11-01 11:13:19.647491 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=pixelify-sans ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=false font_scale=0.98 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:13:19.649848 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:13:20.118846 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:13:20.129752 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:13:40.634131 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:13:40.635262 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→48.0
+2026-11-01 11:13:40.677915 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=131
+2026-11-01 11:13:40.678383 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=495 allColorsLen=1128 font=orbitron sound=sci_fi haptic=staccato bgFx=mesh/0.90 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=neon_pulse idle=shimmer overlay=scanlines_vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=28
+2026-11-01 11:13:40.678584 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=8.0 textFx=glow
+2026-11-01 11:13:40.682264 W GoogleFontsLoader: micro-5 not cached; substituting pixelify-sans
+2026-11-01 11:13:40.683534 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:13:40.686900 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:13:41.088505 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:13:41.098513 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:14:01.672239 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:01.673441 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→48.0
+2026-11-01 11:14:01.702723 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=131
+2026-11-01 11:14:01.703104 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=500 allColorsLen=1150 font=orbitron sound=laser haptic=sharp bgFx=mesh/0.85 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=neon_pulse idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=1.07 blurDp=28
+2026-11-01 11:14:01.703267 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=8.0 textFx=glow
+2026-11-01 11:14:01.706181 W GoogleFontsLoader: bebas-neue not cached; substituting orbitron
+2026-11-01 11:14:01.707239 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=laser ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=1.07 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:01.709924 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:14:02.110611 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:02.121468 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:14:10.123437 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:10.124831 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:14:10.161173 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=131
+2026-11-01 11:14:10.161541 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:14:10.161777 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:14:10.166284 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:10.168120 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 11:14:10.517242 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:10.534655 I VkThemeApply: reload source=user phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:14:23.767298 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:14:23.973304 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:23.974904 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:14:24.031181 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:14:24.031634 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=519 allColorsLen=1203 font=orbitron sound=sci_fi haptic=sharp bgFx=aurora/0.48 mesh=flow layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.90 press=neon_pulse idle=breathe overlay=crt popup=scale glow=true frameGlow=none/0.00 fontScale=0.93 blurDp=24
+2026-11-01 11:14:24.031842 I VkThemeApply: keyChrome border=set/0.5 borderGrad=false glowPulse=false shape=squircle radius=16.0 textFx=glow
+2026-11-01 11:14:24.035415 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=aurora ai_key_glow_enabled=true font_scale=0.93 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:24.037588 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:14:24.038068 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:24.038307 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:14:29.082119 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-11-01 11:14:29.082587 I VkThemeApply: ▶ begin source=vault_revert theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:29.083957 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:14:29.140502 I VkThemeApply: ✓ commit source=vault_revert theme=[REDACTED] effectKeys=131
+2026-11-01 11:14:29.140982 I VkThemeApply: snapshot source=vault_revert theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:14:29.141205 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:14:29.146237 I VkThemeApply: ✓ verify source=vault_revert theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:29.154548 I VkThemeApply: reload source=vault_revert phase=postApply theme=[REDACTED]
+2026-11-01 11:14:29.155138 I VkThemeApply: prefetch source=vault_revert theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:29.396251 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:14:29.663724 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:29.667397 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:14:29.668231 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:14:29.735870 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:14:29.736649 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=519 allColorsLen=1210 font=sora sound=mechanical haptic=staccato bgFx=soft_blobs/0.35 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=glow idle=shimmer overlay=dust popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:14:29.737034 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=emboss
+2026-11-01 11:14:29.740159 W GoogleFontsLoader: sora not cached; substituting inter
+2026-11-01 11:14:29.742392 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=sora ai_sound_theme=mechanical ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:29.745453 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:14:29.745999 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:14:29.976022 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:29.982953 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:14:34.449106 I VkVault: ▶ try item=[REDACTED] title=len=21-100
+2026-11-01 11:14:34.596424 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:34.597383 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:14:34.597625 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:14:34.641170 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:14:34.641545 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=503 allColorsLen=1149 font=orbitron sound=retro haptic=heavy bgFx=mesh/0.70 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.95 press=neon_pulse idle=breathe overlay=crt popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-11-01 11:14:34.641727 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=glow
+2026-11-01 11:14:34.645598 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=retro ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:34.648826 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:14:34.649526 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:34.649724 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:14:38.911681 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:14:39.128539 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:39.129566 I VkThemeApply: heal source=snapshot blur dp→px stored=150.0→48.0
+2026-11-01 11:14:39.199621 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:14:39.199996 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=139 colorsLen=507 allColorsLen=1171 font=google-sans sound=click haptic=light bgFx=mesh/0.40 mesh=flow layers=0 styleKeys=0 bgGrad=none keyGrad=none kbOp=0.95 press=scale idle=none overlay=none popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=150
+2026-11-01 11:14:39.200182 I VkThemeApply: keyChrome border=set/1.0 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=none
+2026-11-01 11:14:39.202062 W GoogleFontsLoader: noto-sans not cached; substituting inter
+2026-11-01 11:14:39.202968 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=google-sans ai_sound_theme=click ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:39.204857 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:14:39.205385 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:14:39.501854 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:14:39.510840 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:14:47.694046 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-11-01 11:14:47.694497 I VkThemeApply: ▶ begin source=vault_revert theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:14:47.695802 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:14:47.751385 I VkThemeApply: ✓ commit source=vault_revert theme=[REDACTED] effectKeys=131
+2026-11-01 11:14:47.751884 I VkThemeApply: snapshot source=vault_revert theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:14:47.752213 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:14:47.760680 I VkThemeApply: ✓ verify source=vault_revert theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:14:47.775622 I VkThemeApply: reload source=vault_revert phase=postApply theme=[REDACTED]
+2026-11-01 11:14:47.776458 I VkThemeApply: prefetch source=vault_revert theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:30:45.880867 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:30:46.440150 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:30:46.441095 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:30:46.485601 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:30:46.485998 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=508 allColorsLen=1158 font=pixelify-sans sound=retro haptic=sharp bgFx=mesh/0.45 mesh=bands layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.95 press=neon_pulse idle=shimmer overlay=scanlines popup=scale glow=true frameGlow=none/0.00 fontScale=0.95 blurDp=24
+2026-11-01 11:30:46.486197 I VkThemeApply: keyChrome border=set/2.0 borderGrad=false glowPulse=false shape=rounded radius=4.0 textFx=outline
+2026-11-01 11:30:46.492238 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=pixelify-sans ai_sound_theme=retro ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.95 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:30:46.652714 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:30:46.653444 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:30:46.653658 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:30:55.608419 W VkSuggestions: slow frame 28.2ms locales=1 typedLen=1-20 candidates=14
+2026-11-01 11:30:55.759266 W VkSuggestions: slow frame 31.3ms locales=1 typedLen=1-20 candidates=14
+2026-11-01 11:30:56.088435 W VkSuggestions: slow frame 16.2ms locales=1 typedLen=1-20 candidates=14
+2026-11-01 11:31:11.079231 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:31:11.332119 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:31:11.333374 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:31:11.365836 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:31:11.366210 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=508 allColorsLen=1163 font=space-grotesk sound=bubble haptic=sharp bgFx=mesh/0.65 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.90 press=neon_pulse idle=shimmer overlay=vignette popup=bounce glow=true frameGlow=none/0.00 fontScale=1.05 blurDp=24
+2026-11-01 11:31:11.366387 I VkThemeApply: keyChrome border=set/2.0 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=shadow
+2026-11-01 11:31:11.372573 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=bubble ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=1.05 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:31:11.545199 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:31:11.546333 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:31:11.546666 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:31:17.984639 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:31:18.225936 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:31:18.226951 I VkThemeApply: heal source=snapshot blur dp→px stored=150.0→48.0
+2026-11-01 11:31:18.291897 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:31:18.292361 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=497 allColorsLen=1130 font=chakra-petch sound=sci_fi haptic=pulse bgFx=mesh/0.56 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.99 press=neon_pulse idle=shimmer overlay=scanlines popup=scale glow=true frameGlow=none/0.00 fontScale=0.98 blurDp=150
+2026-11-01 11:31:18.292543 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=glow
+2026-11-01 11:31:18.296342 W GoogleFontsLoader: chakra-petch not cached; substituting orbitron
+2026-11-01 11:31:18.303079 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=chakra-petch ai_sound_theme=sci_fi ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.98 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:31:18.489425 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:31:18.490988 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:31:19.076029 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:31:19.094360 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:31:26.946243 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:31:27.127568 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:31:27.128431 I VkThemeApply: heal source=snapshot blur dp→px stored=29.2→48.0
+2026-11-01 11:31:27.171597 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:31:27.172233 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=502 allColorsLen=1147 font=audiowide sound=laser haptic=sharp bgFx=drift/0.63 mesh=flow layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.90 press=glow idle=pulse overlay=particles popup=fade glow=true frameGlow=none/0.00 fontScale=1.06 blurDp=29
+2026-11-01 11:31:27.172809 I VkThemeApply: keyChrome border=set/0.5 borderGrad=false glowPulse=false shape=stadium radius=16.0 textFx=shadow
+2026-11-01 11:31:27.181603 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=audiowide ai_sound_theme=laser ai_bg_effect_type=drift ai_key_glow_enabled=true font_scale=1.06 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:31:27.352999 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:31:27.354098 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:31:27.354452 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:31:31.396639 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:31:31.573678 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:31:31.574540 I VkThemeApply: heal source=snapshot blur dp→px stored=26.9→48.0
+2026-11-01 11:31:31.617249 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:31:31.618 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=497 allColorsLen=1130 font=press-start-2p sound=retro haptic=staccato bgFx=soft_blobs/0.57 mesh=bands layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.96 press=bounce idle=pulse overlay=dust popup=fade glow=false frameGlow=none/0.00 fontScale=0.97 blurDp=26
+2026-11-01 11:31:31.618439 I VkThemeApply: keyChrome border=set/1.0 borderGrad=false glowPulse=false shape=rounded radius=3.0 textFx=emboss
+2026-11-01 11:31:31.621290 W GoogleFontsLoader: press-start-2p not cached; substituting pixelify-sans
+2026-11-01 11:31:31.628092 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=press-start-2p ai_sound_theme=retro ai_bg_effect_type=soft_blobs ai_key_glow_enabled=false font_scale=0.97 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:31:31.779912 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:31:31.780734 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:31:32.272939 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:31:32.283722 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:31:48.813871 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:31:49.091988 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:31:49.093589 I VkThemeApply: heal source=snapshot blur dp→px stored=24.8→48.0
+2026-11-01 11:31:49.093962 I VkThemeApply: heal source=snapshot legend font bungee→inter popup→silkscreen
+2026-11-01 11:31:49.151311 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:31:49.151962 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=502 allColorsLen=1161 font=bungee sound=retro haptic=staccato bgFx=noise/0.47 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.90 press=neon_pulse idle=shimmer overlay=dust popup=scale glow=true frameGlow=none/0.00 fontScale=0.93 blurDp=24
+2026-11-01 11:31:49.152345 I VkThemeApply: keyChrome border=set/0.5 borderGrad=false glowPulse=false shape=rounded radius=16.0 textFx=outline
+2026-11-01 11:31:49.159463 W GoogleFontsLoader: silkscreen not cached; substituting pixelify-sans
+2026-11-01 11:31:49.163049 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=inter ai_sound_theme=retro ai_bg_effect_type=noise ai_key_glow_enabled=true font_scale=0.93 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:31:49.331215 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:31:49.331973 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:31:49.489751 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:31:49.499915 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:32:00.645155 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:00.880702 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:00.881552 I VkThemeApply: heal source=snapshot blur dp→px stored=25.2→48.0
+2026-11-01 11:32:00.923788 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:32:00.924266 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=497 allColorsLen=1108 font=fredoka sound=pop haptic=staccato bgFx=drift/0.48 mesh=dual layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.99 press=glow idle=shimmer overlay=vignette popup=scale glow=false frameGlow=none/0.00 fontScale=1.08 blurDp=25
+2026-11-01 11:32:00.924467 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=20.0 textFx=glow
+2026-11-01 11:32:00.926628 W GoogleFontsLoader: fredoka not cached; substituting inter
+2026-11-01 11:32:00.928099 W GoogleFontsLoader: dm-sans not cached; substituting inter
+2026-11-01 11:32:00.933708 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=fredoka ai_sound_theme=pop ai_bg_effect_type=drift ai_key_glow_enabled=false font_scale=1.08 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:01.093350 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:01.094141 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:01.664576 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:01.683445 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:32:04.267174 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:04.585549 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:04.586414 I VkThemeApply: heal source=snapshot blur dp→px stored=31.9→48.0
+2026-11-01 11:32:04.618700 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:32:04.619014 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=510 allColorsLen=1171 font=fira-code sound=sci_fi haptic=sharp bgFx=noise/0.49 mesh=dual layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.96 press=neon_pulse idle=shimmer overlay=crt popup=scale glow=true frameGlow=none/0.00 fontScale=1.08 blurDp=31
+2026-11-01 11:32:04.619167 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=stadium radius=10.0 textFx=glow
+2026-11-01 11:32:04.622043 W GoogleFontsLoader: fira-code not cached; substituting roboto-mono
+2026-11-01 11:32:04.623433 W GoogleFontsLoader: manrope not cached; substituting inter
+2026-11-01 11:32:04.626967 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=fira-code ai_sound_theme=sci_fi ai_bg_effect_type=noise ai_key_glow_enabled=true font_scale=1.08 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:04.778685 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:04.779371 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:05.513877 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:05.534648 I VkThemeApply: reload source=vault phase=postPrefetch theme=[REDACTED]
+2026-11-01 11:32:08.832436 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:09.049546 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:09.050544 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:32:09.050879 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:32:09.106332 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:32:09.107642 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=521 allColorsLen=1194 font=manrope sound=pop haptic=heavy bgFx=soft_blobs/0.40 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=scale idle=none overlay=vignette popup=none glow=false frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:32:09.108518 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:32:09.127905 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=manrope ai_sound_theme=pop ai_bg_effect_type=soft_blobs ai_key_glow_enabled=false font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:09.336682 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:09.337560 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:09.337827 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:14.371685 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:14.545965 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:14.546870 I VkThemeApply: heal source=snapshot blur dp→px stored=24.7→48.0
+2026-11-01 11:32:14.594752 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:32:14.595266 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=503 allColorsLen=1149 font=space-grotesk sound=soft haptic=light bgFx=drift/0.49 mesh=flow layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.96 press=glow idle=breathe overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=1.05 blurDp=24
+2026-11-01 11:32:14.595510 I VkThemeApply: keyChrome border=set/0.5 borderGrad=false glowPulse=false shape=squircle radius=6.0 textFx=shadow
+2026-11-01 11:32:14.606568 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=soft ai_bg_effect_type=drift ai_key_glow_enabled=true font_scale=1.05 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:14.775661 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:14.776361 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:14.776572 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:29.552834 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:29.725666 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:29.726555 I VkThemeApply: heal source=snapshot blur dp→px stored=150.0→48.0
+2026-11-01 11:32:29.766495 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:32:29.766876 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=520 allColorsLen=1190 font=space-grotesk sound=typewriter haptic=double bgFx=mesh/0.50 mesh=blob layers=0 styleKeys=0 bgGrad=none keyGrad=none kbOp=1.00 press=none idle=none overlay=dust popup=none glow=false frameGlow=none/0.00 fontScale=0.90 blurDp=150
+2026-11-01 11:32:29.767063 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=5.0 textFx=none
+2026-11-01 11:32:29.773357 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=false font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:29.956075 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:29.957254 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:29.957577 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:32.003475 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:32.235246 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:32.236365 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:32:32.236648 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:32:32.282797 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:32:32.283170 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=516 allColorsLen=1209 font=serif-monospace sound=typewriter haptic=staccato bgFx=soft_blobs/0.50 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=bounce idle=none overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:32:32.283385 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=rounded radius=10.0 textFx=shadow
+2026-11-01 11:32:32.291470 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=serif-monospace ai_sound_theme=typewriter ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:32.451702 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:32.452295 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:32.452496 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:36.512475 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:36.753869 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:36.754749 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:32:36.755017 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:32:36.799100 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:32:36.799636 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=517 allColorsLen=1213 font=sora sound=chime haptic=light bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:32:36.799950 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:32:36.806108 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=sora ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:36.938256 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:36.938773 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:36.938949 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:32:38.767688 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:32:39.012629 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:32:39.013548 I VkThemeApply: heal source=snapshot blur dp→px stored=20.0→48.0
+2026-11-01 11:32:39.046728 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:32:39.047098 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=521 allColorsLen=1194 font=manrope sound=piano haptic=double bgFx=mesh/0.30 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=none kbOp=1.00 press=glow idle=none overlay=vignette popup=scale glow=false frameGlow=none/0.00 fontScale=0.90 blurDp=20
+2026-11-01 11:32:39.047288 I VkThemeApply: keyChrome border=set/0.0 borderGrad=false glowPulse=false shape=rounded radius=8.0 textFx=none
+2026-11-01 11:32:39.056861 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=manrope ai_sound_theme=piano ai_bg_effect_type=mesh ai_key_glow_enabled=false font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:32:39.213895 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:32:39.214792 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:32:39.215039 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:01.898320 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:02.059934 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:02.060930 I VkThemeApply: heal source=snapshot blur dp→px stored=32.0→48.0
+2026-11-01 11:33:02.061234 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:02.107355 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:02.107916 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=517 allColorsLen=1211 font=outfit sound=bubble haptic=light bgFx=soft_blobs/0.85 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.95 press=glow idle=shimmer overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=32
+2026-11-01 11:33:02.108250 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=shadow
+2026-11-01 11:33:02.118584 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=outfit ai_sound_theme=bubble ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:02.307631 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:02.308287 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:02.308513 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:04.837855 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:05.051361 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:05.052261 I VkThemeApply: heal source=snapshot blur dp→px stored=32.0→48.0
+2026-11-01 11:33:05.052483 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:05.096119 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:05.096632 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=495 allColorsLen=1136 font=sora sound=retro haptic=light bgFx=soft_blobs/0.85 mesh=blob layers=0 styleKeys=0 bgGrad=none keyGrad=linear kbOp=0.98 press=bounce idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=32
+2026-11-01 11:33:05.096902 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=shadow
+2026-11-01 11:33:05.107064 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=sora ai_sound_theme=retro ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:05.271630 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:05.272248 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:05.272420 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:17.979257 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:18.160619 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:18.161500 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:33:18.161739 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:18.203741 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:18.204256 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=497 allColorsLen=1108 font=space-grotesk sound=drum haptic=rumble bgFx=soft_blobs/0.35 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=glow idle=breathe overlay=vignette popup=none glow=false frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:33:18.204490 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=shadow
+2026-11-01 11:33:18.215467 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=drum ai_bg_effect_type=soft_blobs ai_key_glow_enabled=false font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:18.371312 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:18.372231 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:18.372429 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:22.617020 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:22.652944 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:22.653997 I VkThemeApply: heal source=snapshot blur dp→px stored=28.0→48.0
+2026-11-01 11:33:22.654258 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:22.703855 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:22.704364 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=516 allColorsLen=1198 font=space-grotesk sound=chime haptic=light bgFx=mesh/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.98 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=28
+2026-11-01 11:33:22.704605 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=glow
+2026-11-01 11:33:22.714768 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=chime ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:22.882422 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:22.883389 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:22.883657 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:29.090061 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:29.409074 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:29.409937 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:33:29.410140 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:29.468732 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:29.469403 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=521 allColorsLen=1221 font=orbitron sound=sci_fi haptic=heavy bgFx=mesh/0.60 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-11-01 11:33:29.469752 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=6.0 textFx=glow
+2026-11-01 11:33:29.479219 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=sci_fi ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:29.649505 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:29.650578 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:29.650848 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:31.785456 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:32.034637 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:32.035594 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:33:32.035853 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:32.088901 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:32.089273 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=497 allColorsLen=1122 font=orbitron sound=piano haptic=medium bgFx=mesh/0.40 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=none kbOp=1.00 press=neon_pulse idle=shimmer overlay=crt popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-11-01 11:33:32.089428 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=stadium radius=32.0 textFx=glow
+2026-11-01 11:33:32.097413 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=piano ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:32.266504 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:32.267491 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:32.267736 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:37.295046 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-11-01 11:33:37.295355 I VkThemeApply: ▶ begin source=vault_revert theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:37.296158 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:33:37.322806 I VkThemeApply: ✓ commit source=vault_revert theme=[REDACTED] effectKeys=131
+2026-11-01 11:33:37.323103 I VkThemeApply: snapshot source=vault_revert theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:33:37.323234 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:33:37.326592 I VkThemeApply: ✓ verify source=vault_revert theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:37.333247 I VkThemeApply: reload source=vault_revert phase=postApply theme=[REDACTED]
+2026-11-01 11:33:37.333773 I VkThemeApply: prefetch source=vault_revert theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:49.377752 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:49.628009 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:49.629415 I VkThemeApply: heal source=snapshot blur dp→px stored=32.0→48.0
+2026-11-01 11:33:49.629837 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:49.677888 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:49.678254 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=506 allColorsLen=1171 font=orbitron sound=drum haptic=pulse bgFx=aurora/0.85 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.95 press=neon_pulse idle=shimmer overlay=scanlines_vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=32
+2026-11-01 11:33:49.678434 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=14.0 textFx=glow
+2026-11-01 11:33:49.684760 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=orbitron ai_sound_theme=drum ai_bg_effect_type=aurora ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:49.824936 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:49.825870 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:49.826070 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:33:57.162201 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:33:57.356662 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:33:57.358965 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:33:57.359532 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:33:57.416725 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:33:57.417036 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=517 allColorsLen=1213 font=sora sound=bubble haptic=rumble bgFx=aurora/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.95 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:33:57.417187 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:33:57.422402 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=sora ai_sound_theme=bubble ai_bg_effect_type=aurora ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:33:57.530254 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:33:57.530749 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:33:57.530884 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:34:03.915507 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:34:04.099330 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:34:04.100548 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:34:04.100972 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:34:04.156710 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:34:04.157368 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=495 allColorsLen=1136 font=chakra-petch sound=laser haptic=crescendo bgFx=mesh/0.85 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=0.95 press=neon_pulse idle=shimmer overlay=scanlines popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:34:04.157700 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=squircle radius=8.0 textFx=glow
+2026-11-01 11:34:04.165736 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=chakra-petch ai_sound_theme=laser ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:34:04.307714 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:34:04.308333 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:34:04.308520 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:34:09.327729 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:34:09.626376 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:34:09.627772 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:34:09.628094 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:34:09.673600 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:34:09.674082 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=517 allColorsLen=1199 font=space-grotesk sound=piano haptic=double bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=glow idle=shimmer overlay=vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=24
+2026-11-01 11:34:09.674272 I VkThemeApply: keyChrome border=set/1.5 borderGrad=false glowPulse=false shape=rounded radius=8.0 textFx=shadow
+2026-11-01 11:34:09.681669 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=piano ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:34:09.836514 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:34:09.837780 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:34:09.838102 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:34:13.552340 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:34:13.733929 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:34:13.778198 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=139
+2026-11-01 11:34:13.778647 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=139 colorsLen=510 allColorsLen=1127 font=outfit sound=pop haptic=light bgFx=noise/0.43 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=radial kbOp=1.00 press=bounce idle=pulse overlay=none popup=scale glow=false frameGlow=standard/0.72 fontScale=1.05 blurPx=0
+2026-11-01 11:34:13.778883 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=16.0 textFx=glow
+2026-11-01 11:34:13.789982 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=36 themeKey=[REDACTED] ai_font_family=outfit ai_sound_theme=pop ai_bg_effect_type=noise ai_key_glow_enabled=false font_scale=1.05 ai_bg_blur_radius=0.00 installSalt=absent
+2026-11-01 11:34:13.974282 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:34:13.975017 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:34:13.975248 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:34:34.441800 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-11-01 11:34:34.442328 I VkThemeApply: ▶ begin source=vault_revert theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:34:34.444358 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:34:34.515087 I VkThemeApply: ✓ commit source=vault_revert theme=[REDACTED] effectKeys=131
+2026-11-01 11:34:34.515953 I VkThemeApply: snapshot source=vault_revert theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:34:34.516310 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:34:34.528513 I VkThemeApply: ✓ verify source=vault_revert theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:34:34.550177 I VkThemeApply: reload source=vault_revert phase=postApply theme=[REDACTED]
+2026-11-01 11:34:34.551218 I VkThemeApply: prefetch source=vault_revert theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:34:37.535585 W GoogleFontsLoader: bungee not cached; substituting orbitron
+2026-11-01 11:48:41.868609 W VkSuggestions: slow frame 22.6ms locales=1 typedLen=0 candidates=0
+2026-11-01 11:48:44.869996 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:48:45.313237 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:48:45.314659 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:48:45.315001 I VkThemeApply: heal source=snapshot legend font bebas-neue→inter popup→outfit
+2026-11-01 11:48:45.315245 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:48:45.374921 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:48:45.375672 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=500 allColorsLen=1092 font=bebas-neue sound=mechanical haptic=light bgFx=soft_blobs/0.75 mesh=blob layers=0 styleKeys=0 bgGrad=none keyGrad=linear kbOp=1.00 press=neon_pulse idle=pulse overlay=scanlines_vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-11-01 11:48:45.376056 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=rounded radius=5.0 textFx=shadow
+2026-11-01 11:48:45.392971 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=inter ai_sound_theme=mechanical ai_bg_effect_type=soft_blobs ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:48:45.553923 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:48:45.555048 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:48:45.555329 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:48:51.475902 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:48:51.691512 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:48:51.692715 I VkThemeApply: heal source=snapshot blur dp→px stored=25.0→48.0
+2026-11-01 11:48:51.693051 I VkThemeApply: heal source=snapshot overlay intensity→0.42
+2026-11-01 11:48:51.742763 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=133
+2026-11-01 11:48:51.743190 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=133 colorsLen=509 allColorsLen=1149 font=chakra-petch sound=mechanical haptic=light bgFx=mesh/0.90 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=neon_pulse idle=shimmer overlay=scanlines_vignette popup=scale glow=true frameGlow=none/0.00 fontScale=0.90 blurDp=25
+2026-11-01 11:48:51.743399 I VkThemeApply: keyChrome border=set/2.8 borderGrad=false glowPulse=false shape=squircle radius=8.0 textFx=shadow
+2026-11-01 11:48:51.752208 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=chakra-petch ai_sound_theme=mechanical ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.90 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:48:51.923931 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:48:51.925113 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:48:51.925429 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:48:57.187507 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:48:57.361442 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:48:57.362309 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:48:57.403230 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:48:57.403709 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=493 allColorsLen=1122 font=space-grotesk sound=retro haptic=staccato bgFx=mesh/0.55 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=0.95 press=bounce idle=shimmer overlay=scanlines_vignette popup=bounce glow=true frameGlow=none/0.00 fontScale=1.05 blurDp=24
+2026-11-01 11:48:57.403967 I VkThemeApply: keyChrome border=set/3.0 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=shadow
+2026-11-01 11:48:57.414751 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=space-grotesk ai_sound_theme=retro ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=1.05 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:48:57.589711 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:48:57.591052 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:48:57.591444 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:49:02.569954 I VkVault: ▶ try item=[REDACTED] title=len=1-20
+2026-11-01 11:49:02.755064 I VkThemeApply: ▶ begin source=vault theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:49:02.755943 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:49:02.756178 I VkThemeApply: heal source=snapshot legend font bungee→sora popup→outfit
+2026-11-01 11:49:02.756372 I VkThemeApply: heal source=snapshot idle intensity→0.35
+2026-11-01 11:49:02.797408 I VkThemeApply: ✓ commit source=vault theme=[REDACTED] effectKeys=134
+2026-11-01 11:49:02.797847 I VkThemeApply: snapshot source=vault theme=[REDACTED] item=[REDACTED] effects=134 colorsLen=500 allColorsLen=1136 font=bungee sound=pop haptic=sharp bgFx=mesh/0.65 mesh=blob layers=0 styleKeys=0 bgGrad=radial keyGrad=linear kbOp=1.00 press=bounce idle=pulse overlay=scanlines_vignette popup=bounce glow=true frameGlow=none/0.00 fontScale=1.05 blurDp=24
+2026-11-01 11:49:02.798032 I VkThemeApply: keyChrome border=set/3.0 borderGrad=false glowPulse=false shape=squircle radius=10.0 textFx=outline
+2026-11-01 11:49:02.806499 I VkThemeApply: ✓ verify source=vault theme=[REDACTED] ok=true checked=37 themeKey=[REDACTED] ai_font_family=sora ai_sound_theme=pop ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=1.05 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:49:02.974657 I VkThemeApply: reload source=vault phase=postApply theme=[REDACTED]
+2026-11-01 11:49:02.976143 I VkThemeApply: prefetch source=vault theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 11:49:02.976545 I VkVault: ✓ tryApplied item=[REDACTED] theme=[REDACTED]
+2026-11-01 11:49:09.134142 I VkVault: ○ tryRevert theme=[REDACTED]
+2026-11-01 11:49:09.134519 I VkThemeApply: ▶ begin source=vault_revert theme=[REDACTED] item=[REDACTED]
+2026-11-01 11:49:09.135690 I VkThemeApply: heal source=snapshot blur dp→px stored=24.0→48.0
+2026-11-01 11:49:09.199724 I VkThemeApply: ✓ commit source=vault_revert theme=[REDACTED] effectKeys=131
+2026-11-01 11:49:09.200294 I VkThemeApply: snapshot source=vault_revert theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=498 allColorsLen=1142 font=playfair-display sound=typewriter haptic=heavy bgFx=mesh/0.45 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=bounce idle=breathe overlay=vignette popup=none glow=true frameGlow=none/0.00 fontScale=0.99 blurDp=24
+2026-11-01 11:49:09.200553 I VkThemeApply: keyChrome border=set/2.5 borderGrad=false glowPulse=false shape=squircle radius=12.0 textFx=shadow
+2026-11-01 11:49:09.212076 I VkThemeApply: ✓ verify source=vault_revert theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=playfair-display ai_sound_theme=typewriter ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.99 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 11:49:09.223514 I VkThemeApply: reload source=vault_revert phase=postApply theme=[REDACTED]
+2026-11-01 11:49:09.224614 I VkThemeApply: prefetch source=vault_revert theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 12:45:01.813031 I VkThemeApply: ▶ begin source=user theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:45:01.816633 I VkThemeApply: heal source=snapshot blur dp→px stored=16.0→48.0
+2026-11-01 12:45:01.876928 I VkThemeApply: ✓ commit source=user theme=[REDACTED] effectKeys=131
+2026-11-01 12:45:01.877344 I VkThemeApply: snapshot source=user theme=[REDACTED] item=[REDACTED] effects=131 colorsLen=516 allColorsLen=1195 font=press-start-2p sound=mechanical haptic=sharp bgFx=mesh/0.55 mesh=blob layers=0 styleKeys=0 bgGrad=linear keyGrad=linear kbOp=1.00 press=neon_pulse idle=wave overlay=crt popup=scale glow=true frameGlow=none/0.00 fontScale=0.95 blurDp=16
+2026-11-01 12:45:01.877596 I VkThemeApply: keyChrome border=set/3.0 borderGrad=false glowPulse=false shape=rounded radius=2.0 textFx=shadow
+2026-11-01 12:45:01.886866 I VkThemeApply: ✓ verify source=user theme=[REDACTED] ok=true checked=35 themeKey=[REDACTED] ai_font_family=press-start-2p ai_sound_theme=mechanical ai_bg_effect_type=mesh ai_key_glow_enabled=true font_scale=0.95 ai_bg_blur_radius=48.00 installSalt=absent
+2026-11-01 12:45:01.890189 I VkThemeApply: reload source=user phase=postApply theme=[REDACTED]
+2026-11-01 12:45:01.891670 I VkThemeApply: prefetch source=user theme=[REDACTED] font=len=1-20 cached=true sound=len=1-20 cached=true
+2026-11-01 12:45:07.619161 W VkSuggestions: slow frame 22.4ms locales=1 typedLen=1-20 candidates=14
+2026-11-01 12:45:17.455579 W VkSuggestions: slow frame 17.7ms locales=1 typedLen=1-20 candidates=14
+2026-11-01 12:45:35.031778 I VkThemes: ▶ tap generate ref=false descLen=21-100
+2026-11-01 12:45:56.639612 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1413 promptTok=6199 textChars=3532 cached=false
+2026-11-01 12:45:56.685322 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:45:56.695666 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=21-100 model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#E61A1C24 text=[REDACTED] font=space-grotesk radius=0 seed=862890780 9024ms
+2026-11-01 12:45:56.785472 I VkThemeApply: heal source=generated canvas hero=cb_grid_scan layers=6 styleKeys=5
+2026-11-01 12:45:56.791213 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:45:56.792990 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:45:56.795548 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+2026-11-01 12:46:02.507894 I VkThemes: ▶ tap generate ref=false descLen=21-100
+2026-11-01 12:46:17.023253 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1354 promptTok=6195 textChars=3299 cached=false
+2026-11-01 12:46:17.044076 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:46:17.045544 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=21-100 model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#FF1C1C24 text=[REDACTED] font=outfit radius=0 seed=1574790137 5448ms
+2026-11-01 12:46:17.097192 I VkThemeApply: heal source=generated canvas hero=cb_grid_matrix layers=5 styleKeys=5
+2026-11-01 12:46:17.101142 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:46:17.102610 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:46:17.104771 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+2026-11-01 12:46:51.455581 I VkThemes: ▶ tap generate ref=false descLen=21-100
+2026-11-01 12:47:06.371761 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1312 promptTok=6191 textChars=3287 cached=false
+2026-11-01 12:47:06.388606 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:47:06.444516 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=21-100 model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#FF202124 text=[REDACTED] font=space-grotesk radius=0 seed=1116788383 5262ms
+2026-11-01 12:47:06.508953 I VkThemeApply: heal source=generated canvas hero=cb_grid_matrix layers=4 styleKeys=5
+2026-11-01 12:47:06.512654 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:47:06.514181 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:47:06.516251 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+2026-11-01 12:47:43.931027 W VkExit: reason=2(signaled) pid=11456 proc=com.vibekey.keyboard at=2026-11-01T12:47:39.877 status=9 importance=200 pssKb=453184 rssKb=522840 exitDesc=<none>
+2026-11-01 12:48:08.999859 W VkSuggestions: slow frame 42.7ms locales=1 typedLen=0 candidates=0
+2026-11-01 12:48:19.509218 I VkThemes: ▶ tap generate ref=false descLen=1-20
+2026-11-01 12:48:37.817799 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1320 promptTok=6194 textChars=3268 cached=false
+2026-11-01 12:48:37.855411 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:48:37.868651 I VkThemes: ✓ recipe designStyle=[REDACTED] descLen=1-20 model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#FF1C1F26 text=[REDACTED] font=jetbrains-mono radius=0 seed=777347695 5288ms
+2026-11-01 12:48:37.934962 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:48:37.937478 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:48:37.953721 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+=== In-memory (current process) ===
+2026-11-01 12:47:46.086448 I startup: Starting com.vibekey.keyboard version 4.5.1170 (5530) on Android 12 (SDK 31)
+2026-11-01 12:47:49.161744 I VkNgram: registered lang=vi,th source=bundled
+2026-11-01 12:47:50.420662 I VkEffects: reload keyPress=neon_pulse popup=scale popupFx=true blurPx=48 glow=true stickers=true fontScale=0.95 font=press-start-2p bgFx=mesh bgFxInt=0.55 overlay=crt/0.56 bgGrad=linear visible=true idle=wave spacebarIdle=glow_breathe frameGlow=none/0.00 lottie=none/ready=false/1.00/loop=true kbOp=1.00 fullFrame=true sound=true(mechanical) vibrate=true(sharp)
+2026-11-01 12:47:50.423602 I VkMultilingual: reset main=en-US locales=[en] count=1
+2026-11-01 12:47:50.444590 I VkDictionaries: ▶ async reload main dicts locales=1
+2026-11-01 12:47:50.967082 I VkDictionaries: ✓ open main en-US
+2026-11-01 12:47:50.976584 I VkDictionaries: ✓ open emoji en-US
+2026-11-01 12:47:50.977740 I VkDictionaries: collection en-US dicts=2 emoji=true
+2026-11-01 12:47:51.338945 I VkLocaleAssets: ▶ startup download begin
+2026-11-01 12:47:51.360496 I VkLocaleAssets: preload predictors en-US
+2026-11-01 12:47:51.362826 I VkStartupLoad: ▶ dictionary batch begin recentInstall=false
+2026-11-01 12:47:51.364170 I VkLocaleAssets: ▶ batch source=startup count=2 [en-US,pt-BR]
+2026-11-01 12:47:51.519892 I VkStartupLoad: ○ predictor preload deferred en-US
+2026-11-01 12:47:51.529875 I VkLocaleAssets: ○ ready en-US (cached)
+2026-11-01 12:47:51.966928 I VkStartupLoad: ○ predictor preload deferred pt-BR
+2026-11-01 12:47:52.097410 I VkLocaleAssets: ○ ready pt-BR (cached)
+2026-11-01 12:47:52.097945 I VkLocaleAssets: ✓ batch source=startup locales=2 fetched=0
+2026-11-01 12:47:52.224903 I VkStartupLoad: ✓ dictionary batch done
+2026-11-01 12:47:52.225109 I VkStartupLoad: ▶ predictor preload flush count=2
+2026-11-01 12:47:52.225324 I VkLocaleAssets: preload predictors en-US
+2026-11-01 12:47:52.363975 I VkLocaleAssets: ✓ startup done locales=2 retries=0
+2026-11-01 12:47:53.452114 I KenLmBridge: Loaded VkLM for en from [REDACTED]
+2026-11-01 12:47:53.452630 I VkNgram: model ready locale=en-US gen=1 2044ms
+2026-11-01 12:47:54.236523 I VkLocaleAssets: preload predictors pt-BR
+2026-11-01 12:47:55.585345 I KenLmBridge: Loaded VkLM for pt from [REDACTED]
+2026-11-01 12:47:55.585929 I VkNgram: model ready locale=pt-BR gen=1 1047ms
+2026-11-01 12:47:58.045672 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:03.122358 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:03.122626 I SessionContext: bindEditorAndCapture: skip IC capture inputType=TYPE_NULL
+2026-11-01 12:48:03.124835 I VkTyping: ▶ open restart=false pkg=com.android.settings inputType=0
+2026-11-01 12:48:03.296002 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=0 frameTop=0 reason=refresh
+2026-11-01 12:48:03.296399 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:03.667211 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+2026-11-01 12:48:03.697463 I VkDictionaries: ✓ open emoji en-US
+2026-11-01 12:48:03.761843 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=0 reason=size
+2026-11-01 12:48:03.764585 I VkEffects: backdropBlur radiusPx=48 applied=false reason=crossWindowBlurDisabled kbA=255
+2026-11-01 12:48:03.842881 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1881 epoch=11
+2026-11-01 12:48:03.843091 I VkNavBar: stripDraw branch=skipped: [REDACTED]
+2026-11-01 12:48:04.149527 I VkNavBar: inset reported=0 effective=0 fallbackEligible=true hostH=2818 frameTop=1898 reason=attach
+2026-11-01 12:48:04.158327 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+2026-11-01 12:48:04.166270 I VkDictionaries: ✓ open emoji en-US
+2026-11-01 12:48:04.374203 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1965 epoch=16
+2026-11-01 12:48:05.983271 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:05.983487 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=21-100 sensitive=false attempt=0 elapsed=1827ms
+2026-11-01 12:48:05.997322 I VkTyping: ○ hidden
+2026-11-01 12:48:06.417764 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2078 epoch=16
+2026-11-01 12:48:06.855315 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+2026-11-01 12:48:06.995167 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:07.762398 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1382 epoch=19
+2026-11-01 12:48:07.892591 I VkTyping: ○ hidden
+2026-11-01 12:48:07.926799 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:07.927082 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=21-100 sensitive=false attempt=0 elapsed=1080ms
+2026-11-01 12:48:08.204763 I VkEffects: qualityGovernor motionScale=0.82 slowFrameMs=50.000
+2026-11-01 12:48:08.280490 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+2026-11-01 12:48:08.358052 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1979 epoch=22
+2026-11-01 12:48:08.526978 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:08.828440 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:08.828551 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=21-100 sensitive=false attempt=0 elapsed=549ms
+2026-11-01 12:48:08.829624 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:08.830512 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=1-20
+2026-11-01 12:48:08.887806 I VkLocaleAssets: preload predictors en-US
+2026-11-01 12:48:09.027752 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=1 kenLm=true divergent=false
+2026-11-01 12:48:09.028529 I VkSuggestions: strip prediction typedLen=0 candidates=1 autocorrect=false top=[REDACTED] locale=en token=21 gen=0
+2026-11-01 12:48:09.041433 I VkStripPipeline: publishLatency seq=16 latencyMs=87
+2026-11-01 12:48:09.335036 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=defer_scheduled
+2026-11-01 12:48:09.335167 I VkKeyPress: strip pick key=[REDACTED]
+2026-11-01 12:48:09.341148 I VkPanels: ▶ open menu
+2026-11-01 12:48:09.393188 I VkPanels: ▶ open popui_menu
+2026-11-01 12:48:09.394714 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-11-01 12:48:09.417284 I VkLocaleAssets: preload predictors en-US
+2026-11-01 12:48:09.419543 I VkLocaleAssets: ○ ready en-US (cached)
+2026-11-01 12:48:09.419677 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-11-01 12:48:09.535546 I VkNgram: merge locale=en prev=[REDACTED] preds=8 contextual=0 assets=true
+2026-11-01 12:48:09.536660 I VkNgram: unifiedRank locale=en head=[REDACTED] ghost=[REDACTED] lmHead=[REDACTED] slots=3 kenLm=true divergent=false
+2026-11-01 12:48:09.536820 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=23 gen=0
+2026-11-01 12:48:10.205672 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:10.481381 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=921 epoch=24
+2026-11-01 12:48:11.272485 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:11.272715 I VkKeyPreview: show burst=1 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-11-01 12:48:11.277646 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1993 epoch=25
+2026-11-01 12:48:11.349096 I VkKeyPreview: dismiss burst=1 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-11-01 12:48:11.349203 I VkKeyPress: keys pressed=1
+2026-11-01 12:48:11.376044 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1974 epoch=26
+2026-11-01 12:48:11.482804 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:11.488433 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1994 epoch=27
+2026-11-01 12:48:11.593355 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=28
+2026-11-01 12:48:11.667066 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:11.672088 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1995 epoch=29
+2026-11-01 12:48:11.776383 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1984 epoch=30
+2026-11-01 12:48:12.041723 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=31
+2026-11-01 12:48:12.129835 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1988 epoch=32
+2026-11-01 12:48:12.747643 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:12.767742 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1976 epoch=33
+2026-11-01 12:48:12.829378 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=34
+2026-11-01 12:48:12.985556 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:12.989557 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1995 epoch=35
+2026-11-01 12:48:13.079859 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=36
+2026-11-01 12:48:13.574916 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1995 epoch=37
+2026-11-01 12:48:13.647635 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1991 epoch=38
+2026-11-01 12:48:14.118979 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:14.123277 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1995 epoch=39
+2026-11-01 12:48:14.198367 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=40
+2026-11-01 12:48:14.339641 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:14.339738 I VkKeyPreview: show burst=6 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-11-01 12:48:14.343091 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=41
+2026-11-01 12:48:14.422648 I VkKeyPreview: dismiss burst=6 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-11-01 12:48:14.422732 I VkKeyPress: keys pressed=9
+2026-11-01 12:48:14.432905 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=42
+2026-11-01 12:48:14.625848 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1997 epoch=43
+2026-11-01 12:48:14.699507 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1992 epoch=44
+2026-11-01 12:48:15.159440 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:15.163001 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=45
+2026-11-01 12:48:15.268342 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1984 epoch=46
+2026-11-01 12:48:15.389031 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:15.392289 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=47
+2026-11-01 12:48:15.453458 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1989 epoch=48
+2026-11-01 12:48:15.565153 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=49
+2026-11-01 12:48:15.652490 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1993 epoch=50
+2026-11-01 12:48:16.187426 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:16.195524 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1991 epoch=51
+2026-11-01 12:48:16.315220 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:16.319287 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1995 epoch=53
+2026-11-01 12:48:16.404670 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=54
+2026-11-01 12:48:16.495374 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:16.498942 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=55
+2026-11-01 12:48:16.605107 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1985 epoch=56
+2026-11-01 12:48:16.718704 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1997 epoch=57
+2026-11-01 12:48:16.805610 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=58
+2026-11-01 12:48:18.015448 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:18.015559 I VkKeyPreview: show burst=6 last=key=[REDACTED] instant=true pool showing=1 free=6
+2026-11-01 12:48:18.018969 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=59
+2026-11-01 12:48:18.125931 I VkKeyPreview: dismiss burst=6 last=key=[REDACTED] reason=release pool showing=0 free=7
+2026-11-01 12:48:18.126040 I VkKeyPress: keys pressed=18
+2026-11-01 12:48:18.141680 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1985 epoch=60
+2026-11-01 12:48:18.281508 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:18.284972 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=61
+2026-11-01 12:48:18.392860 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=62
+2026-11-01 12:48:18.413437 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:18.416800 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=63
+2026-11-01 12:48:18.493069 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1990 epoch=64
+2026-11-01 12:48:18.510129 I VkKeyPreview: popupAnim key=[REDACTED] type=scale dur=100ms scale=1.0731243
+2026-11-01 12:48:18.513462 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1996 epoch=65
+2026-11-01 12:48:18.610102 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1983 epoch=66
+2026-11-01 12:48:19.509137 I VkThemes: ▶ tap generate ref=false descLen=1-20
+2026-11-01 12:48:19.856279 I VkEffects: qualityGovernor motionScale=0.82 slowFrameMs=100.000
+2026-11-01 12:48:20.597926 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2005 epoch=66
+2026-11-01 12:48:30.924963 I VkMonetization: rewarded_earned waterfall=PRIMARY feature=theme
+2026-11-01 12:48:30.979767 I VkApi: ▶ request /mintEntitlement
+2026-11-01 12:48:31.613942 I VkApi: ✓ response /mintEntitlement 634ms code=200
+2026-11-01 12:48:31.615197 I VkAiEconomics: entitlement_mint feature=theme ok=true
+2026-11-01 12:48:32.581400 I VkAiEconomics: rewarded_grant feature=theme waterfall=PRIMARY
+2026-11-01 12:48:32.582096 I VkThemes: ▶ generate ref=false descLen=1-20
+2026-11-01 12:48:32.649608 I VkApi: ▶ request gemini/system model=gemini-3.1-flash-lite
+2026-11-01 12:48:32.680520 I VkApi: ▶ request /geminiGenerateContent
+2026-11-01 12:48:33.184555 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:33.184632 I SessionContext: bindEditorAndCapture: skip IC capture inputType=TYPE_NULL
+2026-11-01 12:48:33.195476 I VkTyping: ▶ open restart=false pkg=com.vibekey.keyboard inputType=0
+2026-11-01 12:48:33.209204 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:33.247754 I VkStore: catalog not-modified version=273
+2026-11-01 12:48:33.248616 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1965 epoch=68
+2026-11-01 12:48:33.705750 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:33.706090 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-11-01 12:48:34.735211 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:35.216153 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2003 epoch=68
+2026-11-01 12:48:37.816079 I VkApi: ✓ response /geminiGenerateContent 5135ms code=200
+2026-11-01 12:48:37.817449 I VkApi: proxy_theme_entitlement outcome=settled
+2026-11-01 12:48:37.817761 I VkApi: gemini theme model=gemini-3.1-flash-lite finish=STOP outTok=1320 promptTok=6194 textChars=3268 cached=false
+2026-11-01 12:48:37.832224 I VkApi: ✓ response gemini/system 5183ms
+2026-11-01 12:48:37.855350 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:48:37.868567 I VkThemes: ✓ recipe designStyle=[REDACTED] desc=[REDACTED] model=gemini-3.1-flash-lite ref=false bg=? accent=? keyBg=#FF1C1F26 text=[REDACTED] font=jetbrains-mono radius=0 seed=777347695 5288ms
+2026-11-01 12:48:37.868904 I VkAiEconomics: theme success=true 5288ms tier=TIER1 model=gemini-3.1-flash-lite cache=false rewarded=PRIMARY key=[REDACTED]
+2026-11-01 12:48:37.869002 I VkThemes: ✓ generate 5288ms theme=[REDACTED]
+2026-11-01 12:48:37.918583 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:37.934889 I VkApi: theme_author_heal note=Incomplete theme JSON from model (corePalette must be an object)
+2026-11-01 12:48:37.937413 I VkThemeApply: ▶ begin source=generated theme=[REDACTED] item=[REDACTED]
+2026-11-01 12:48:37.953702 I VkThemeApply: heal source=generated fail NullPointerException: [REDACTED]
+2026-11-01 12:48:51.716066 I VkPanels: ○ close menu
+2026-11-01 12:48:51.764968 I VkTyping: ○ hidden
+2026-11-01 12:48:54.978453 I VkTyping: ▶ open restart=false pkg=com.android.launcher inputType=589825
+2026-11-01 12:48:54.985016 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:54.990568 I VkDictionaries: ✓ open emoji en-US
+2026-11-01 12:48:55.054939 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1975 epoch=71
+2026-11-01 12:48:55.154977 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=32 gen=0
+2026-11-01 12:48:55.183744 I VkStripPipeline: publishLatency seq=26 latencyMs=36
+2026-11-01 12:48:55.499756 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:55.499900 I SessionContext: deferredIcCapture pkg=com.android.launcher ambientChars=21-100 sensitive=false attempt=0 elapsed=525ms
+2026-11-01 12:48:55.501665 I SessionContext: updateAmbientCapture sensitive=false ambientChars=21-100
+2026-11-01 12:48:55.502220 I OnDeviceLlmPrewarm: ambient recapture skip warm excerptDelta=0
+2026-11-01 12:48:56.209685 I VkVibeCards: toolbar_peek card=[REDACTED] shown=false reason=defer_scheduled
+2026-11-01 12:48:56.209794 I VkKeyPress: strip pick key=[REDACTED]
+2026-11-01 12:48:56.214469 I VkPanels: ▶ open menu
+2026-11-01 12:48:56.239005 I VkPanels: ▶ open popui_menu
+2026-11-01 12:48:56.239556 I VkLocaleAssets: ▶ batch source=menu_panel count=1 [en-US]
+2026-11-01 12:48:56.249778 I VkLocaleAssets: ○ ready en-US (cached)
+2026-11-01 12:48:56.249937 I VkLocaleAssets: ✓ batch source=menu_panel locales=1 fetched=0
+2026-11-01 12:48:56.397456 I VkSuggestions: strip prediction typedLen=0 candidates=3 autocorrect=false top=[REDACTED] locale=en token=34 gen=0
+2026-11-01 12:48:56.542297 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:58.232779 I VkKeyPress: keys pressed=22
+2026-11-01 12:48:58.233192 I OnDeviceLlmPrewarm: settings teardown grace armed 20000ms
+2026-11-01 12:48:58.234955 I VkPanels: ○ close menu
+2026-11-01 12:48:58.249511 I VkNavBar: apply tint=#FF008080 window=#FF008080 transparent=false insetExt=0 fullFrame=true backdrop=true blurPx=48 kbA=255 blurOk=false
+2026-11-01 12:48:58.316044 I VkEffects: idleArm surface=keys type=wave+glow_breathe inMs=1935 epoch=75
+2026-11-01 12:48:58.344464 I VkSettings: ▶ activity open spellchecker=false
+2026-11-01 12:48:58.573610 I VkTyping: ○ hidden
+2026-11-01 12:48:58.578640 I VkSettings: → screen settings
+2026-11-01 12:49:00.028736 I VkSettings: → screen about
+2026-11-01 12:49:00.260114 I VkEffects: idleDraw surface=keys type=wave+glow_breathe afterMs=2009 epoch=75
